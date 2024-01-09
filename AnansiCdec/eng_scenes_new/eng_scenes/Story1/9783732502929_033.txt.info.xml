@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732502929_033.txt">
+    <entry sid="0" file="9783732502929_033.txt">
+      <sentence>Rosemarie received the letter from Herr von Heinzius in a Swiss hotel where she was staying with the Countess .</sentence>
+      <tokens>
+        <t>"" "Rosemarie" " "</t>
+        <t>" " "received" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "letter" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Herr" " "</t>
+        <t>" " "von" " "</t>
+        <t>" " "Heinzius" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "Swiss" " "</t>
+        <t>" " "hotel" " "</t>
+        <t>" " "where" " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "staying" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Countess" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Rosemarie)) (VP (VBD received) (NP (DT the) (NN letter)) (PP (IN from) (NP (NP (NNP Herr) (NNP von) (NNP Heinzius)) (PP (IN in) (NP (DT a) (JJ Swiss) (NN hotel))))) (SBAR (WHADVP (WRB where)) (S (NP (PRP she)) (VP (VBD was) (VP (VBG staying) (PP (IN with) (NP (DT the) (NNPS Countess)))))))) (. .)))</parse>
+      <deps>nsubj(received-2, Rosemarie-1)
+root(ROOT-0, received-2)
+det(letter-4, the-3)
+dobj(received-2, letter-4)
+nn(Heinzius-8, Herr-6)
+nn(Heinzius-8, von-7)
+prep_from(received-2, Heinzius-8)
+det(hotel-12, a-10)
+amod(hotel-12, Swiss-11)
+prep_in(Heinzius-8, hotel-12)
+advmod(staying-16, where-13)
+nsubj(staying-16, she-14)
+aux(staying-16, was-15)
+advcl(received-2, staying-16)
+det(Countess-19, the-18)
+prep_with(staying-16, Countess-19)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="2" string="received" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="16" string="staying" tense="PAST" aspect="PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="1" file="9783732502929_033.txt">
+      <sentence>And although she now already knew that her position imposed martyrdom on her , she answered him that she was unable to accept his courtship .</sentence>
+      <tokens>
+        <t>" " "And" " "</t>
+        <t>" " "although" " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "now" " "</t>
+        <t>" " "already" " "</t>
+        <t>" " "knew" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "position" " "</t>
+        <t>" " "imposed" " "</t>
+        <t>" " "martyrdom" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "her" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "answered" " "</t>
+        <t>" " "him" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "unable" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "accept" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "courtship" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (CC And) (SBAR (IN although) (S (NP (PRP she)) (ADVP (RB now)) (VP (ADVP (RB already)) (VBD knew) (SBAR (IN that) (S (NP (PRP$ her) (NN position)) (VP (VBD imposed) (NP (NN martyrdom)) (PP (IN on) (NP (PRP her))))))))) (, ,) (NP (PRP she)) (VP (VBD answered) (NP (PRP him)) (SBAR (IN that) (S (NP (PRP she)) (VP (VBD was) (ADJP (JJ unable) (S (VP (TO to) (VP (VB accept) (NP (PRP$ his) (NN courtship)))))))))) (. .)))</parse>
+      <deps>cc(answered-16, And-1)
+mark(knew-6, although-2)
+nsubj(knew-6, she-3)
+advmod(knew-6, now-4)
+advmod(knew-6, already-5)
+advcl(answered-16, knew-6)
+mark(imposed-10, that-7)
+poss(position-9, her-8)
+nsubj(imposed-10, position-9)
+ccomp(knew-6, imposed-10)
+dobj(imposed-10, martyrdom-11)
+prep_on(imposed-10, her-13)
+nsubj(answered-16, she-15)
+root(ROOT-0, answered-16)
+dobj(answered-16, him-17)
+mark(unable-21, that-18)
+nsubj(unable-21, she-19)
+xsubj(accept-23, she-19)
+cop(unable-21, was-20)
+ccomp(answered-16, unable-21)
+aux(accept-23, to-22)
+xcomp(unable-21, accept-23)
+poss(courtship-25, his-24)
+dobj(accept-23, courtship-25)</deps>
+      <events>
+        <event id="e3" eiid="ei3" offset="6" string="knew" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e4" eiid="ei4" offset="10" string="imposed" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e5" eiid="ei5" offset="16" string="answered" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e6" eiid="ei6" offset="21" string="unable" tense="PAST" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e7" eiid="ei7" offset="23" string="accept" tense="INFINITIVE" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="now" offset="4" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <tlink event1="ei3" event2="t1" relation="VAGUE" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei3" event2="ei4" relation="AFTER" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei5" event2="ei6" relation="AFTER" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei6" event2="ei7" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei4" event2="t1" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei5" event2="t1" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei6" event2="t1" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei7" event2="t1" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei5" event2="ei7" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei3" event2="ei5" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei3" event2="ei6" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei3" event2="ei7" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei4" event2="ei6" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei4" event2="ei7" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="t1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="t1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+

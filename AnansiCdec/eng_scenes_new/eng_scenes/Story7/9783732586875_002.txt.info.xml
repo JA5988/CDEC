@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732586875_002.txt">
+    <entry sid="0" file="9783732586875_002.txt">
+      <sentence>Julien was just driving up the driveway , and the sun was accompanying him with its rays .</sentence>
+      <tokens>
+        <t>"" "Julien" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "just" " "</t>
+        <t>" " "driving" " "</t>
+        <t>" " "up" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "driveway" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "sun" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "accompanying" " "</t>
+        <t>" " "him" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "its" " "</t>
+        <t>" " "rays" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (NNP Julien)) (VP (VBD was) (ADVP (RB just)) (VP (VBG driving) (PRT (RP up)) (NP (DT the) (NN driveway))))) (, ,) (CC and) (S (NP (DT the) (NN sun)) (VP (VBD was) (VP (VBG accompanying) (NP (PRP him)) (PP (IN with) (NP (PRP$ its) (NNS rays)))))) (. .)))</parse>
+      <deps>nsubj(driving-4, Julien-1)
+aux(driving-4, was-2)
+advmod(driving-4, just-3)
+root(ROOT-0, driving-4)
+prt(driving-4, up-5)
+det(driveway-7, the-6)
+dobj(driving-4, driveway-7)
+det(sun-11, the-10)
+nsubj(accompanying-13, sun-11)
+aux(accompanying-13, was-12)
+conj_and(driving-4, accompanying-13)
+dobj(accompanying-13, him-14)
+poss(rays-17, its-16)
+prep_with(accompanying-13, rays-17)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="4" string="driving" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="13" string="accompanying" tense="PAST" aspect="PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="1" file="9783732586875_002.txt">
+      <sentence>He would now go to her parents and they would call her down .</sentence>
+      <tokens>
+        <t>" " "He" " "</t>
+        <t>" " "would" " "</t>
+        <t>" " "now" " "</t>
+        <t>" " "go" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "parents" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "they" " "</t>
+        <t>" " "would" " "</t>
+        <t>" " "call" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "down" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (PRP He)) (VP (MD would) (ADVP (RB now)) (VP (VB go) (PP (TO to) (NP (PRP$ her) (NNS parents)))))) (CC and) (S (NP (PRP they)) (VP (MD would) (VP (VB call) (NP (PRP her)) (PRT (RP down))))) (. .)))</parse>
+      <deps>nsubj(go-4, He-1)
+aux(go-4, would-2)
+advmod(go-4, now-3)
+root(ROOT-0, go-4)
+poss(parents-7, her-6)
+prep_to(go-4, parents-7)
+nsubj(call-11, they-9)
+aux(call-11, would-10)
+conj_and(go-4, call-11)
+dobj(call-11, her-12)
+prt(call-11, down-13)</deps>
+      <events>
+        <event id="e3" eiid="ei3" offset="4" string="go" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e4" eiid="ei4" offset="11" string="call" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="now" offset="3" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="2" file="9783732586875_002.txt">
+      <sentence>The first step into their new life ...</sentence>
+      <tokens>
+        <t>" " "The" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "step" " "</t>
+        <t>" " "into" " "</t>
+        <t>" " "their" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "life" " "</t>
+        <t>" " "..." ""</t>
+      </tokens>
+      <parse>(ROOT (NP (NP (DT The) (JJ first) (NN step)) (PP (IN into) (NP (PRP$ their) (JJ new) (NN life))) (: ...)))</parse>
+      <deps>det(step-3, The-1)
+amod(step-3, first-2)
+root(ROOT-0, step-3)
+poss(life-7, their-5)
+amod(life-7, new-6)
+prep_into(step-3, life-7)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <tlink event1="ei3" event2="t1" relation="VAGUE" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei4" event2="t1" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="t1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="t1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732502929_016.txt">
+    <entry sid="0" file="9783732502929_016.txt">
+      <sentence>Rosemarie walked through the hotel garden , which was almost deserted at this time of day .</sentence>
+      <tokens>
+        <t>"" "Rosemarie" " "</t>
+        <t>" " "walked" " "</t>
+        <t>" " "through" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "hotel" " "</t>
+        <t>" " "garden" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "which" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "almost" " "</t>
+        <t>" " "deserted" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "this" " "</t>
+        <t>" " "time" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "day" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Rosemarie)) (VP (VBD walked) (PP (IN through) (NP (NP (DT the) (NN hotel) (NN garden)) (, ,) (SBAR (WHNP (WDT which)) (S (VP (VBD was) (ADVP (RB almost)) (VP (VBN deserted) (PP (IN at) (NP (NP (DT this) (NN time)) (PP (IN of) (NP (NN day)))))))))))) (. .)))</parse>
+      <deps>nsubj(walked-2, Rosemarie-1)
+root(ROOT-0, walked-2)
+det(garden-6, the-4)
+nn(garden-6, hotel-5)
+prep_through(walked-2, garden-6)
+nsubjpass(deserted-11, garden-6)
+auxpass(deserted-11, was-9)
+advmod(deserted-11, almost-10)
+rcmod(garden-6, deserted-11)
+det(time-14, this-13)
+prep_at(deserted-11, time-14)
+prep_of(time-14, day-16)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="2" string="walked" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="11" string="deserted" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="day" offset="16" length="1" type="DURATION" value="P1D" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="9783732502929_016.txt">
+      <sentence>She looked for lonely paths and sank wearily onto a bench at a secluded spot .</sentence>
+      <tokens>
+        <t>" " "She" " "</t>
+        <t>" " "looked" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "lonely" " "</t>
+        <t>" " "paths" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "sank" " "</t>
+        <t>" " "wearily" " "</t>
+        <t>" " "onto" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "bench" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "secluded" " "</t>
+        <t>" " "spot" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP She)) (VP (VP (VBD looked) (PP (IN for) (NP (JJ lonely) (NNS paths)))) (CC and) (VP (VBD sank) (ADVP (RB wearily)) (PP (IN onto) (NP (NP (DT a) (NN bench)) (PP (IN at) (NP (DT a) (JJ secluded) (NN spot))))))) (. .)))</parse>
+      <deps>nsubj(looked-2, She-1)
+nsubj(sank-7, She-1)
+root(ROOT-0, looked-2)
+amod(paths-5, lonely-4)
+prep_for(looked-2, paths-5)
+conj_and(looked-2, sank-7)
+advmod(sank-7, wearily-8)
+det(bench-11, a-10)
+prep_onto(sank-7, bench-11)
+det(spot-15, a-13)
+amod(spot-15, secluded-14)
+prep_at(bench-11, spot-15)</deps>
+      <events>
+        <event id="e3" eiid="ei3" offset="2" string="looked" tense="PAST" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e4" eiid="ei4" offset="7" string="sank" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="2" file="9783732502929_016.txt">
+      <sentence>Here she sat lost in deep thought , staring sadly ahead of her .</sentence>
+      <tokens>
+        <t>"" "Here" " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "sat" " "</t>
+        <t>" " "lost" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "deep" " "</t>
+        <t>" " "thought" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "staring" " "</t>
+        <t>" " "sadly" " "</t>
+        <t>" " "ahead" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "her" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (ADVP (RB Here)) (NP (PRP she)) (VP (VBD sat) (VP (VBN lost) (PP (IN in) (NP (JJ deep) (NN thought))) (, ,) (PP (VBG staring) (PP (ADVP (RB sadly)) (ADVP (RB ahead)) (IN of) (NP (PRP her)))))) (. .)))</parse>
+      <deps>advmod(sat-3, Here-1)
+nsubj(sat-3, she-2)
+root(ROOT-0, sat-3)
+dep(sat-3, lost-4)
+amod(thought-7, deep-6)
+prep_in(lost-4, thought-7)
+prep(lost-4, staring-9)
+advmod(of-12, sadly-10)
+advmod(of-12, ahead-11)
+pcomp(staring-9, of-12)
+pobj(of-12, her-13)</deps>
+      <events>
+        <event id="e5" eiid="ei5" offset="3" string="sat" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e6" eiid="ei6" offset="4" string="lost" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei1" event2="t1" relation="AFTER" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei2" event2="t1" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei5" event2="ei6" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei3" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+  </file>
+</root>
+

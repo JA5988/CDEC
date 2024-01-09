@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732522033_017.txt">
+    <entry sid="0" file="9783732522033_017.txt">
+      <sentence>This is how things stood at St. Mary 's Abbey on the day Count Harro was acquitted for lack of evidence .</sentence>
+      <tokens>
+        <t>"" "This" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "how" " "</t>
+        <t>" " "things" " "</t>
+        <t>" " "stood" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "St." " "</t>
+        <t>" " "Mary" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "Abbey" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "day" " "</t>
+        <t>" " "Count" " "</t>
+        <t>" " "Harro" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "acquitted" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "lack" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "evidence" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (DT This)) (VP (VBZ is) (SBAR (WHADVP (WRB how)) (S (NP (NNS things)) (VP (VBD stood) (PP (IN at) (NP (NP (NNP St.) (NNP Mary) (POS 's)) (NN Abbey))) (PP (IN on) (NP (DT the) (NN day)))))))) (NP (NNP Count) (NNP Harro)) (VP (VBD was) (VP (VBN acquitted) (PP (IN for) (NP (NP (NN lack)) (PP (IN of) (NP (NN evidence))))))) (. .)))</parse>
+      <deps>nsubj(is-2, This-1)
+dep(acquitted-17, is-2)
+advmod(stood-5, how-3)
+nsubj(stood-5, things-4)
+ccomp(is-2, stood-5)
+nn(Mary-8, St.-7)
+poss(Abbey-10, Mary-8)
+prep_at(stood-5, Abbey-10)
+det(day-13, the-12)
+prep_on(stood-5, day-13)
+nn(Harro-15, Count-14)
+nsubjpass(acquitted-17, Harro-15)
+auxpass(acquitted-17, was-16)
+root(ROOT-0, acquitted-17)
+prep_for(acquitted-17, lack-19)
+prep_of(lack-19, evidence-21)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="5" string="stood" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="17" string="acquitted" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="day" offset="13" length="1" type="DURATION" value="P1D" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="9783732522033_017.txt">
+      <sentence>Mother Anna was beside herself .</sentence>
+      <tokens>
+        <t>" " "Mother" " "</t>
+        <t>" " "Anna" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "beside" " "</t>
+        <t>" " "herself" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Mother) (NNP Anna)) (VP (VBD was) (PP (IN beside) (NP (PRP herself)))) (. .)))</parse>
+      <deps>nn(Anna-2, Mother-1)
+nsubj(was-3, Anna-2)
+root(ROOT-0, was-3)
+prep_beside(was-3, herself-5)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="2" file="9783732522033_017.txt">
+      <sentence>She knew what humiliation and pain this conditional acquittal must have in store for Count Harro , and was disconsolate that she could not help him .</sentence>
+      <tokens>
+        <t>" " "She" " "</t>
+        <t>" " "knew" " "</t>
+        <t>" " "what" " "</t>
+        <t>" " "humiliation" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "pain" " "</t>
+        <t>" " "this" " "</t>
+        <t>" " "conditional" " "</t>
+        <t>" " "acquittal" " "</t>
+        <t>" " "must" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "store" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "Count" " "</t>
+        <t>" " "Harro" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "disconsolate" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "could" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "help" " "</t>
+        <t>" " "him" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP She)) (VP (VP (VBD knew) (SBAR (WHNP (WP what)) (S (NP (NP (NN humiliation) (CC and) (NN pain)) (NP (DT this) (JJ conditional) (NN acquittal))) (VP (MD must) (VP (VB have) (PP (IN in) (NP (NP (NN store)) (PP (IN for) (NP (NNP Count) (NNP Harro)))))))))) (, ,) (CC and) (VP (VBD was) (ADJP (JJ disconsolate) (SBAR (IN that) (S (NP (PRP she)) (VP (MD could) (RB not) (VP (VB help) (NP (PRP him))))))))) (. .)))</parse>
+      <deps>nsubj(knew-2, She-1)
+nsubj(disconsolate-20, She-1)
+root(ROOT-0, knew-2)
+dobj(have-11, what-3)
+nsubj(have-11, humiliation-4)
+conj_and(humiliation-4, pain-6)
+nsubj(have-11, pain-6)
+det(acquittal-9, this-7)
+amod(acquittal-9, conditional-8)
+dep(humiliation-4, acquittal-9)
+aux(have-11, must-10)
+ccomp(knew-2, have-11)
+prep_in(have-11, store-13)
+nn(Harro-16, Count-15)
+prep_for(store-13, Harro-16)
+cop(disconsolate-20, was-19)
+conj_and(knew-2, disconsolate-20)
+mark(help-25, that-21)
+nsubj(help-25, she-22)
+aux(help-25, could-23)
+neg(help-25, not-24)
+ccomp(disconsolate-20, help-25)
+dobj(help-25, him-26)</deps>
+      <events>
+        <event id="e3" eiid="ei3" offset="2" string="knew" tense="PAST" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e4" eiid="ei4" offset="20" string="disconsolate" tense="PAST" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e5" eiid="ei5" offset="25" string="help" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="3" file="9783732522033_017.txt">
+      <sentence>So firmly and surely had she believed in his complete acquittal .</sentence>
+      <tokens>
+        <t>" " "So" " "</t>
+        <t>" " "firmly" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "surely" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "believed" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "complete" " "</t>
+        <t>" " "acquittal" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (FRAG (ADJP (IN So) (ADVP (RB firmly) (CC and) (RB surely))) (S (VBD had) (NP (PRP she)) (VP (VBN believed) (PP (IN in) (NP (PRP$ his) (JJ complete) (NN acquittal))))) (. .)))</parse>
+      <deps>root(ROOT-0, So-1)
+advmod(So-1, firmly-2)
+advmod(So-1, surely-4)
+conj_and(firmly-2, surely-4)
+dep(believed-7, had-5)
+nsubj(believed-7, she-6)
+dep(So-1, believed-7)
+poss(acquittal-11, his-9)
+amod(acquittal-11, complete-10)
+prep_in(believed-7, acquittal-11)</deps>
+      <events>
+        <event id="e6" eiid="ei6" offset="7" string="believed" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="4" file="9783732522033_017.txt">
+      <sentence>She wept heartbreakingly , and Griseldis had to comfort her .</sentence>
+      <tokens>
+        <t>" " "She" " "</t>
+        <t>" " "wept" " "</t>
+        <t>" " "heartbreakingly" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Griseldis" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "comfort" " "</t>
+        <t>" " "her" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (PRP She)) (VP (VBD wept) (ADVP (RB heartbreakingly)))) (, ,) (CC and) (S (NP (NNP Griseldis)) (VP (VBD had) (S (VP (TO to) (VP (VB comfort) (NP (PRP her))))))) (. .)))</parse>
+      <deps>nsubj(wept-2, She-1)
+root(ROOT-0, wept-2)
+advmod(wept-2, heartbreakingly-3)
+nsubj(had-7, Griseldis-6)
+xsubj(comfort-9, Griseldis-6)
+conj_and(wept-2, had-7)
+aux(comfort-9, to-8)
+xcomp(had-7, comfort-9)
+dobj(comfort-9, her-10)</deps>
+      <events>
+        <event id="e7" eiid="ei7" offset="2" string="wept" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e8" eiid="ei8" offset="7" string="had" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e9" eiid="ei9" offset="9" string="comfort" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei1" event2="t1" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei3" event2="ei5" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei5" event2="ei6" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei7" event2="ei8" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei8" event2="ei9" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei2" event2="t1" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei7" event2="ei9" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei3" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+  </file>
+</root>
+

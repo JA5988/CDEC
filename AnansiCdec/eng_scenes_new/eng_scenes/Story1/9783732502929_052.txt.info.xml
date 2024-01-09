@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732502929_052.txt">
+    <entry sid="0" file="9783732502929_052.txt">
+      <sentence>Over the next few days , Rosemarie packed her things and put her affairs in order .</sentence>
+      <tokens>
+        <t>"" "Over" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "next" " "</t>
+        <t>" " "few" " "</t>
+        <t>" " "days" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Rosemarie" " "</t>
+        <t>" " "packed" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "things" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "put" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "affairs" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "order" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (PP (IN Over) (NP (DT the) (JJ next) (JJ few) (NNS days))) (, ,) (NP (NNP Rosemarie)) (VP (VP (VBD packed) (NP (PRP$ her) (NNS things))) (CC and) (VP (VBD put) (NP (PRP$ her) (NNS affairs)) (PP (IN in) (NP (NN order))))) (. .)))</parse>
+      <deps>det(days-5, the-2)
+amod(days-5, next-3)
+amod(days-5, few-4)
+prep_over(packed-8, days-5)
+nsubj(packed-8, Rosemarie-7)
+nsubj(put-12, Rosemarie-7)
+root(ROOT-0, packed-8)
+poss(things-10, her-9)
+dobj(packed-8, things-10)
+conj_and(packed-8, put-12)
+poss(affairs-14, her-13)
+dobj(put-12, affairs-14)
+prep_in(put-12, order-16)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="8" string="packed" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="12" string="put" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="the next few days" offset="2" length="4" type="DURATION" value="PXD" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="9783732502929_052.txt">
+      <sentence>She once again wandered through the beautiful surroundings of Alteichen Castle and said goodbye to many a beautiful spot on earth .</sentence>
+      <tokens>
+        <t>" " "She" " "</t>
+        <t>" " "once" " "</t>
+        <t>" " "again" " "</t>
+        <t>" " "wandered" " "</t>
+        <t>" " "through" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "beautiful" " "</t>
+        <t>" " "surroundings" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Alteichen" " "</t>
+        <t>" " "Castle" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "goodbye" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "many" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "beautiful" " "</t>
+        <t>" " "spot" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "earth" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP She)) (ADVP (RB once)) (VP (VP (ADVP (RB again)) (VBD wandered) (PP (IN through) (NP (NP (DT the) (JJ beautiful) (NNS surroundings)) (PP (IN of) (NP (NNP Alteichen) (NNP Castle)))))) (CC and) (VP (VBD said) (NP (NN goodbye)) (PP (TO to) (NP (NP (JJ many) (DT a) (JJ beautiful) (NN spot)) (PP (IN on) (NP (NN earth))))))) (. .)))</parse>
+      <deps>nsubj(wandered-4, She-1)
+nsubj(said-13, She-1)
+advmod(wandered-4, once-2)
+advmod(wandered-4, again-3)
+root(ROOT-0, wandered-4)
+det(surroundings-8, the-6)
+amod(surroundings-8, beautiful-7)
+prep_through(wandered-4, surroundings-8)
+nn(Castle-11, Alteichen-10)
+prep_of(surroundings-8, Castle-11)
+conj_and(wandered-4, said-13)
+dobj(said-13, goodbye-14)
+amod(spot-19, many-16)
+det(spot-19, a-17)
+amod(spot-19, beautiful-18)
+prep_to(said-13, spot-19)
+prep_on(spot-19, earth-21)</deps>
+      <events>
+        <event id="e3" eiid="ei3" offset="4" string="wandered" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e4" eiid="ei4" offset="13" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t2" text="once" offset="2" length="1" type="DATE" value="PAST_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <tlink event1="ei3" event2="t2" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei1" event2="t1" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei2" event2="t1" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei4" event2="t2" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+

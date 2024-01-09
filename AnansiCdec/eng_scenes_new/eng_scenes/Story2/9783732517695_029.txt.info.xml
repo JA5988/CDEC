@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732517695_029.txt">
+    <entry sid="0" file="9783732517695_029.txt">
+      <sentence>\*\*\* Nobody knew who had given the name Windhome to the castle of the Dukes Young .</sentence>
+      <tokens>
+        <t>" " "***" " "</t>
+        <t>" " "Nobody" " "</t>
+        <t>" " "knew" " "</t>
+        <t>" " "who" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "given" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "name" " "</t>
+        <t>" " "Windhome" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "castle" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Dukes" " "</t>
+        <t>" " "Young" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (JJ \*\*\*) (NN Nobody)) (VP (VBD knew) (SBAR (WHNP (WP who)) (S (VP (VBD had) (VP (VBN given) (NP (DT the) (NN name)) (NP (NP (NNP Windhome)) (PP (TO to) (NP (NP (DT the) (NN castle)) (PP (IN of) (NP (DT the) (NNP Dukes) (NNP Young))))))))))) (. .)))</parse>
+      <deps>amod(Nobody-2, \*\*\*-1)
+nsubj(knew-3, Nobody-2)
+root(ROOT-0, knew-3)
+nsubj(given-6, who-4)
+aux(given-6, had-5)
+ccomp(knew-3, given-6)
+det(name-8, the-7)
+iobj(given-6, name-8)
+dobj(given-6, Windhome-9)
+det(castle-12, the-11)
+prep_to(Windhome-9, castle-12)
+det(Young-16, the-14)
+nn(Young-16, Dukes-15)
+prep_of(castle-12, Young-16)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="3" string="knew" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="6" string="given" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="1" file="9783732517695_029.txt">
+      <sentence>Even in the family chronicle one searched for it in vain .</sentence>
+      <tokens>
+        <t>" " "Even" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "family" " "</t>
+        <t>" " "chronicle" " "</t>
+        <t>" " "one" " "</t>
+        <t>" " "searched" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "vain" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (ADVP (RB Even)) (PP (IN in) (NP (DT the) (NN family) (NN chronicle))) (NP (PRP one)) (VP (VBD searched) (PP (IN for) (NP (PRP it))) (PP (IN in) (NP (JJ vain)))) (. .)))</parse>
+      <deps>advmod(searched-7, Even-1)
+det(chronicle-5, the-3)
+nn(chronicle-5, family-4)
+prep_in(searched-7, chronicle-5)
+nsubj(searched-7, one-6)
+root(ROOT-0, searched-7)
+prep_for(searched-7, it-9)
+prep_in(searched-7, vain-11)</deps>
+      <events>
+        <event id="e3" eiid="ei3" offset="7" string="searched" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="2" file="9783732517695_029.txt">
+      <sentence>House of the Wind - it was a modest name compared to that of other castles in Ireland .</sentence>
+      <tokens>
+        <t>" " "House" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Wind" " "</t>
+        <t>" " "-" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "modest" " "</t>
+        <t>" " "name" " "</t>
+        <t>" " "compared" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "other" " "</t>
+        <t>" " "castles" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "Ireland" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (FRAG (NP (NP (NNP House)) (PP (IN of) (NP (DT the) (NN Wind)))) (: -) (S (NP (PRP it)) (VP (VBD was) (NP (NP (DT a) (JJ modest) (NN name)) (PP (VBN compared) (PP (TO to) (NP (NP (DT that)) (PP (IN of) (NP (NP (JJ other) (NNS castles)) (PP (IN in) (NP (NNP Ireland))))))))))) (. .)))</parse>
+      <deps>root(ROOT-0, House-1)
+det(Wind-4, the-3)
+prep_of(House-1, Wind-4)
+nsubj(name-10, it-6)
+cop(name-10, was-7)
+det(name-10, a-8)
+amod(name-10, modest-9)
+dep(House-1, name-10)
+prepc_compared_to(name-10, to-12)
+pobj(name-10, that-13)
+amod(castles-16, other-15)
+prep_of(that-13, castles-16)
+prep_in(castles-16, Ireland-18)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="3" file="9783732517695_029.txt">
+      <sentence>But also the Youngs of Windhome had always been modest .</sentence>
+      <tokens>
+        <t>" " "But" " "</t>
+        <t>" " "also" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Youngs" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Windhome" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "always" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "modest" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (CC But) (ADVP (RB also)) (NP (NP (DT the) (NNPS Youngs)) (PP (IN of) (NP (NNP Windhome)))) (VP (VBD had) (ADVP (RB always)) (VP (VBN been) (ADJP (JJ modest)))) (. .)))</parse>
+      <deps>cc(modest-10, But-1)
+advmod(modest-10, also-2)
+det(Youngs-4, the-3)
+nsubj(modest-10, Youngs-4)
+prep_of(Youngs-4, Windhome-6)
+aux(modest-10, had-7)
+advmod(modest-10, always-8)
+cop(modest-10, been-9)
+root(ROOT-0, modest-10)</deps>
+      <events>
+        <event id="e4" eiid="ei4" offset="10" string="modest" tense="NONE" aspect="PERFECTIVE" class="STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="4" file="9783732517695_029.txt">
+      <sentence>The sons of the Youngs had been honest fighters for their fatherland , clergymen , scientists and lords of the manor .</sentence>
+      <tokens>
+        <t>" " "The" " "</t>
+        <t>" " "sons" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Youngs" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "honest" " "</t>
+        <t>" " "fighters" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "their" " "</t>
+        <t>" " "fatherland" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "clergymen" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "scientists" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "lords" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "manor" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (DT The) (NNS sons)) (PP (IN of) (NP (DT the) (NNPS Youngs)))) (VP (VBD had) (VP (VBN been) (NP (NP (JJ honest) (NNS fighters)) (PP (IN for) (NP (PRP$ their) (NN fatherland) (, ,) (NN clergymen) (, ,) (NNS scientists) (CC and) (NNS lords))) (PP (IN of) (NP (DT the) (NN manor)))))) (. .)))</parse>
+      <deps>det(sons-2, The-1)
+nsubj(fighters-9, sons-2)
+det(Youngs-5, the-4)
+prep_of(sons-2, Youngs-5)
+aux(fighters-9, had-6)
+cop(fighters-9, been-7)
+amod(fighters-9, honest-8)
+root(ROOT-0, fighters-9)
+poss(fatherland-12, their-11)
+prep_for(fighters-9, fatherland-12)
+prep_for(fighters-9, clergymen-14)
+conj_and(fatherland-12, clergymen-14)
+prep_for(fighters-9, scientists-16)
+conj_and(fatherland-12, scientists-16)
+prep_for(fighters-9, lords-18)
+conj_and(fatherland-12, lords-18)
+det(manor-21, the-20)
+prep_of(fighters-9, manor-21)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <tlink event1="ei1" event2="ei2" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei2" event2="ei3" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+  </file>
+</root>
+

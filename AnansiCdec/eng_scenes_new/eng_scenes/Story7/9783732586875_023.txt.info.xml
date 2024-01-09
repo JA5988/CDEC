@@ -1,0 +1,4063 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732586875_023.txt">
+    <entry sid="0" file="9783732586875_023.txt">
+      <sentence>`` I forbid you to do that ! ''</sentence>
+      <tokens>
+        <t>"" """ ""</t>
+        <t>"" "I" " "</t>
+        <t>" " "forbid" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "do" " "</t>
+        <t>" " "that" ""</t>
+        <t>"" "!" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (NP (PRP I)) (VP (VBD forbid) (S (NP (PRP you)) (VP (TO to) (VP (VB do) (NP (DT that)))))) (. !) ('' '')))</parse>
+      <deps>nsubj(forbid-3, I-2)
+root(ROOT-0, forbid-3)
+nsubj(do-6, you-4)
+aux(do-6, to-5)
+xcomp(forbid-3, do-6)
+dobj(do-6, that-7)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="3" string="forbid" tense="PAST" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="6" string="do" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="1" file="9783732586875_023.txt">
+      <sentence>`` Excuse me ? ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Excuse" " "</t>
+        <t>" " "me" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (VP (VB Excuse) (NP (PRP me))) (. ?) ('' '')))</parse>
+      <deps>root(ROOT-0, Excuse-2)
+dobj(Excuse-2, me-3)</deps>
+      <events>
+        <event id="e3" eiid="ei3" offset="2" string="Excuse" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="2" file="9783732586875_023.txt">
+      <sentence>Leonie had jumped up so violently that the blue china with the Wallmenroth coat of arms clinked .</sentence>
+      <tokens>
+        <t>" " "Leonie" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "jumped" " "</t>
+        <t>" " "up" " "</t>
+        <t>" " "so" " "</t>
+        <t>" " "violently" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "blue" " "</t>
+        <t>" " "china" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Wallmenroth" " "</t>
+        <t>" " "coat" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "arms" " "</t>
+        <t>" " "clinked" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Leonie)) (VP (VBD had) (VP (VBN jumped) (ADVP (ADVP (RB up) (RB so)) (SBAR (ADVP (RB violently)) (IN that) (S (NP (NP (DT the) (JJ blue) (NN china)) (PP (IN with) (NP (NP (DT the) (JJ Wallmenroth) (NN coat)) (PP (IN of) (NP (NNS arms)))))) (VP (VBD clinked))))))) (. .)))</parse>
+      <deps>nsubj(jumped-3, Leonie-1)
+aux(jumped-3, had-2)
+root(ROOT-0, jumped-3)
+advmod(so-5, up-4)
+advmod(jumped-3, so-5)
+advmod(clinked-17, violently-6)
+mark(clinked-17, that-7)
+det(china-10, the-8)
+amod(china-10, blue-9)
+nsubj(clinked-17, china-10)
+det(coat-14, the-12)
+amod(coat-14, Wallmenroth-13)
+prep_with(china-10, coat-14)
+prep_of(coat-14, arms-16)
+ccomp(so-5, clinked-17)</deps>
+      <events>
+        <event id="e4" eiid="ei4" offset="3" string="jumped" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e5" eiid="ei5" offset="17" string="clinked" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="3" file="9783732586875_023.txt">
+      <sentence>`` You want to forbid me to dispose of my own money ? ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "You" " "</t>
+        <t>" " "want" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "forbid" " "</t>
+        <t>" " "me" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "dispose" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "my" " "</t>
+        <t>" " "own" " "</t>
+        <t>" " "money" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (NP (PRP You)) (VP (VBP want) (S (VP (TO to) (VP (VB forbid) (S (NP (PRP me)) (VP (TO to) (VP (VB dispose) (PP (IN of) (NP (PRP$ my) (JJ own) (NN money)))))))))) (. ?) ('' '')))</parse>
+      <deps>nsubj(want-3, You-2)
+xsubj(forbid-5, You-2)
+root(ROOT-0, want-3)
+aux(forbid-5, to-4)
+xcomp(want-3, forbid-5)
+nsubj(dispose-8, me-6)
+aux(dispose-8, to-7)
+xcomp(forbid-5, dispose-8)
+poss(money-12, my-10)
+amod(money-12, own-11)
+prep_of(dispose-8, money-12)</deps>
+      <events>
+        <event id="e6" eiid="ei6" offset="3" string="want" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e7" eiid="ei7" offset="5" string="forbid" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e8" eiid="ei8" offset="8" string="dispose" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="4" file="9783732586875_023.txt">
+      <sentence>`` Yes . ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Yes" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (INTJ (`` ``) (UH Yes) (. .) ('' '')))</parse>
+      <deps />
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="5" file="9783732586875_023.txt">
+      <sentence>Paul continued to eat calmly .</sentence>
+      <tokens>
+        <t>" " "Paul" " "</t>
+        <t>" " "continued" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "eat" " "</t>
+        <t>" " "calmly" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Paul)) (VP (VBD continued) (S (VP (TO to) (VP (VB eat) (ADVP (RB calmly)))))) (. .)))</parse>
+      <deps>nsubj(continued-2, Paul-1)
+xsubj(eat-4, Paul-1)
+root(ROOT-0, continued-2)
+aux(eat-4, to-3)
+xcomp(continued-2, eat-4)
+advmod(eat-4, calmly-5)</deps>
+      <events>
+        <event id="e9" eiid="ei9" offset="2" string="continued" tense="PAST" aspect="NONE" class="ASPECTUAL" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e10" eiid="ei10" offset="4" string="eat" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="6" file="9783732586875_023.txt">
+      <sentence>`` It is my money , is n't it ? ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "It" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "my" " "</t>
+        <t>" " "money" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "is" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "it" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (NP (PRP It)) (VP (VBZ is) (NP (NP (PRP$ my) (NN money)) (, ,) (SBAR (S (VP (VBZ is) (RB n't) (NP (PRP it))))))) (. ?) ('' '')))</parse>
+      <deps>nsubj(money-5, It-2)
+cop(money-5, is-3)
+poss(money-5, my-4)
+root(ROOT-0, money-5)
+cop(it-9, is-7)
+neg(it-9, n't-8)
+rcmod(money-5, it-9)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="7" file="9783732586875_023.txt">
+      <sentence>`` Yes . ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Yes" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (INTJ (`` ``) (UH Yes) (. .) ('' '')))</parse>
+      <deps />
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="8" file="9783732586875_023.txt">
+      <sentence>`` And I have sole power of disposal over it ? ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "And" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "sole" " "</t>
+        <t>" " "power" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "disposal" " "</t>
+        <t>" " "over" " "</t>
+        <t>" " "it" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (CC And) (NP (PRP I)) (VP (VBP have) (NP (NP (JJ sole) (NN power)) (PP (IN of) (NP (NP (NN disposal)) (PP (IN over) (NP (PRP it))))))) (. ?) ('' '')))</parse>
+      <deps>cc(have-4, And-2)
+nsubj(have-4, I-3)
+root(ROOT-0, have-4)
+amod(power-6, sole-5)
+dobj(have-4, power-6)
+prep_of(power-6, disposal-8)
+prep_over(disposal-8, it-10)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="9" file="9783732586875_023.txt">
+      <sentence>`` Yes . ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Yes" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (INTJ (`` ``) (UH Yes) (. .) ('' '')))</parse>
+      <deps />
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="10" file="9783732586875_023.txt">
+      <sentence>With an angry gesture , Paul put the napkin down on the table .</sentence>
+      <tokens>
+        <t>" " "With" " "</t>
+        <t>" " "an" " "</t>
+        <t>" " "angry" " "</t>
+        <t>" " "gesture" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Paul" " "</t>
+        <t>" " "put" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "napkin" " "</t>
+        <t>" " "down" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "table" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (PP (IN With) (NP (DT an) (JJ angry) (NN gesture))) (, ,) (NP (NNP Paul)) (VP (VBD put) (NP (DT the) (NN napkin)) (PRT (RP down)) (PP (IN on) (NP (DT the) (NN table)))) (. .)))</parse>
+      <deps>det(gesture-4, an-2)
+amod(gesture-4, angry-3)
+prep_with(put-7, gesture-4)
+nsubj(put-7, Paul-6)
+root(ROOT-0, put-7)
+det(napkin-9, the-8)
+dobj(put-7, napkin-9)
+prt(put-7, down-10)
+det(table-13, the-12)
+prep_on(put-7, table-13)</deps>
+      <events>
+        <event id="e11" eiid="ei11" offset="7" string="put" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e12" eiid="ei12" offset="9" string="napkin" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="11" file="9783732586875_023.txt">
+      <sentence>`` But I am your husband , and I advise you ... '' `` Aha , so you 're advising me .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "But" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "am" " "</t>
+        <t>" " "your" " "</t>
+        <t>" " "husband" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "advise" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "..." ""</t>
+        <t>"" """ " "</t>
+        <t>" " """ ""</t>
+        <t>"" "Aha" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "so" " "</t>
+        <t>" " "you" ""</t>
+        <t>"" "'re" " "</t>
+        <t>" " "advising" " "</t>
+        <t>" " "me" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (S (CC But) (NP (PRP I)) (VP (VBP am) (NP (PRP$ your) (NN husband)))) (, ,) (CC and) (S (NP (PRP I)) (VP (VBP advise) (NP (PRP you))))) (: ...) ('' '') (S (`` ``) (NP (NNP Aha)) (, ,) (CC so) (NP (PRP you)) (VP (VBP 're) (VP (VBG advising) (NP (PRP me))))) (. .)))</parse>
+      <deps>nsubj(husband-6, I-3)
+cop(husband-6, am-4)
+poss(husband-6, your-5)
+root(ROOT-0, husband-6)
+nsubj(advise-10, I-9)
+conj_and(husband-6, advise-10)
+dobj(advise-10, you-11)
+nsubj(advising-20, Aha-15)
+ccomp(husband-6, you-18)
+parataxis(husband-6, you-18)
+conj_so(advising-20, you-18)
+nsubj(advising-20, you-18)
+aux(advising-20, 're-19)
+ccomp(husband-6, advising-20)
+parataxis(husband-6, advising-20)
+dobj(advising-20, me-21)</deps>
+      <events>
+        <event id="e13" eiid="ei13" offset="10" string="advise" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e14" eiid="ei14" offset="20" string="advising" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="12" file="9783732586875_023.txt">
+      <sentence>That sounds better . ''</sentence>
+      <tokens>
+        <t>" " "That" " "</t>
+        <t>" " "sounds" " "</t>
+        <t>" " "better" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT That)) (VP (VBZ sounds) (ADJP (JJR better))) (. .) ('' '')))</parse>
+      <deps>nsubj(sounds-2, That-1)
+root(ROOT-0, sounds-2)
+acomp(sounds-2, better-3)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="13" file="9783732586875_023.txt">
+      <sentence>Leonie sat down again , though her eyes still sparkled with anger .</sentence>
+      <tokens>
+        <t>" " "Leonie" " "</t>
+        <t>" " "sat" " "</t>
+        <t>" " "down" " "</t>
+        <t>" " "again" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "though" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "eyes" " "</t>
+        <t>" " "still" " "</t>
+        <t>" " "sparkled" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "anger" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Leonie)) (VP (VBD sat) (PRT (RP down)) (ADVP (RB again)) (, ,) (SBAR (IN though) (S (NP (PRP$ her) (NNS eyes)) (ADVP (RB still)) (VP (VBD sparkled) (PP (IN with) (NP (NN anger))))))) (. .)))</parse>
+      <deps>nsubj(sat-2, Leonie-1)
+root(ROOT-0, sat-2)
+prt(sat-2, down-3)
+advmod(sat-2, again-4)
+mark(sparkled-10, though-6)
+poss(eyes-8, her-7)
+nsubj(sparkled-10, eyes-8)
+advmod(sparkled-10, still-9)
+advcl(sat-2, sparkled-10)
+prep_with(sparkled-10, anger-12)</deps>
+      <events>
+        <event id="e15" eiid="ei15" offset="2" string="sat" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e16" eiid="ei16" offset="10" string="sparkled" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="14" file="9783732586875_023.txt">
+      <sentence>It was the first argument in their marriage , and she , the usually gentle Leonie , had a damned good mind to assert herself and pick a fight .</sentence>
+      <tokens>
+        <t>" " "It" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "argument" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "their" " "</t>
+        <t>" " "marriage" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "she" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "usually" " "</t>
+        <t>" " "gentle" " "</t>
+        <t>" " "Leonie" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "damned" " "</t>
+        <t>" " "good" " "</t>
+        <t>" " "mind" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "assert" " "</t>
+        <t>" " "herself" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "pick" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "fight" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (PRP It)) (VP (VBD was) (NP (NP (DT the) (JJ first) (NN argument)) (PP (IN in) (NP (PRP$ their) (NN marriage)))))) (, ,) (CC and) (S (NP (NP (PRP she)) (, ,) (NP (DT the) (ADJP (RB usually) (JJ gentle)) (NN Leonie)) (, ,)) (VP (VBD had) (NP (DT a) (ADJP (RB damned) (JJ good)) (NN mind)) (S (VP (TO to) (VP (VP (VB assert) (NP (PRP herself))) (CC and) (VP (VB pick) (NP (DT a) (NN fight)))))))) (. .)))</parse>
+      <deps>nsubj(argument-5, It-1)
+cop(argument-5, was-2)
+det(argument-5, the-3)
+amod(argument-5, first-4)
+root(ROOT-0, argument-5)
+poss(marriage-8, their-7)
+prep_in(argument-5, marriage-8)
+nsubj(had-18, she-11)
+xsubj(assert-24, she-11)
+det(Leonie-16, the-13)
+advmod(gentle-15, usually-14)
+amod(Leonie-16, gentle-15)
+appos(she-11, Leonie-16)
+conj_and(argument-5, had-18)
+det(mind-22, a-19)
+advmod(good-21, damned-20)
+amod(mind-22, good-21)
+dobj(had-18, mind-22)
+aux(assert-24, to-23)
+xcomp(had-18, assert-24)
+dobj(assert-24, herself-25)
+xcomp(had-18, pick-27)
+conj_and(assert-24, pick-27)
+det(fight-29, a-28)
+dobj(pick-27, fight-29)</deps>
+      <events>
+        <event id="e17" eiid="ei17" offset="18" string="had" tense="PAST" aspect="NONE" class="STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e18" eiid="ei18" offset="24" string="assert" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e19" eiid="ei19" offset="27" string="pick" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="15" file="9783732586875_023.txt">
+      <sentence>`` Do you actually know what a surety is ? ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Do" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "actually" " "</t>
+        <t>" " "know" " "</t>
+        <t>" " "what" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "surety" " "</t>
+        <t>" " "is" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (VP (VB Do) (SBAR (S (NP (PRP you)) (ADVP (RB actually)) (VP (VBP know) (SBAR (WHNP (WP what)) (S (NP (DT a) (NN surety)) (VP (VBZ is)))))))) (. ?) ('' '')))</parse>
+      <deps>root(ROOT-0, Do-2)
+nsubj(know-5, you-3)
+advmod(know-5, actually-4)
+ccomp(Do-2, know-5)
+dobj(is-9, what-6)
+det(surety-8, a-7)
+nsubj(is-9, surety-8)
+ccomp(know-5, is-9)</deps>
+      <events>
+        <event id="e20" eiid="ei20" offset="2" string="Do" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e21" eiid="ei21" offset="5" string="know" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="16" file="9783732586875_023.txt">
+      <sentence>asked Paul patiently , pouring her some of the country wine they drank at dinner .</sentence>
+      <tokens>
+        <t>" " "asked" " "</t>
+        <t>" " "Paul" " "</t>
+        <t>" " "patiently" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "pouring" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "some" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "country" " "</t>
+        <t>" " "wine" " "</t>
+        <t>" " "they" " "</t>
+        <t>" " "drank" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "dinner" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (VP (VBN asked) (NP (NNP Paul) (NN patiently)) (, ,) (S (VP (VBG pouring) (S (NP (PRP her)) (NP (NP (DT some)) (PP (IN of) (NP (DT the) (NN country) (NN wine))))))))) (NP (PRP they)) (VP (VBD drank) (PP (IN at) (NP (NN dinner)))) (. .)))</parse>
+      <deps>dep(drank-13, asked-1)
+nn(patiently-3, Paul-2)
+dobj(asked-1, patiently-3)
+partmod(asked-1, pouring-5)
+nsubj(some-7, her-6)
+xcomp(pouring-5, some-7)
+det(wine-11, the-9)
+nn(wine-11, country-10)
+prep_of(some-7, wine-11)
+nsubj(drank-13, they-12)
+root(ROOT-0, drank-13)
+prep_at(drank-13, dinner-15)</deps>
+      <events>
+        <event id="e22" eiid="ei22" offset="1" string="asked" tense="PASTPART" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e23" eiid="ei23" offset="5" string="pouring" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e24" eiid="ei24" offset="13" string="drank" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="17" file="9783732586875_023.txt">
+      <sentence>Since he often left the house on the Elbchaussee very early in the morning , this meal together was the highlight of the day for him .</sentence>
+      <tokens>
+        <t>" " "Since" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "often" " "</t>
+        <t>" " "left" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "house" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Elbchaussee" " "</t>
+        <t>" " "very" " "</t>
+        <t>" " "early" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "morning" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "this" " "</t>
+        <t>" " "meal" " "</t>
+        <t>" " "together" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "highlight" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "day" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "him" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (IN Since) (S (NP (PRP he)) (ADVP (RB often)) (VP (VBD left) (NP (DT the) (NN house)) (PP (IN on) (NP (DT the) (NNP Elbchaussee))) (PP (ADVP (RB very) (RB early)) (IN in) (NP (DT the) (NN morning)))))) (, ,) (NP (DT this) (NN meal)) (ADVP (RB together)) (VP (VBD was) (NP (NP (DT the) (NN highlight)) (PP (IN of) (NP (NP (DT the) (NN day)) (PP (IN for) (NP (PRP him))))))) (. .)))</parse>
+      <deps>mark(left-4, Since-1)
+nsubj(left-4, he-2)
+advmod(left-4, often-3)
+advcl(highlight-21, left-4)
+det(house-6, the-5)
+dobj(left-4, house-6)
+det(Elbchaussee-9, the-8)
+prep_on(left-4, Elbchaussee-9)
+advmod(early-11, very-10)
+advmod(left-4, early-11)
+det(morning-14, the-13)
+prep_in(left-4, morning-14)
+det(meal-17, this-16)
+nsubj(highlight-21, meal-17)
+advmod(highlight-21, together-18)
+cop(highlight-21, was-19)
+det(highlight-21, the-20)
+root(ROOT-0, highlight-21)
+det(day-24, the-23)
+prep_of(highlight-21, day-24)
+prep_for(day-24, him-26)</deps>
+      <events>
+        <event id="e25" eiid="ei25" offset="4" string="left" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e26" eiid="ei26" offset="21" string="highlight" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="morning" offset="14" length="1" type="TIME" value="TMO" temporalFunction="false" />
+        <timex tid="t2" text="day" offset="24" length="1" type="DURATION" value="P1D" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="18" file="9783732586875_023.txt">
+      <sentence>It was a pity that the evening was now spoiled by Julien and Alessandra .</sentence>
+      <tokens>
+        <t>" " "It" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "pity" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "evening" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "now" " "</t>
+        <t>" " "spoiled" " "</t>
+        <t>" " "by" " "</t>
+        <t>" " "Julien" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Alessandra" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP It)) (VP (VBD was) (NP (DT a) (NN pity)) (SBAR (IN that) (S (NP (DT the) (NN evening)) (VP (VBD was) (ADVP (RB now)) (VP (VBN spoiled) (PP (IN by) (NP (NNP Julien) (CC and) (NNP Alessandra)))))))) (. .)))</parse>
+      <deps>nsubj(pity-4, It-1)
+cop(pity-4, was-2)
+det(pity-4, a-3)
+root(ROOT-0, pity-4)
+mark(spoiled-10, that-5)
+det(evening-7, the-6)
+nsubjpass(spoiled-10, evening-7)
+auxpass(spoiled-10, was-8)
+advmod(spoiled-10, now-9)
+ccomp(pity-4, spoiled-10)
+agent(spoiled-10, Julien-12)
+agent(spoiled-10, Alessandra-14)
+conj_and(Julien-12, Alessandra-14)</deps>
+      <events>
+        <event id="e27" eiid="ei27" offset="10" string="spoiled" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t3" text="evening" offset="7" length="1" type="TIME" value="TEV" temporalFunction="false" />
+        <timex tid="t4" text="now" offset="9" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="19" file="9783732586875_023.txt">
+      <sentence>`` Of course I know what a surety bond is !</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Of" " "</t>
+        <t>" " "course" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "know" " "</t>
+        <t>" " "what" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "surety" " "</t>
+        <t>" " "bond" " "</t>
+        <t>" " "is" ""</t>
+        <t>"" "!" " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (PP (IN Of) (NP (NN course))) (NP (PRP I)) (VP (VBP know) (SBAR (WHNP (WP what)) (S (NP (DT a) (JJ surety) (NN bond)) (VP (VBZ is))))) (. !)))</parse>
+      <deps>prep_of(know-5, course-3)
+nsubj(know-5, I-4)
+root(ROOT-0, know-5)
+dobj(is-10, what-6)
+det(bond-9, a-7)
+amod(bond-9, surety-8)
+nsubj(is-10, bond-9)
+ccomp(know-5, is-10)</deps>
+      <events>
+        <event id="e28" eiid="ei28" offset="5" string="know" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="20" file="9783732586875_023.txt">
+      <sentence>It 's a banking formality .</sentence>
+      <tokens>
+        <t>" " "It" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "banking" " "</t>
+        <t>" " "formality" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP It)) (VP (VBZ 's) (NP (DT a) (NN banking) (NN formality))) (. .)))</parse>
+      <deps>nsubj(formality-5, It-1)
+cop(formality-5, 's-2)
+det(formality-5, a-3)
+nn(formality-5, banking-4)
+root(ROOT-0, formality-5)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="21" file="9783732586875_023.txt">
+      <sentence>A surety - my surety !</sentence>
+      <tokens>
+        <t>" " "A" " "</t>
+        <t>" " "surety" " "</t>
+        <t>" " "-" " "</t>
+        <t>" " "my" " "</t>
+        <t>" " "surety" ""</t>
+        <t>"" "!" " "</t>
+      </tokens>
+      <parse>(ROOT (NP (NP (DT A) (NN surety)) (: -) (NP (PRP$ my) (NN surety)) (. !)))</parse>
+      <deps>det(surety-2, A-1)
+root(ROOT-0, surety-2)
+poss(surety-5, my-4)
+dep(surety-2, surety-5)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="22" file="9783732586875_023.txt">
+      <sentence>- gives Alessandra and Julien the opportunity to get money from the bank that they desperately need .</sentence>
+      <tokens>
+        <t>" " "-" " "</t>
+        <t>" " "gives" " "</t>
+        <t>" " "Alessandra" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Julien" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "opportunity" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "get" " "</t>
+        <t>" " "money" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "bank" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "they" " "</t>
+        <t>" " "desperately" " "</t>
+        <t>" " "need" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (FRAG (: -) (VP (VBZ gives) (NP (NNP Alessandra) (CC and) (NNP Julien)) (NP (DT the) (NN opportunity) (S (VP (TO to) (VP (VB get) (NP (NN money)) (PP (IN from) (NP (DT the) (NN bank))) (SBAR (IN that) (S (NP (PRP they)) (ADVP (RB desperately)) (VP (VBP need))))))))) (. .)))</parse>
+      <deps>root(ROOT-0, gives-2)
+iobj(gives-2, Alessandra-3)
+iobj(gives-2, Julien-5)
+conj_and(Alessandra-3, Julien-5)
+det(opportunity-7, the-6)
+dobj(gives-2, opportunity-7)
+aux(get-9, to-8)
+infmod(opportunity-7, get-9)
+dobj(get-9, money-10)
+det(bank-13, the-12)
+prep_from(get-9, bank-13)
+mark(need-17, that-14)
+nsubj(need-17, they-15)
+advmod(need-17, desperately-16)
+ccomp(get-9, need-17)</deps>
+      <events>
+        <event id="e29" eiid="ei29" offset="9" string="get" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e30" eiid="ei30" offset="17" string="need" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="23" file="9783732586875_023.txt">
+      <sentence>That 's all .</sentence>
+      <tokens>
+        <t>" " "That" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "all" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT That)) (VP (VBZ 's) (NP (DT all))) (. .)))</parse>
+      <deps>nsubj(all-3, That-1)
+cop(all-3, 's-2)
+root(ROOT-0, all-3)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="24" file="9783732586875_023.txt">
+      <sentence>A small gesture of friendship . ''</sentence>
+      <tokens>
+        <t>" " "A" " "</t>
+        <t>" " "small" " "</t>
+        <t>" " "gesture" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "friendship" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (NP (NP (DT A) (JJ small) (NN gesture)) (PP (IN of) (NP (NN friendship))) (. .) ('' '')))</parse>
+      <deps>det(gesture-3, A-1)
+amod(gesture-3, small-2)
+root(ROOT-0, gesture-3)
+prep_of(gesture-3, friendship-5)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="25" file="9783732586875_023.txt">
+      <sentence>`` Which can cost you your entire fortune , Leonie !</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Which" " "</t>
+        <t>" " "can" " "</t>
+        <t>" " "cost" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "your" " "</t>
+        <t>" " "entire" " "</t>
+        <t>" " "fortune" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Leonie" ""</t>
+        <t>"" "!" " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (NP (WDT Which)) (VP (MD can) (VP (VB cost) (NP (PRP you)) (NP (NP (PRP$ your) (JJ entire) (NN fortune)) (, ,) (NP (NNP Leonie))))) (. !)))</parse>
+      <deps>nsubj(cost-4, Which-2)
+aux(cost-4, can-3)
+root(ROOT-0, cost-4)
+iobj(cost-4, you-5)
+poss(fortune-8, your-6)
+amod(fortune-8, entire-7)
+dobj(cost-4, fortune-8)
+appos(fortune-8, Leonie-10)</deps>
+      <events>
+        <event id="e31" eiid="ei31" offset="4" string="cost" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="26" file="9783732586875_023.txt">
+      <sentence>With Julien and Alessandra and Francoise Cosmetics and the huge fuss they 're making about it , it 's millions !</sentence>
+      <tokens>
+        <t>" " "With" " "</t>
+        <t>" " "Julien" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Alessandra" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Francoise" " "</t>
+        <t>" " "Cosmetics" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "huge" " "</t>
+        <t>" " "fuss" " "</t>
+        <t>" " "they" ""</t>
+        <t>"" "'re" " "</t>
+        <t>" " "making" " "</t>
+        <t>" " "about" " "</t>
+        <t>" " "it" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "it" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "millions" ""</t>
+        <t>"" "!" " "</t>
+      </tokens>
+      <parse>(ROOT (S (PP (IN With) (NP (NP (NP (NNP Julien) (CC and) (NNP Alessandra)) (CC and) (NP (NNP Francoise) (NNPS Cosmetics))) (CC and) (NP (NP (DT the) (JJ huge) (NNS fuss)) (SBAR (S (NP (PRP they)) (VP (VBP 're) (VP (VBG making) (PP (IN about) (NP (PRP it)))))))))) (, ,) (NP (PRP it)) (VP (VBZ 's) (NP (NNS millions))) (. !)))</parse>
+      <deps>prep_with(millions-20, Julien-2)
+conj_and(Julien-2, Alessandra-4)
+prep_with(millions-20, Alessandra-4)
+nn(Cosmetics-7, Francoise-6)
+conj_and(Julien-2, Cosmetics-7)
+prep_with(millions-20, Cosmetics-7)
+det(fuss-11, the-9)
+amod(fuss-11, huge-10)
+conj_and(Julien-2, fuss-11)
+dobj(making-14, fuss-11)
+prep_with(millions-20, fuss-11)
+nsubj(making-14, they-12)
+aux(making-14, 're-13)
+rcmod(fuss-11, making-14)
+prep_about(making-14, it-16)
+nsubj(millions-20, it-18)
+cop(millions-20, 's-19)
+root(ROOT-0, millions-20)</deps>
+      <events>
+        <event id="e32" eiid="ei32" offset="14" string="making" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="27" file="9783732586875_023.txt">
+      <sentence>It 's a barrel with a thousand holes , and your money will pour out of it , too . ''</sentence>
+      <tokens>
+        <t>" " "It" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "barrel" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "thousand" " "</t>
+        <t>" " "holes" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "your" " "</t>
+        <t>" " "money" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "pour" " "</t>
+        <t>" " "out" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "it" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "too" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (PRP It)) (VP (VBZ 's) (NP (NP (DT a) (NN barrel)) (PP (IN with) (NP (DT a) (CD thousand) (NNS holes)))))) (, ,) (CC and) (S (NP (PRP$ your) (NN money)) (VP (MD will) (VP (VB pour) (PRT (RP out)) (PP (IN of) (NP (PRP it))) (, ,) (ADVP (RB too))))) (. .) ('' '')))</parse>
+      <deps>nsubj(barrel-4, It-1)
+cop(barrel-4, 's-2)
+det(barrel-4, a-3)
+root(ROOT-0, barrel-4)
+det(holes-8, a-6)
+num(holes-8, thousand-7)
+prep_with(barrel-4, holes-8)
+poss(money-12, your-11)
+nsubj(pour-14, money-12)
+aux(pour-14, will-13)
+conj_and(barrel-4, pour-14)
+prep_out_of(pour-14, it-17)
+advmod(pour-14, too-19)</deps>
+      <events>
+        <event id="e33" eiid="ei33" offset="14" string="pour" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="28" file="9783732586875_023.txt">
+      <sentence>`` It does n't matter what it 's about or where anything goes , '' Leonie grumbled .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "It" " "</t>
+        <t>" " "does" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "matter" " "</t>
+        <t>" " "what" " "</t>
+        <t>" " "it" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "about" " "</t>
+        <t>" " "or" " "</t>
+        <t>" " "where" " "</t>
+        <t>" " "anything" " "</t>
+        <t>" " "goes" ""</t>
+        <t>"" "," ""</t>
+        <t>"" """ " "</t>
+        <t>" " "Leonie" " "</t>
+        <t>" " "grumbled" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (NP (PRP It)) (VP (VBZ does) (RB n't) (VP (VB matter) (SBAR (SBAR (WHNP (WP what)) (S (NP (PRP it)) (VP (VBZ 's) (ADJP (IN about))))) (CC or) (SBAR (WHADVP (WRB where)) (S (NP (NN anything)) (VP (VBZ goes)))))))) (, ,) ('' '') (NP (NNP Leonie)) (VP (VBD grumbled)) (. .)))</parse>
+      <deps>nsubj(matter-5, It-2)
+aux(matter-5, does-3)
+neg(matter-5, n't-4)
+ccomp(grumbled-17, matter-5)
+dobj(about-9, what-6)
+nsubj(about-9, it-7)
+cop(about-9, 's-8)
+dep(matter-5, about-9)
+advmod(goes-13, where-11)
+nsubj(goes-13, anything-12)
+dep(matter-5, goes-13)
+conj_or(about-9, goes-13)
+nsubj(grumbled-17, Leonie-16)
+root(ROOT-0, grumbled-17)</deps>
+      <events>
+        <event id="e34" eiid="ei34" offset="5" string="matter" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e35" eiid="ei35" offset="13" string="goes" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e36" eiid="ei36" offset="17" string="grumbled" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="29" file="9783732586875_023.txt">
+      <sentence>Tears stood in her eyes .</sentence>
+      <tokens>
+        <t>" " "Tears" " "</t>
+        <t>" " "stood" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "eyes" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNS Tears)) (VP (VBD stood) (PP (IN in) (NP (PRP$ her) (NNS eyes)))) (. .)))</parse>
+      <deps>nsubj(stood-2, Tears-1)
+root(ROOT-0, stood-2)
+poss(eyes-5, her-4)
+prep_in(stood-2, eyes-5)</deps>
+      <events>
+        <event id="e37" eiid="ei37" offset="2" string="stood" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="30" file="9783732586875_023.txt">
+      <sentence>`` I want to help them , and I will help them , even if it means going up against you for the first time . ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "I" " "</t>
+        <t>" " "want" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "help" " "</t>
+        <t>" " "them" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "will" " "</t>
+        <t>" " "help" " "</t>
+        <t>" " "them" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "even" " "</t>
+        <t>" " "if" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "means" " "</t>
+        <t>" " "going" " "</t>
+        <t>" " "up" " "</t>
+        <t>" " "against" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "time" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBP want) (S (VP (TO to) (VP (VB help) (NP (PRP them))))))) (, ,) (CC and) (S (NP (PRP I)) (VP (MD will) (VP (VB help) (NP (PRP them)) (, ,) (SBAR (RB even) (IN if) (S (NP (PRP it)) (VP (VBZ means) (S (VP (VBG going) (PRT (RP up)) (PP (IN against) (NP (PRP you))) (PP (IN for) (NP (DT the) (JJ first) (NN time))))))))))) (. .) ('' '')))</parse>
+      <deps>nsubj(want-3, I-2)
+xsubj(help-5, I-2)
+root(ROOT-0, want-3)
+aux(help-5, to-4)
+xcomp(want-3, help-5)
+dobj(help-5, them-6)
+nsubj(help-11, I-9)
+aux(help-11, will-10)
+conj_and(want-3, help-11)
+dobj(help-11, them-12)
+advmod(means-17, even-14)
+mark(means-17, if-15)
+nsubj(means-17, it-16)
+advcl(help-11, means-17)
+xcomp(means-17, going-18)
+prt(going-18, up-19)
+prep_against(going-18, you-21)
+det(time-25, the-23)
+amod(time-25, first-24)
+prep_for(going-18, time-25)</deps>
+      <events>
+        <event id="e38" eiid="ei38" offset="3" string="want" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e39" eiid="ei39" offset="5" string="help" tense="INFINITIVE" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e40" eiid="ei40" offset="11" string="help" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e41" eiid="ei41" offset="17" string="means" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e42" eiid="ei42" offset="18" string="going" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="31" file="9783732586875_023.txt">
+      <sentence>`` But you can still think , Princess , ca n't you ? ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "But" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "can" " "</t>
+        <t>" " "still" " "</t>
+        <t>" " "think" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Princess" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "ca" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "you" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (SINV (`` ``) (S (CC But) (NP (PRP you)) (VP (MD can) (ADVP (RB still)) (VP (VB think)))) (, ,) (ADVP (RB Princess)) (, ,) (VP (MD ca) (RB n't)) (NP (PRP you)) (. ?) ('' '')))</parse>
+      <deps>cc(think-6, But-2)
+nsubj(think-6, you-3)
+aux(think-6, can-4)
+advmod(think-6, still-5)
+ccomp(ca-10, think-6)
+advmod(ca-10, Princess-8)
+root(ROOT-0, ca-10)
+neg(ca-10, n't-11)
+nsubj(ca-10, you-12)</deps>
+      <events>
+        <event id="e43" eiid="ei43" offset="6" string="think" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="32" file="9783732586875_023.txt">
+      <sentence>asked Paul angrily .</sentence>
+      <tokens>
+        <t>" " "asked" " "</t>
+        <t>" " "Paul" " "</t>
+        <t>" " "angrily" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (VP (VBD asked) (NP (NNP Paul)) (ADVP (RB angrily))) (. .)))</parse>
+      <deps>root(ROOT-0, asked-1)
+dobj(asked-1, Paul-2)
+advmod(asked-1, angrily-3)</deps>
+      <events>
+        <event id="e44" eiid="ei44" offset="1" string="asked" tense="PAST" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="33" file="9783732586875_023.txt">
+      <sentence>`` Do you have any idea how big Alessandra 's dowry was ?</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Do" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "any" " "</t>
+        <t>" " "idea" " "</t>
+        <t>" " "how" " "</t>
+        <t>" " "big" " "</t>
+        <t>" " "Alessandra" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "dowry" " "</t>
+        <t>" " "was" ""</t>
+        <t>"" "?" " "</t>
+      </tokens>
+      <parse>(ROOT (SQ (`` ``) (VBP Do) (NP (PRP you)) (VP (VB have) (NP (DT any) (NN idea)) (SBAR (WHADJP (WRB how) (JJ big)) (S (NP (NP (NNP Alessandra) (POS 's)) (NN dowry)) (VP (VBD was))))) (. ?)))</parse>
+      <deps>aux(have-4, Do-2)
+nsubj(have-4, you-3)
+root(ROOT-0, have-4)
+det(idea-6, any-5)
+dobj(have-4, idea-6)
+advmod(big-8, how-7)
+dep(was-12, big-8)
+poss(dowry-11, Alessandra-9)
+nsubj(was-12, dowry-11)
+dep(have-4, was-12)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="34" file="9783732586875_023.txt">
+      <sentence>No ?</sentence>
+      <tokens>
+        <t>" " "No" ""</t>
+        <t>"" "?" " "</t>
+      </tokens>
+      <parse>(ROOT (INTJ (UH No) (. ?)))</parse>
+      <deps>root(ROOT-0, No-1)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="35" file="9783732586875_023.txt">
+      <sentence>But I do !</sentence>
+      <tokens>
+        <t>" " "But" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "do" ""</t>
+        <t>"" "!" " "</t>
+      </tokens>
+      <parse>(ROOT (S (CC But) (NP (PRP I)) (VP (VBP do)) (. !)))</parse>
+      <deps>cc(do-3, But-1)
+nsubj(do-3, I-2)
+root(ROOT-0, do-3)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="36" file="9783732586875_023.txt">
+      <sentence>Do you have any idea what property value is behind Sablemer Castle ?</sentence>
+      <tokens>
+        <t>" " "Do" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "any" " "</t>
+        <t>" " "idea" " "</t>
+        <t>" " "what" " "</t>
+        <t>" " "property" " "</t>
+        <t>" " "value" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "behind" " "</t>
+        <t>" " "Sablemer" " "</t>
+        <t>" " "Castle" ""</t>
+        <t>"" "?" " "</t>
+      </tokens>
+      <parse>(ROOT (SQ (VBP Do) (NP (PRP you)) (VP (VB have) (NP (NP (DT any) (NN idea)) (SBAR (WHNP (WP what)) (S (NP (NN property) (NN value)) (VP (VBZ is) (PP (IN behind) (NP (NNP Sablemer) (NNP Castle)))))))) (. ?)))</parse>
+      <deps>aux(have-3, Do-1)
+nsubj(have-3, you-2)
+root(ROOT-0, have-3)
+det(idea-5, any-4)
+dobj(have-3, idea-5)
+dobj(is-9, idea-5)
+rel(is-9, what-6)
+nn(value-8, property-7)
+nsubj(is-9, value-8)
+rcmod(idea-5, is-9)
+nn(Castle-12, Sablemer-11)
+prep_behind(is-9, Castle-12)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="37" file="9783732586875_023.txt">
+      <sentence>If the Prince and Princess of Sablemer do n't give their own son a guarantee , then Julien - or rather our beauty-obsessed Alessandra - must have squandered even more money than I suspect .</sentence>
+      <tokens>
+        <t>" " "If" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Prince" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Princess" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Sablemer" " "</t>
+        <t>" " "do" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "give" " "</t>
+        <t>" " "their" " "</t>
+        <t>" " "own" " "</t>
+        <t>" " "son" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "guarantee" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "then" " "</t>
+        <t>" " "Julien" " "</t>
+        <t>" " "-" " "</t>
+        <t>" " "or" " "</t>
+        <t>" " "rather" " "</t>
+        <t>" " "our" " "</t>
+        <t>" " "beauty-obsessed" " "</t>
+        <t>" " "Alessandra" " "</t>
+        <t>" " "-" " "</t>
+        <t>" " "must" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "squandered" " "</t>
+        <t>" " "even" " "</t>
+        <t>" " "more" " "</t>
+        <t>" " "money" " "</t>
+        <t>" " "than" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "suspect" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (IN If) (S (NP (NP (DT the) (NNP Prince) (CC and) (NNP Princess)) (PP (IN of) (NP (NNP Sablemer)))) (VP (VBP do) (RB n't) (VP (VB give) (NP (PRP$ their) (JJ own) (NN son)) (NP (DT a) (NN guarantee)))))) (, ,) (ADVP (RB then)) (NP (NP (NNP Julien)) (: -) (CC or) (RB rather) (NP (PRP$ our) (JJ beauty-obsessed) (NN Alessandra)) (: -)) (VP (MD must) (VP (VB have) (VP (VBN squandered) (NP (ADJP (RB even) (JJR more)) (NN money)) (SBAR (IN than) (S (NP (PRP I)) (VP (VBP suspect))))))) (. .)))</parse>
+      <deps>mark(give-10, If-1)
+det(Prince-3, the-2)
+nsubj(give-10, Prince-3)
+conj_and(Prince-3, Princess-5)
+nsubj(give-10, Princess-5)
+prep_of(Prince-3, Sablemer-7)
+aux(give-10, do-8)
+neg(give-10, n't-9)
+advcl(squandered-28, give-10)
+poss(son-13, their-11)
+amod(son-13, own-12)
+dep(give-10, son-13)
+det(guarantee-15, a-14)
+dobj(give-10, guarantee-15)
+advmod(squandered-28, then-17)
+nsubj(squandered-28, Julien-18)
+advmod(Julien-18, rather-21)
+conj_or(Julien-18, rather-21)
+nsubj(squandered-28, rather-21)
+poss(Alessandra-24, our-22)
+amod(Alessandra-24, beauty-obsessed-23)
+dep(Julien-18, Alessandra-24)
+aux(squandered-28, must-26)
+aux(squandered-28, have-27)
+root(ROOT-0, squandered-28)
+advmod(more-30, even-29)
+amod(money-31, more-30)
+dobj(squandered-28, money-31)
+mark(suspect-34, than-32)
+nsubj(suspect-34, I-33)
+advcl(squandered-28, suspect-34)</deps>
+      <events>
+        <event id="e45" eiid="ei45" offset="10" string="give" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e46" eiid="ei46" offset="28" string="squandered" tense="NONE" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e47" eiid="ei47" offset="34" string="suspect" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="38" file="9783732586875_023.txt">
+      <sentence>There was a firm calculation at the time about how much money to invest in Francoise cosmetics and that the southern German region should be targeted first ... But you ca n't understand any of that . ''</sentence>
+      <tokens>
+        <t>" " "There" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "firm" " "</t>
+        <t>" " "calculation" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "time" " "</t>
+        <t>" " "about" " "</t>
+        <t>" " "how" " "</t>
+        <t>" " "much" " "</t>
+        <t>" " "money" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "invest" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "Francoise" " "</t>
+        <t>" " "cosmetics" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "southern" " "</t>
+        <t>" " "German" " "</t>
+        <t>" " "region" " "</t>
+        <t>" " "should" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "targeted" " "</t>
+        <t>" " "first" " "</t>
+        <t>" " "..." " "</t>
+        <t>" " "But" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "ca" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "understand" " "</t>
+        <t>" " "any" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "that" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (EX There)) (VP (VBD was) (NP (NP (DT a) (NN firm) (NN calculation)) (PP (IN at) (NP (NP (DT the) (NN time)) (PP (IN about) (SBAR (SBAR (WHNP (WHADJP (WRB how) (JJ much)) (NN money)) (S (VP (TO to) (VP (VB invest) (PP (IN in) (NP (NNP Francoise) (NNS cosmetics))))))) (CC and) (SBAR (IN that) (S (NP (DT the) (JJ southern) (JJ German) (NN region)) (VP (MD should) (VP (VB be) (VP (VBN targeted) (ADVP (RB first)))))))))))))) (: ...) (CC But) (S (NP (PRP you)) (VP (MD ca) (RB n't) (VP (VB understand) (NP (NP (DT any)) (PP (IN of) (NP (DT that))))))) (. .) ('' '')))</parse>
+      <deps>expl(was-2, There-1)
+root(ROOT-0, was-2)
+det(calculation-5, a-3)
+nn(calculation-5, firm-4)
+nsubj(was-2, calculation-5)
+det(time-8, the-7)
+prep_at(calculation-5, time-8)
+advmod(much-11, how-10)
+amod(money-12, much-11)
+nsubj(invest-14, money-12)
+aux(invest-14, to-13)
+prepc_about(time-8, invest-14)
+nn(cosmetics-17, Francoise-16)
+prep_in(invest-14, cosmetics-17)
+mark(targeted-26, that-19)
+det(region-23, the-20)
+amod(region-23, southern-21)
+amod(region-23, German-22)
+nsubjpass(targeted-26, region-23)
+aux(targeted-26, should-24)
+auxpass(targeted-26, be-25)
+prepc_about(time-8, targeted-26)
+conj_and(invest-14, targeted-26)
+advmod(targeted-26, first-27)
+nsubj(understand-33, you-30)
+aux(understand-33, ca-31)
+neg(understand-33, n't-32)
+conj_but(was-2, understand-33)
+dobj(understand-33, any-34)
+prep_of(any-34, that-36)</deps>
+      <events>
+        <event id="e48" eiid="ei48" offset="14" string="invest" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e49" eiid="ei49" offset="26" string="targeted" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e50" eiid="ei50" offset="33" string="understand" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="39" file="9783732586875_023.txt">
+      <sentence>`` I do n't need to , '' she replied belligerently .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "I" " "</t>
+        <t>" " "do" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "need" " "</t>
+        <t>" " "to" ""</t>
+        <t>"" "," ""</t>
+        <t>"" """ " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "replied" " "</t>
+        <t>" " "belligerently" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBP do) (RB n't) (VP (VB need) (PP (TO to))))) (, ,) ('' '') (NP (PRP she)) (VP (VBD replied) (ADVP (RB belligerently))) (. .)))</parse>
+      <deps>nsubj(need-5, I-2)
+aux(need-5, do-3)
+neg(need-5, n't-4)
+ccomp(replied-10, need-5)
+prep(need-5, to-6)
+nsubj(replied-10, she-9)
+root(ROOT-0, replied-10)
+advmod(replied-10, belligerently-11)</deps>
+      <events>
+        <event id="e51" eiid="ei51" offset="5" string="need" tense="NONE" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e52" eiid="ei52" offset="10" string="replied" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="40" file="9783732586875_023.txt">
+      <sentence>`` Alessandra has asked me for help . ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Alessandra" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "asked" " "</t>
+        <t>" " "me" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "help" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (NP (NNP Alessandra)) (VP (VBZ has) (VP (VBN asked) (NP (PRP me)) (PP (IN for) (NP (NN help))))) (. .) ('' '')))</parse>
+      <deps>nsubj(asked-4, Alessandra-2)
+aux(asked-4, has-3)
+root(ROOT-0, asked-4)
+dobj(asked-4, me-5)
+prep_for(asked-4, help-7)</deps>
+      <events>
+        <event id="e53" eiid="ei53" offset="4" string="asked" tense="PRESENT" aspect="PERFECTIVE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="41" file="9783732586875_023.txt">
+      <sentence>`` Behind which , I 'm sure , Julien is ! ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Behind" " "</t>
+        <t>" " "which" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "I" ""</t>
+        <t>"" "'m" " "</t>
+        <t>" " "sure" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Julien" " "</t>
+        <t>" " "is" ""</t>
+        <t>"" "!" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (PP (IN Behind) (NP (WDT which))) (PRN (, ,) (S (NP (PRP I)) (VP (VBP 'm) (ADJP (JJ sure)))) (, ,)) (NP (NNP Julien)) (VP (VBZ is)) (. !) ('' '')))</parse>
+      <deps>prep_behind(is-10, which-3)
+nsubj(sure-7, I-5)
+cop(sure-7, 'm-6)
+parataxis(is-10, sure-7)
+nsubj(is-10, Julien-9)
+root(ROOT-0, is-10)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="42" file="9783732586875_023.txt">
+      <sentence>`` And what , pray tell , is that supposed to mean ? ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "And" " "</t>
+        <t>" " "what" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "pray" " "</t>
+        <t>" " "tell" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "supposed" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "mean" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (CC And) (NP (NP (WP what)) (PRN (, ,) (S (ADVP (RB pray)) (VP (VB tell))) (, ,))) (VP (VBZ is) (NP (NP (DT that)) (VP (VBN supposed) (S (VP (TO to) (VP (VB mean))))))) (. ?) ('' '')))</parse>
+      <deps>cc(that-9, And-2)
+nsubj(that-9, what-3)
+advmod(tell-6, pray-5)
+dep(what-3, tell-6)
+cop(that-9, is-8)
+root(ROOT-0, that-9)
+partmod(that-9, supposed-10)
+aux(mean-12, to-11)
+xcomp(supposed-10, mean-12)</deps>
+      <events>
+        <event id="e54" eiid="ei54" offset="12" string="mean" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="43" file="9783732586875_023.txt">
+      <sentence>`` It 's supposed to mean that our clean-cut couple is n't afraid to bring feelings into play here that ... '' Paul hesitated .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "It" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "supposed" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "mean" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "our" " "</t>
+        <t>" " "clean-cut" " "</t>
+        <t>" " "couple" " "</t>
+        <t>" " "is" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "afraid" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "bring" " "</t>
+        <t>" " "feelings" " "</t>
+        <t>" " "into" " "</t>
+        <t>" " "play" " "</t>
+        <t>" " "here" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "..." ""</t>
+        <t>"" """ " "</t>
+        <t>" " "Paul" " "</t>
+        <t>" " "hesitated" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (NP (PRP It)) (VP (VBZ 's) (VP (VBN supposed) (S (VP (TO to) (VP (VB mean) (SBAR (IN that) (S (NP (PRP$ our) (JJ clean-cut) (NN couple)) (VP (VBZ is) (RB n't) (ADJP (JJ afraid) (S (VP (TO to) (VP (VB bring) (NP (NNS feelings)) (PP (IN into) (NP (NN play))) (ADVP (RB here) (RB that))))))))))))))) (: ...) ('' '') (S (NP (NNP Paul)) (VP (VBD hesitated))) (. .)))</parse>
+      <deps>nsubjpass(supposed-4, It-2)
+xsubj(mean-6, It-2)
+auxpass(supposed-4, 's-3)
+root(ROOT-0, supposed-4)
+aux(mean-6, to-5)
+xcomp(supposed-4, mean-6)
+mark(afraid-13, that-7)
+poss(couple-10, our-8)
+amod(couple-10, clean-cut-9)
+nsubj(afraid-13, couple-10)
+xsubj(bring-15, couple-10)
+cop(afraid-13, is-11)
+neg(afraid-13, n't-12)
+ccomp(mean-6, afraid-13)
+aux(bring-15, to-14)
+xcomp(afraid-13, bring-15)
+dobj(bring-15, feelings-16)
+prep_into(bring-15, play-18)
+advmod(that-20, here-19)
+advmod(bring-15, that-20)
+nsubj(hesitated-24, Paul-23)
+ccomp(supposed-4, hesitated-24)
+parataxis(supposed-4, hesitated-24)</deps>
+      <events>
+        <event id="e55" eiid="ei55" offset="4" string="supposed" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e56" eiid="ei56" offset="6" string="mean" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e57" eiid="ei57" offset="15" string="bring" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e58" eiid="ei58" offset="24" string="hesitated" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="44" file="9783732586875_023.txt">
+      <sentence>`` Them ? ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Them" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (VP (VB Them)) (. ?) ('' '')))</parse>
+      <deps />
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="45" file="9783732586875_023.txt">
+      <sentence>she challenged him . ''</sentence>
+      <tokens>
+        <t>" " "she" " "</t>
+        <t>" " "challenged" " "</t>
+        <t>" " "him" ""</t>
+        <t>"" "." " "</t>
+        <t>" " """ ""</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP she)) (VP (VBD challenged) (NP (PRP him))) (. .) ('' '')))</parse>
+      <deps>nsubj(challenged-2, she-1)
+root(ROOT-0, challenged-2)
+dobj(challenged-2, him-3)</deps>
+      <events>
+        <event id="e59" eiid="ei59" offset="2" string="challenged" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="46" file="9783732586875_023.txt">
+      <sentence>... Which I hope no longer play a role , '' he replied somewhat lamely .</sentence>
+      <tokens>
+        <t>"" "..." " "</t>
+        <t>" " "Which" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "hope" " "</t>
+        <t>" " "no" " "</t>
+        <t>" " "longer" " "</t>
+        <t>" " "play" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "role" ""</t>
+        <t>"" "," ""</t>
+        <t>"" """ " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "replied" " "</t>
+        <t>" " "somewhat" " "</t>
+        <t>" " "lamely" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (: ...) (SBAR (WHNP (WDT Which)) (S (NP (PRP I)) (VP (VBP hope) (ADVP (RB no) (RB longer)) (VP (VB play) (NP (DT a) (NN role)))))) (, ,) ('' '') (NP (PRP he)) (VP (VBD replied) (ADJP (RB somewhat) (JJ lamely))) (. .)))</parse>
+      <deps>dobj(hope-4, Which-2)
+nsubj(hope-4, I-3)
+advcl(replied-13, hope-4)
+parataxis(replied-13, hope-4)
+advmod(longer-6, no-5)
+advmod(hope-4, longer-6)
+dep(hope-4, play-7)
+det(role-9, a-8)
+dobj(play-7, role-9)
+nsubj(replied-13, he-12)
+root(ROOT-0, replied-13)
+advmod(lamely-15, somewhat-14)
+acomp(replied-13, lamely-15)</deps>
+      <events>
+        <event id="e60" eiid="ei60" offset="4" string="hope" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e61" eiid="ei61" offset="7" string="play" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e62" eiid="ei62" offset="13" string="replied" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="47" file="9783732586875_023.txt">
+      <sentence>`` Sorry , that was n't fair of me .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Sorry" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "was" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "fair" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "me" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (ADVP (RB Sorry)) (, ,) (NP (DT that)) (VP (VBD was) (RB n't) (ADJP (JJ fair) (PP (IN of) (NP (PRP me))))) (. .)))</parse>
+      <deps>advmod(fair-7, Sorry-2)
+nsubj(fair-7, that-4)
+cop(fair-7, was-5)
+neg(fair-7, n't-6)
+root(ROOT-0, fair-7)
+prep_of(fair-7, me-9)</deps>
+      <events>
+        <event id="e63" eiid="ei63" offset="7" string="fair" tense="PAST" aspect="NONE" class="STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="48" file="9783732586875_023.txt">
+      <sentence>All I care about is that those two child-heads ... '' '' ... by which I assume you mean the Princess and Prince of Sablemer ? ''</sentence>
+      <tokens>
+        <t>" " "All" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "care" " "</t>
+        <t>" " "about" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "those" " "</t>
+        <t>" " "two" " "</t>
+        <t>" " "child-heads" " "</t>
+        <t>" " "..." ""</t>
+        <t>"" """ " "</t>
+        <t>" " """ ""</t>
+        <t>"" "..." ""</t>
+        <t>"" "by" " "</t>
+        <t>" " "which" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "assume" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "mean" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "Princess" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Prince" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Sablemer" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (DT All) (NN I)) (VP (VBP care) (SBAR (IN about) (S (VP (VBZ is) (SBAR (IN that) (S (NP (DT those) (CD two)) (VP (VBZ child-heads))))) (: ...)))) ('' '') ('' '')) (: ...) (S (PP (IN by) (SBAR (WHNP (WDT which)) (S (NP (PRP I)) (VP (VBP assume))))) (NP (PRP you)) (VP (VBP mean) (NP (NP (DT the) (NNP Princess) (CC and) (NNP Prince)) (PP (IN of) (NP (NNP Sablemer)))))) (. ?) ('' '')))</parse>
+      <deps>det(I-2, All-1)
+nsubj(care-3, I-2)
+root(ROOT-0, care-3)
+mark(is-5, about-4)
+advcl(care-3, is-5)
+mark(child-heads-9, that-6)
+det(two-8, those-7)
+nsubj(child-heads-9, two-8)
+ccomp(is-5, child-heads-9)
+dep(mean-19, by-14)
+dobj(assume-17, which-15)
+nsubj(assume-17, I-16)
+pcomp(by-14, assume-17)
+nsubj(mean-19, you-18)
+parataxis(care-3, mean-19)
+det(Princess-21, the-20)
+dobj(mean-19, Princess-21)
+dobj(mean-19, Prince-23)
+conj_and(Princess-21, Prince-23)
+prep_of(Princess-21, Sablemer-25)</deps>
+      <events>
+        <event id="e64" eiid="ei64" offset="3" string="care" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e65" eiid="ei65" offset="9" string="child-heads" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e66" eiid="ei66" offset="17" string="assume" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e67" eiid="ei67" offset="19" string="mean" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="49" file="9783732586875_023.txt">
+      <sentence>`` The most illustrious prince and princess for all I care ... Nevertheless , in my eyes , the two of them remain children who have never had to lift a finger in their lives to earn serious money .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "The" " "</t>
+        <t>" " "most" " "</t>
+        <t>" " "illustrious" " "</t>
+        <t>" " "prince" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "princess" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "all" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "care" " "</t>
+        <t>" " "..." " "</t>
+        <t>" " "Nevertheless" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "my" " "</t>
+        <t>" " "eyes" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "two" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "them" " "</t>
+        <t>" " "remain" " "</t>
+        <t>" " "children" " "</t>
+        <t>" " "who" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "never" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "lift" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "finger" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "their" " "</t>
+        <t>" " "lives" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "earn" " "</t>
+        <t>" " "serious" " "</t>
+        <t>" " "money" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (NP (NP (DT The) (ADJP (RBS most) (JJ illustrious)) (NN prince)) (CC and) (NP (NP (NNS princess)) (PP (IN for) (NP (DT all) (NN I))))) (VP (VBP care))) (: ...) (S (S (ADVP (RB Nevertheless)) (, ,) (PP (IN in) (NP (PRP$ my) (NNS eyes)))) (, ,) (NP (NP (DT the) (CD two)) (PP (IN of) (NP (PRP them)))) (VP (VBP remain) (NP (NP (NNS children)) (SBAR (WHNP (WP who)) (S (VP (VBP have) (ADVP (RB never)) (VP (VBN had) (S (VP (TO to) (VP (VB lift) (NP (DT a) (NN finger)) (PP (IN in) (NP (PRP$ their) (NNS lives) (S (VP (TO to) (VP (VB earn) (NP (JJ serious) (NN money))))))))))))))))) (. .)))</parse>
+      <deps>det(prince-5, The-2)
+advmod(illustrious-4, most-3)
+amod(prince-5, illustrious-4)
+nsubj(care-11, prince-5)
+conj_and(prince-5, princess-7)
+nsubj(care-11, princess-7)
+det(I-10, all-9)
+prep_for(princess-7, I-10)
+root(ROOT-0, care-11)
+advmod(in-15, Nevertheless-13)
+ccomp(children-24, in-15)
+poss(eyes-17, my-16)
+pobj(in-15, eyes-17)
+det(two-20, the-19)
+nsubj(children-24, two-20)
+prep_of(two-20, them-22)
+cop(children-24, remain-23)
+parataxis(care-11, children-24)
+nsubj(had-28, children-24)
+xsubj(lift-30, children-24)
+aux(had-28, have-26)
+neg(had-28, never-27)
+rcmod(children-24, had-28)
+aux(lift-30, to-29)
+xcomp(had-28, lift-30)
+det(finger-32, a-31)
+dobj(lift-30, finger-32)
+poss(lives-35, their-34)
+prep_in(lift-30, lives-35)
+aux(earn-37, to-36)
+infmod(lives-35, earn-37)
+amod(money-39, serious-38)
+dobj(earn-37, money-39)</deps>
+      <events>
+        <event id="e68" eiid="ei68" offset="23" string="remain" tense="PRESENT" aspect="NONE" class="STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e69" eiid="ei69" offset="30" string="lift" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="50" file="9783732586875_023.txt">
+      <sentence>Look , you 're typing and slaving away for your fifty cents a line ... '' `` Because it 's fun for me . ''</sentence>
+      <tokens>
+        <t>" " "Look" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "you" ""</t>
+        <t>"" "'re" " "</t>
+        <t>" " "typing" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "slaving" " "</t>
+        <t>" " "away" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "your" " "</t>
+        <t>" " "fifty" " "</t>
+        <t>" " "cents" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "line" " "</t>
+        <t>" " "..." ""</t>
+        <t>"" """ " "</t>
+        <t>" " """ ""</t>
+        <t>"" "Because" " "</t>
+        <t>" " "it" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "fun" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "me" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (S (VP (VB Look))) (, ,) (NP (PRP you)) (VP (VBP 're) (VP (VP (VBG typing)) (CC and) (VP (VBG slaving) (ADVP (RB away) (PP (IN for) (NP (PRP$ your) (JJ fifty) (NNS cents)))) (NP (DT a) (NN line)))))) (: ...) ('' '') (S (`` ``) (ADVP (RB Because)) (NP (PRP it)) (VP (VBZ 's) (NP (NP (NN fun)) (PP (IN for) (NP (PRP me)))))) (. .) ('' '')))</parse>
+      <deps>ccomp(typing-5, Look-1)
+nsubj(typing-5, you-3)
+nsubj(slaving-7, you-3)
+aux(typing-5, 're-4)
+root(ROOT-0, typing-5)
+conj_and(typing-5, slaving-7)
+advmod(slaving-7, away-8)
+poss(cents-12, your-10)
+amod(cents-12, fifty-11)
+prep_for(away-8, cents-12)
+det(line-14, a-13)
+dobj(slaving-7, line-14)
+advmod(fun-21, Because-18)
+nsubj(fun-21, it-19)
+cop(fun-21, 's-20)
+ccomp(typing-5, fun-21)
+parataxis(typing-5, fun-21)
+prep_for(fun-21, me-23)</deps>
+      <events>
+        <event id="e70" eiid="ei70" offset="5" string="typing" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e71" eiid="ei71" offset="7" string="slaving" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="51" file="9783732586875_023.txt">
+      <sentence>`` Fun or no fun , if you spent a week researching and working , you might be able to buy a pair of shoes for that money .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Fun" " "</t>
+        <t>" " "or" " "</t>
+        <t>" " "no" " "</t>
+        <t>" " "fun" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "if" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "spent" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "week" " "</t>
+        <t>" " "researching" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "working" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "might" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "able" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "buy" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "pair" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "shoes" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "money" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (NP (NP (NNP Fun)) (CC or) (NP (DT no) (NN fun))) (, ,) (SBAR (IN if) (S (NP (PRP you)) (VP (VBD spent) (NP (DT a) (NN week)) (S (VP (VBG researching) (CC and) (VBG working)))))) (, ,) (NP (PRP you)) (VP (MD might) (VP (VB be) (ADJP (JJ able) (S (VP (TO to) (VP (VB buy) (NP (NP (DT a) (NN pair)) (PP (IN of) (NP (NP (NNS shoes)) (PP (IN for) (NP (DT that) (NN money)))))))))))) (. .)))</parse>
+      <deps>nsubj(able-19, Fun-2)
+xsubj(buy-21, Fun-2)
+det(fun-5, no-4)
+conj_or(Fun-2, fun-5)
+nsubj(able-19, fun-5)
+xsubj(buy-21, fun-5)
+mark(spent-9, if-7)
+nsubj(spent-9, you-8)
+advcl(able-19, spent-9)
+det(week-11, a-10)
+tmod(spent-9, week-11)
+xcomp(spent-9, researching-12)
+xcomp(spent-9, working-14)
+conj_and(researching-12, working-14)
+nsubj(able-19, you-16)
+xsubj(buy-21, you-16)
+aux(able-19, might-17)
+cop(able-19, be-18)
+root(ROOT-0, able-19)
+aux(buy-21, to-20)
+xcomp(able-19, buy-21)
+det(pair-23, a-22)
+dobj(buy-21, pair-23)
+prep_of(pair-23, shoes-25)
+det(money-28, that-27)
+prep_for(shoes-25, money-28)</deps>
+      <events>
+        <event id="e72" eiid="ei72" offset="9" string="spent" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e73" eiid="ei73" offset="19" string="able" tense="NONE" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e74" eiid="ei74" offset="21" string="buy" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t5" text="a week" offset="10" length="2" type="DURATION" value="P1W" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="52" file="9783732586875_023.txt">
+      <sentence>Cheap shoes , mind you , not the kind your noble foot is used to .</sentence>
+      <tokens>
+        <t>" " "Cheap" " "</t>
+        <t>" " "shoes" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "mind" " "</t>
+        <t>" " "you" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "kind" " "</t>
+        <t>" " "your" " "</t>
+        <t>" " "noble" " "</t>
+        <t>" " "foot" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "used" " "</t>
+        <t>" " "to" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (JJ Cheap) (NNS shoes)) (, ,) (S (VP (VB mind) (NP (PRP you)))) (, ,) (NP (NP (RB not) (DT the) (NN kind)) (NP (PRP$ your) (JJ noble) (NN foot))) (VP (VBZ is) (VP (VBN used) (S (VP (TO to))))) (. .)))</parse>
+      <deps>amod(shoes-2, Cheap-1)
+nsubjpass(used-14, shoes-2)
+xsubj(to-15, shoes-2)
+ccomp(used-14, mind-4)
+dobj(mind-4, you-5)
+neg(kind-9, not-7)
+det(kind-9, the-8)
+nsubjpass(used-14, kind-9)
+xsubj(to-15, kind-9)
+poss(foot-12, your-10)
+amod(foot-12, noble-11)
+dep(kind-9, foot-12)
+auxpass(used-14, is-13)
+root(ROOT-0, used-14)
+xcomp(used-14, to-15)</deps>
+      <events>
+        <event id="e75" eiid="ei75" offset="4" string="mind" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e76" eiid="ei76" offset="14" string="used" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="53" file="9783732586875_023.txt">
+      <sentence>Alessandra , on the other hand , walks past a jewelry store and sees a piece of jewelry .</sentence>
+      <tokens>
+        <t>" " "Alessandra" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "other" " "</t>
+        <t>" " "hand" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "walks" " "</t>
+        <t>" " "past" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "jewelry" " "</t>
+        <t>" " "store" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "sees" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "piece" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "jewelry" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP Alessandra)) (, ,) (PP (IN on) (NP (DT the) (JJ other) (NN hand))) (, ,)) (VP (VP (VBZ walks) (PP (IN past) (NP (DT a) (NN jewelry) (NN store)))) (CC and) (VP (VBZ sees) (NP (NP (DT a) (NN piece)) (PP (IN of) (NP (NN jewelry)))))) (. .)))</parse>
+      <deps>nsubj(walks-8, Alessandra-1)
+nsubj(sees-14, Alessandra-1)
+det(hand-6, the-4)
+amod(hand-6, other-5)
+prep_on(Alessandra-1, hand-6)
+root(ROOT-0, walks-8)
+det(store-12, a-10)
+nn(store-12, jewelry-11)
+prep_past(walks-8, store-12)
+conj_and(walks-8, sees-14)
+det(piece-16, a-15)
+dobj(sees-14, piece-16)
+prep_of(piece-16, jewelry-18)</deps>
+      <events>
+        <event id="e77" eiid="ei77" offset="14" string="sees" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t6" text="past" offset="9" length="1" type="DATE" value="PAST_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="54" file="9783732586875_023.txt">
+      <sentence>She goes in and buys it .</sentence>
+      <tokens>
+        <t>" " "She" " "</t>
+        <t>" " "goes" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "buys" " "</t>
+        <t>" " "it" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP She)) (VP (VP (VBZ goes) (PRT (RP in))) (CC and) (VP (VBZ buys) (NP (PRP it)))) (. .)))</parse>
+      <deps>nsubj(goes-2, She-1)
+nsubj(buys-5, She-1)
+root(ROOT-0, goes-2)
+prt(goes-2, in-3)
+conj_and(goes-2, buys-5)
+dobj(buys-5, it-6)</deps>
+      <events>
+        <event id="e78" eiid="ei78" offset="2" string="goes" tense="PRESENT" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="55" file="9783732586875_023.txt">
+      <sentence>Just like that , no matter how expensive . ''</sentence>
+      <tokens>
+        <t>" " "Just" " "</t>
+        <t>" " "like" " "</t>
+        <t>" " "that" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "no" " "</t>
+        <t>" " "matter" " "</t>
+        <t>" " "how" " "</t>
+        <t>" " "expensive" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (VP (ADVP (RB Just)) (VB like) (NP (NP (DT that)) (, ,) (RRC (ADVP (DT no) (NN matter)) (ADJP (WHADVP (WRB how)) (JJ expensive))))) (. .) ('' '')))</parse>
+      <deps>advmod(like-2, Just-1)
+root(ROOT-0, like-2)
+dobj(like-2, that-3)
+det(matter-6, no-5)
+rcmod(that-3, matter-6)
+advmod(expensive-8, how-7)
+dep(matter-6, expensive-8)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="56" file="9783732586875_023.txt">
+      <sentence>`` And why would n't she , if the money is there ? ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "And" " "</t>
+        <t>" " "why" " "</t>
+        <t>" " "would" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "she" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "if" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "money" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "there" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (CC And) (NP (NNP why)) (VP (MD would) (RB n't) (S (NP (NP (PRP she)) (, ,) (SBAR (IN if) (S (NP (DT the) (NN money)) (VP (VBZ is) (ADVP (RB there)))))))) (. ?) ('' '')))</parse>
+      <deps>cc(would-4, And-2)
+nsubj(would-4, why-3)
+root(ROOT-0, would-4)
+neg(would-4, n't-5)
+dep(would-4, she-6)
+mark(is-11, if-8)
+det(money-10, the-9)
+nsubj(is-11, money-10)
+dep(she-6, is-11)
+advmod(is-11, there-12)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="57" file="9783732586875_023.txt">
+      <sentence>Now Paul pounded the table .</sentence>
+      <tokens>
+        <t>" " "Now" " "</t>
+        <t>" " "Paul" " "</t>
+        <t>" " "pounded" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "table" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (ADVP (RB Now)) (NP (NNP Paul)) (VP (VBZ pounded) (NP (DT the) (NN table))) (. .)))</parse>
+      <deps>advmod(pounded-3, Now-1)
+nsubj(pounded-3, Paul-2)
+root(ROOT-0, pounded-3)
+det(table-5, the-4)
+dobj(pounded-3, table-5)</deps>
+      <events>
+        <event id="e79" eiid="ei79" offset="3" string="pounded" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t7" text="Now" offset="1" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="58" file="9783732586875_023.txt">
+      <sentence>`` But it 's not there anymore !</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "But" " "</t>
+        <t>" " "it" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "there" " "</t>
+        <t>" " "anymore" ""</t>
+        <t>"" "!" " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (CC But) (NP (PRP it)) (VP (VBZ 's) (RB not) (NP (RB there)) (ADVP (RB anymore))) (. !)))</parse>
+      <deps>cc(there-6, But-2)
+nsubj(there-6, it-3)
+cop(there-6, 's-4)
+neg(there-6, not-5)
+root(ROOT-0, there-6)
+advmod(there-6, anymore-7)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="59" file="9783732586875_023.txt">
+      <sentence>It has n't been there for a long time !</sentence>
+      <tokens>
+        <t>" " "It" " "</t>
+        <t>" " "has" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "there" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "long" " "</t>
+        <t>" " "time" ""</t>
+        <t>"" "!" " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP It)) (VP (VBZ has) (RB n't) (VP (VBN been) (ADVP (RB there)) (PP (IN for) (NP (DT a) (JJ long) (NN time))))) (. !)))</parse>
+      <deps>nsubj(been-4, It-1)
+aux(been-4, has-2)
+neg(been-4, n't-3)
+root(ROOT-0, been-4)
+advmod(been-4, there-5)
+det(time-9, a-7)
+amod(time-9, long-8)
+prep_for(been-4, time-9)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="60" file="9783732586875_023.txt">
+      <sentence>That 's why they have to take out these loans that they want you to guarantee and that they can never pay back , because the cart 's already gone and they need their principal to cover the interest .</sentence>
+      <tokens>
+        <t>" " "That" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "why" " "</t>
+        <t>" " "they" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "take" " "</t>
+        <t>" " "out" " "</t>
+        <t>" " "these" " "</t>
+        <t>" " "loans" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "they" " "</t>
+        <t>" " "want" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "guarantee" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "they" " "</t>
+        <t>" " "can" " "</t>
+        <t>" " "never" " "</t>
+        <t>" " "pay" " "</t>
+        <t>" " "back" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "because" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "cart" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "already" " "</t>
+        <t>" " "gone" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "they" " "</t>
+        <t>" " "need" " "</t>
+        <t>" " "their" " "</t>
+        <t>" " "principal" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "cover" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "interest" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (DT That)) (VP (VBZ 's) (SBAR (WHADVP (WRB why)) (S (NP (PRP they)) (VP (VBP have) (S (VP (TO to) (VP (VB take) (PRT (RP out)) (NP (DT these) (NNS loans))))) (SBAR (SBAR (IN that) (S (NP (PRP they)) (VP (VBP want) (S (NP (PRP you)) (VP (TO to) (VP (VB guarantee))))))) (CC and) (SBAR (IN that) (S (NP (PRP they)) (VP (MD can) (ADVP (RB never)) (VP (VB pay) (ADVP (RB back))))))) (, ,) (SBAR (IN because) (S (NP (DT the) (NN cart)) (VP (VBZ 's) (ADVP (RB already)) (VP (VBN gone)))))))))) (CC and) (S (NP (PRP they)) (VP (VBP need) (NP (PRP$ their) (NN principal) (S (VP (TO to) (VP (VB cover) (NP (DT the) (NN interest)))))))) (. .)))</parse>
+      <deps>nsubj('s-2, That-1)
+root(ROOT-0, 's-2)
+advmod(have-5, why-3)
+nsubj(have-5, they-4)
+xsubj(take-7, they-4)
+advcl('s-2, have-5)
+aux(take-7, to-6)
+xcomp(have-5, take-7)
+prt(take-7, out-8)
+det(loans-10, these-9)
+dobj(take-7, loans-10)
+mark(want-13, that-11)
+nsubj(want-13, they-12)
+ccomp(have-5, want-13)
+nsubj(guarantee-16, you-14)
+aux(guarantee-16, to-15)
+xcomp(want-13, guarantee-16)
+mark(pay-22, that-18)
+nsubj(pay-22, they-19)
+aux(pay-22, can-20)
+neg(pay-22, never-21)
+ccomp(have-5, pay-22)
+conj_and(want-13, pay-22)
+advmod(pay-22, back-23)
+mark(gone-30, because-25)
+det(cart-27, the-26)
+nsubjpass(gone-30, cart-27)
+auxpass(gone-30, 's-28)
+advmod(gone-30, already-29)
+advcl(have-5, gone-30)
+nsubj(need-33, they-32)
+conj_and('s-2, need-33)
+poss(principal-35, their-34)
+dobj(need-33, principal-35)
+aux(cover-37, to-36)
+infmod(principal-35, cover-37)
+det(interest-39, the-38)
+dobj(cover-37, interest-39)</deps>
+      <events>
+        <event id="e80" eiid="ei80" offset="7" string="take" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e81" eiid="ei81" offset="13" string="want" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e82" eiid="ei82" offset="16" string="guarantee" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e83" eiid="ei83" offset="22" string="pay" tense="FUTURE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e84" eiid="ei84" offset="30" string="gone" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e85" eiid="ei85" offset="33" string="need" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e86" eiid="ei86" offset="37" string="cover" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="61" file="9783732586875_023.txt">
+      <sentence>You see : If your prince does n't win the lottery , he 's toast ! ''</sentence>
+      <tokens>
+        <t>" " "You" " "</t>
+        <t>" " "see" ""</t>
+        <t>"" ":" " "</t>
+        <t>" " "If" " "</t>
+        <t>" " "your" " "</t>
+        <t>" " "prince" " "</t>
+        <t>" " "does" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "win" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "lottery" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "he" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "toast" ""</t>
+        <t>"" "!" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (PRP You)) (VP (VBP see))) (: :) (S (SBAR (IN If) (S (NP (PRP$ your) (NN prince)) (VP (VBZ does) (RB n't) (VP (VB win) (NP (DT the) (NN lottery)))))) (, ,) (NP (PRP he)) (VP (VBZ 's) (NP (NN toast)))) (. !) ('' '')))</parse>
+      <deps>nsubj(see-2, You-1)
+root(ROOT-0, see-2)
+mark(win-9, If-4)
+poss(prince-6, your-5)
+nsubj(win-9, prince-6)
+aux(win-9, does-7)
+neg(win-9, n't-8)
+advcl(toast-15, win-9)
+det(lottery-11, the-10)
+dobj(win-9, lottery-11)
+nsubj(toast-15, he-13)
+cop(toast-15, 's-14)
+parataxis(see-2, toast-15)</deps>
+      <events>
+        <event id="e87" eiid="ei87" offset="9" string="win" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="62" file="9783732586875_023.txt">
+      <sentence>Leonie had gone pale , tears shimmering in her eyes again .</sentence>
+      <tokens>
+        <t>" " "Leonie" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "gone" " "</t>
+        <t>" " "pale" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "tears" " "</t>
+        <t>" " "shimmering" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "eyes" " "</t>
+        <t>" " "again" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (NNP Leonie)) (VP (VBD had) (VP (VBN gone) (S (ADJP (JJ pale)))))) (, ,) (NP (NNS tears)) (VP (VBD shimmering) (PP (IN in) (NP (PRP$ her) (NNS eyes))) (ADVP (RB again))) (. .)))</parse>
+      <deps>nsubj(gone-3, Leonie-1)
+aux(gone-3, had-2)
+ccomp(shimmering-7, gone-3)
+acomp(gone-3, pale-4)
+nsubj(shimmering-7, tears-6)
+root(ROOT-0, shimmering-7)
+poss(eyes-10, her-9)
+prep_in(shimmering-7, eyes-10)
+advmod(shimmering-7, again-11)</deps>
+      <events>
+        <event id="e88" eiid="ei88" offset="3" string="gone" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e89" eiid="ei89" offset="7" string="shimmering" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="63" file="9783732586875_023.txt">
+      <sentence>`` Are n't you judging a little too harshly , Paul ?</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Are" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "judging" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "little" " "</t>
+        <t>" " "too" " "</t>
+        <t>" " "harshly" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Paul" ""</t>
+        <t>"" "?" " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (VP (VBP Are) (RB n't) (NP (PRP you)) (S (VP (VBG judging) (NP (DT a) (ADJP (RB little) (RB too) (JJ harshly) (, ,)) (NNP Paul))))) (. ?)))</parse>
+      <deps>cop(you-4, Are-2)
+neg(you-4, n't-3)
+root(ROOT-0, you-4)
+xcomp(you-4, judging-5)
+det(Paul-11, a-6)
+advmod(harshly-9, little-7)
+advmod(harshly-9, too-8)
+amod(Paul-11, harshly-9)
+dobj(judging-5, Paul-11)</deps>
+      <events>
+        <event id="e90" eiid="ei90" offset="5" string="judging" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="64" file="9783732586875_023.txt">
+      <sentence>You were Julien 's friend once !</sentence>
+      <tokens>
+        <t>" " "You" " "</t>
+        <t>" " "were" " "</t>
+        <t>" " "Julien" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "friend" " "</t>
+        <t>" " "once" ""</t>
+        <t>"" "!" " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP You)) (VP (VBD were) (NP (NP (NNP Julien) (POS 's)) (NN friend)) (ADVP (RB once))) (. !)))</parse>
+      <deps>nsubj(friend-5, You-1)
+cop(friend-5, were-2)
+poss(friend-5, Julien-3)
+root(ROOT-0, friend-5)
+advmod(friend-5, once-6)</deps>
+      <events />
+      <timexes>
+        <timex tid="t8" text="once" offset="6" length="1" type="DATE" value="PAST_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="65" file="9783732586875_023.txt">
+      <sentence>I remember how he spoke of you with admiration . ''</sentence>
+      <tokens>
+        <t>" " "I" " "</t>
+        <t>" " "remember" " "</t>
+        <t>" " "how" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "spoke" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "admiration" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP I)) (VP (VBP remember) (SBAR (WHADVP (WRB how)) (S (NP (PRP he)) (VP (VBD spoke) (PP (IN of) (NP (PRP you))) (PP (IN with) (NP (NN admiration))))))) (. .) ('' '')))</parse>
+      <deps>nsubj(remember-2, I-1)
+root(ROOT-0, remember-2)
+advmod(spoke-5, how-3)
+nsubj(spoke-5, he-4)
+ccomp(remember-2, spoke-5)
+prep_of(spoke-5, you-7)
+prep_with(spoke-5, admiration-9)</deps>
+      <events>
+        <event id="e91" eiid="ei91" offset="5" string="spoke" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="66" file="9783732586875_023.txt">
+      <sentence>Unhappily she bowed her head .</sentence>
+      <tokens>
+        <t>" " "Unhappily" " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "bowed" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "head" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (ADVP (RB Unhappily)) (NP (PRP she)) (VP (VBD bowed) (NP (PRP$ her) (NN head))) (. .)))</parse>
+      <deps>advmod(bowed-3, Unhappily-1)
+nsubj(bowed-3, she-2)
+root(ROOT-0, bowed-3)
+poss(head-5, her-4)
+dobj(bowed-3, head-5)</deps>
+      <events>
+        <event id="e92" eiid="ei92" offset="3" string="bowed" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="67" file="9783732586875_023.txt">
+      <sentence>`` Sometimes I think it 's all my fault .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Sometimes" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "think" " "</t>
+        <t>" " "it" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "all" " "</t>
+        <t>" " "my" " "</t>
+        <t>" " "fault" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (ADVP (RB Sometimes)) (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (PRP it)) (VP (VBZ 's) (RB all) (NP (PRP$ my) (NN fault)))))) (. .)))</parse>
+      <deps>advmod(think-4, Sometimes-2)
+nsubj(think-4, I-3)
+root(ROOT-0, think-4)
+nsubj(fault-9, it-5)
+cop(fault-9, 's-6)
+advmod(fault-9, all-7)
+poss(fault-9, my-8)
+ccomp(think-4, fault-9)</deps>
+      <events>
+        <event id="e93" eiid="ei93" offset="4" string="think" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="68" file="9783732586875_023.txt">
+      <sentence>If I had n't married you , you would n't have broken up with Julien .</sentence>
+      <tokens>
+        <t>" " "If" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "had" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "married" " "</t>
+        <t>" " "you" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "would" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "broken" " "</t>
+        <t>" " "up" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "Julien" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (IN If) (S (NP (PRP I)) (VP (VBD had) (RB n't) (VP (VBN married) (NP (PRP you)))))) (, ,) (NP (PRP you)) (VP (MD would) (RB n't) (VP (VB have) (VP (VBN broken) (PRT (RP up)) (PP (IN with) (NP (NNP Julien)))))) (. .)))</parse>
+      <deps>mark(married-5, If-1)
+nsubj(married-5, I-2)
+aux(married-5, had-3)
+neg(married-5, n't-4)
+advcl(broken-12, married-5)
+dobj(married-5, you-6)
+nsubj(broken-12, you-8)
+aux(broken-12, would-9)
+neg(broken-12, n't-10)
+aux(broken-12, have-11)
+root(ROOT-0, broken-12)
+prt(broken-12, up-13)
+prep_with(broken-12, Julien-15)</deps>
+      <events>
+        <event id="e94" eiid="ei94" offset="5" string="married" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e95" eiid="ei95" offset="12" string="broken" tense="PRESENT" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="69" file="9783732586875_023.txt">
+      <sentence>Then you 'd still be his financial advisor , and Francoise Cosmetics might be a success , too .</sentence>
+      <tokens>
+        <t>" " "Then" " "</t>
+        <t>" " "you" ""</t>
+        <t>"" "'d" " "</t>
+        <t>" " "still" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "financial" " "</t>
+        <t>" " "advisor" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Francoise" " "</t>
+        <t>" " "Cosmetics" " "</t>
+        <t>" " "might" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "success" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "too" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (ADVP (RB Then)) (NP (PRP you)) (VP (MD 'd) (ADVP (RB still)) (VP (VB be) (NP (PRP$ his) (JJ financial) (NN advisor))))) (, ,) (CC and) (S (NP (NNP Francoise) (NNPS Cosmetics)) (VP (MD might) (VP (VB be) (NP (DT a) (NN success)) (, ,) (ADVP (RB too))))) (. .)))</parse>
+      <deps>advmod(advisor-8, Then-1)
+nsubj(advisor-8, you-2)
+aux(advisor-8, 'd-3)
+advmod(advisor-8, still-4)
+cop(advisor-8, be-5)
+poss(advisor-8, his-6)
+amod(advisor-8, financial-7)
+root(ROOT-0, advisor-8)
+nn(Cosmetics-12, Francoise-11)
+nsubj(success-16, Cosmetics-12)
+aux(success-16, might-13)
+cop(success-16, be-14)
+det(success-16, a-15)
+conj_and(advisor-8, success-16)
+advmod(success-16, too-18)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="70" file="9783732586875_023.txt">
+      <sentence>I ... I feel partly responsible for this bankruptcy , do you realize that ? ''</sentence>
+      <tokens>
+        <t>" " "I" " "</t>
+        <t>" " "..." " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "feel" " "</t>
+        <t>" " "partly" " "</t>
+        <t>" " "responsible" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "this" " "</t>
+        <t>" " "bankruptcy" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "do" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "realize" " "</t>
+        <t>" " "that" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP I)) (: ...) (NP (PRP I)) (VP (VBP feel) (ADJP (RB partly) (JJ responsible) (PP (IN for) (NP (DT this) (NN bankruptcy)))) (, ,) (S (VP (VB do) (S (NP (PRP you)) (VP (VB realize) (NP (DT that))))))) (. ?) ('' '')))</parse>
+      <deps>nsubj(feel-4, I-1)
+nsubj(feel-4, I-3)
+root(ROOT-0, feel-4)
+advmod(responsible-6, partly-5)
+acomp(feel-4, responsible-6)
+det(bankruptcy-9, this-8)
+prep_for(responsible-6, bankruptcy-9)
+ccomp(feel-4, do-11)
+nsubj(realize-13, you-12)
+ccomp(do-11, realize-13)
+dobj(realize-13, that-14)</deps>
+      <events>
+        <event id="e96" eiid="ei96" offset="4" string="feel" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e97" eiid="ei97" offset="6" string="responsible" tense="PRESENT" aspect="NONE" class="STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e98" eiid="ei98" offset="13" string="realize" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="71" file="9783732586875_023.txt">
+      <sentence>He shook his head .</sentence>
+      <tokens>
+        <t>" " "He" " "</t>
+        <t>" " "shook" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "head" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP He)) (VP (VBD shook) (NP (PRP$ his) (NN head))) (. .)))</parse>
+      <deps>nsubj(shook-2, He-1)
+root(ROOT-0, shook-2)
+poss(head-4, his-3)
+dobj(shook-2, head-4)</deps>
+      <events>
+        <event id="e99" eiid="ei99" offset="2" string="shook" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="72" file="9783732586875_023.txt">
+      <sentence>`` No , I do n't understand that .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "No" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "do" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "understand" " "</t>
+        <t>" " "that" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (INTJ (UH No)) (, ,) (NP (PRP I)) (VP (VBP do) (RB n't) (VP (VB understand) (NP (DT that)))) (. .)))</parse>
+      <deps>discourse(understand-7, No-2)
+nsubj(understand-7, I-4)
+aux(understand-7, do-5)
+neg(understand-7, n't-6)
+root(ROOT-0, understand-7)
+dobj(understand-7, that-8)</deps>
+      <events>
+        <event id="e100" eiid="ei100" offset="7" string="understand" tense="NONE" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="73" file="9783732586875_023.txt">
+      <sentence>Where did you get the idea that our marriage had anything to do with Julien and Alessandra 's insane spending ... '' `` Alessandra says ... '' `` I see , Alessandra ... What does dear Alessandra say ? ''</sentence>
+      <tokens>
+        <t>" " "Where" " "</t>
+        <t>" " "did" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "get" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "idea" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "our" " "</t>
+        <t>" " "marriage" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "anything" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "do" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "Julien" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Alessandra" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "insane" " "</t>
+        <t>" " "spending" " "</t>
+        <t>" " "..." ""</t>
+        <t>"" """ " "</t>
+        <t>" " """ ""</t>
+        <t>"" "Alessandra" " "</t>
+        <t>" " "says" ""</t>
+        <t>"" "..." ""</t>
+        <t>"" """ " "</t>
+        <t>" " """ ""</t>
+        <t>"" "I" " "</t>
+        <t>" " "see" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Alessandra" " "</t>
+        <t>" " "..." " "</t>
+        <t>" " "What" " "</t>
+        <t>" " "does" " "</t>
+        <t>" " "dear" " "</t>
+        <t>" " "Alessandra" " "</t>
+        <t>" " "say" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (SBARQ (WHADVP (WRB Where)) (SQ (VBD did) (NP (PRP you)) (VP (VB get) (NP (DT the) (NN idea)) (SBAR (IN that) (S (NP (PRP$ our) (NN marriage)) (VP (VBD had) (S (NP (NN anything)) (VP (TO to) (VP (VB do) (PP (IN with) (NP (NNP Julien)) (CC and) (NP (NP (NNP Alessandra) (POS 's)) (NP (FRAG (ADJP (JJ insane) (NN spending)) (: ...)))) ('' '')) (`` ``) (S (NP (NNP Alessandra)) (VP (VBZ says)) (. ...) ('' ''))))) (SBAR (`` ``) (S (NP (PRP I)) (VP (VBP see) (, ,) (NP (NP (NNP Alessandra)) (: ...) (SBARQ (WHNP (WP What)) (SQ (VBZ does) (NP (NNP dear) (NNP Alessandra)) (VP (VB say))) (. ?) ('' '')))))))))))))</parse>
+      <deps>advmod(get-4, Where-1)
+aux(get-4, did-2)
+nsubj(get-4, you-3)
+root(ROOT-0, get-4)
+det(idea-6, the-5)
+dobj(get-4, idea-6)
+mark(had-10, that-7)
+poss(marriage-9, our-8)
+nsubj(had-10, marriage-9)
+ccomp(get-4, had-10)
+nsubj(do-13, anything-11)
+aux(do-13, to-12)
+ccomp(had-10, do-13)
+xcomp(had-10, do-13)
+prep(do-13, with-14)
+pobj(with-14, Julien-15)
+prep(do-13, Alessandra-17)
+conj_and(with-14, Alessandra-17)
+pobj(with-14, Alessandra-17)
+dep(spending-20, insane-19)
+dep(Alessandra-17, spending-20)
+nsubj(says-25, Alessandra-24)
+ccomp(do-13, says-25)
+nsubj(see-30, I-29)
+ccomp(had-10, see-30)
+dobj(see-30, Alessandra-32)
+dobj(say-38, What-34)
+aux(say-38, does-35)
+nn(Alessandra-37, dear-36)
+nsubj(say-38, Alessandra-37)
+dep(Alessandra-32, say-38)</deps>
+      <events>
+        <event id="e101" eiid="ei101" offset="4" string="get" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e102" eiid="ei102" offset="13" string="do" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e103" eiid="ei103" offset="25" string="says" tense="PRESENT" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="74" file="9783732586875_023.txt">
+      <sentence>Leonie swallowed .</sentence>
+      <tokens>
+        <t>" " "Leonie" " "</t>
+        <t>" " "swallowed" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Leonie)) (VP (VBN swallowed)) (. .)))</parse>
+      <deps>nsubj(swallowed-2, Leonie-1)
+root(ROOT-0, swallowed-2)</deps>
+      <events>
+        <event id="e104" eiid="ei104" offset="2" string="swallowed" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="75" file="9783732586875_023.txt">
+      <sentence>`` I ... I would have driven a wedge between you and Julien . ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "I" " "</t>
+        <t>" " "..." " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "would" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "driven" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "wedge" " "</t>
+        <t>" " "between" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Julien" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (`` ``) (PRP I)) (: ...) (NP (PRP I)) (VP (MD would) (VP (VB have) (VP (VBN driven) (NP (NP (DT a) (NN wedge)) (PP (IN between) (NP (NP (PRP you)) (CC and) (NP (NNP Julien)))))))) (. .) ('' '')))</parse>
+      <deps>nsubj(driven-7, I-2)
+nsubj(driven-7, I-4)
+aux(driven-7, would-5)
+aux(driven-7, have-6)
+root(ROOT-0, driven-7)
+det(wedge-9, a-8)
+dobj(driven-7, wedge-9)
+prep_between(wedge-9, you-11)
+prep_between(wedge-9, Julien-13)
+conj_and(you-11, Julien-13)</deps>
+      <events>
+        <event id="e105" eiid="ei105" offset="7" string="driven" tense="NONE" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="76" file="9783732586875_023.txt">
+      <sentence>`` You ? ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "You" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (INTJ (`` ``) (UH You) (. ?) ('' '')))</parse>
+      <deps />
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="77" file="9783732586875_023.txt">
+      <sentence>Paul stared at his wife in disbelief .</sentence>
+      <tokens>
+        <t>" " "Paul" " "</t>
+        <t>" " "stared" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "wife" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "disbelief" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Paul)) (VP (VBD stared) (PP (IN at) (NP (PRP$ his) (NN wife))) (PP (IN in) (NP (NN disbelief)))) (. .)))</parse>
+      <deps>nsubj(stared-2, Paul-1)
+root(ROOT-0, stared-2)
+poss(wife-5, his-4)
+prep_at(stared-2, wife-5)
+prep_in(stared-2, disbelief-7)</deps>
+      <events>
+        <event id="e106" eiid="ei106" offset="2" string="stared" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="78" file="9783732586875_023.txt">
+      <sentence>`` And you 're thinking about this bullshit ?</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "And" " "</t>
+        <t>" " "you" ""</t>
+        <t>"" "'re" " "</t>
+        <t>" " "thinking" " "</t>
+        <t>" " "about" " "</t>
+        <t>" " "this" " "</t>
+        <t>" " "bullshit" ""</t>
+        <t>"" "?" " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (CC And) (NP (PRP you)) (VP (VBP 're) (VP (VBG thinking) (PP (IN about) (NP (DT this) (NN bullshit))))) (. ?)))</parse>
+      <deps>cc(thinking-5, And-2)
+nsubj(thinking-5, you-3)
+aux(thinking-5, 're-4)
+root(ROOT-0, thinking-5)
+det(bullshit-8, this-7)
+prep_about(thinking-5, bullshit-8)</deps>
+      <events>
+        <event id="e107" eiid="ei107" offset="5" string="thinking" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="79" file="9783732586875_023.txt">
+      <sentence>Alessandra and Julien are the culprits , they 're throwing money out the window , there 's nothing I could have done about that , even as their financial advisor . ''</sentence>
+      <tokens>
+        <t>" " "Alessandra" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Julien" " "</t>
+        <t>" " "are" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "culprits" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "they" ""</t>
+        <t>"" "'re" " "</t>
+        <t>" " "throwing" " "</t>
+        <t>" " "money" " "</t>
+        <t>" " "out" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "window" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "there" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "nothing" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "could" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "done" " "</t>
+        <t>" " "about" " "</t>
+        <t>" " "that" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "even" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "their" " "</t>
+        <t>" " "financial" " "</t>
+        <t>" " "advisor" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (NNP Alessandra) (CC and) (NNP Julien)) (VP (VBP are) (NP (DT the) (NNS culprits)))) (PRN (, ,) (S (NP (PRP they)) (VP (VBP 're) (VP (VBG throwing) (NP (NN money)) (PP (IN out) (NP (DT the) (NN window)))))) (, ,)) (S (NP (EX there)) (VP (VBZ 's) (NP (NP (NN nothing)) (SBAR (S (NP (PRP I)) (VP (MD could) (VP (VB have) (VP (VBN done) (PP (PP (IN about) (NP (DT that))) (, ,) (RB even) (PP (IN as) (NP (PRP$ their) (JJ financial) (NN advisor)))))))))))) (. .) ('' '')))</parse>
+      <deps>nsubj(culprits-6, Alessandra-1)
+conj_and(Alessandra-1, Julien-3)
+nsubj(culprits-6, Julien-3)
+cop(culprits-6, are-4)
+det(culprits-6, the-5)
+root(ROOT-0, culprits-6)
+nsubj(throwing-10, they-8)
+aux(throwing-10, 're-9)
+dep(culprits-6, throwing-10)
+dobj(throwing-10, money-11)
+det(window-14, the-13)
+prep_out(throwing-10, window-14)
+expl('s-17, there-16)
+ccomp(culprits-6, 's-17)
+parataxis(culprits-6, 's-17)
+nsubj('s-17, nothing-18)
+dobj(done-22, nothing-18)
+prep_about(done-22, nothing-18)
+nsubj(done-22, I-19)
+aux(done-22, could-20)
+aux(done-22, have-21)
+rcmod(nothing-18, done-22)
+dep(done-22, even-26)
+poss(advisor-30, their-28)
+amod(advisor-30, financial-29)
+prep_as(done-22, advisor-30)</deps>
+      <events>
+        <event id="e108" eiid="ei108" offset="10" string="throwing" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e109" eiid="ei109" offset="22" string="done" tense="NONE" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="80" file="9783732586875_023.txt">
+      <sentence>`` Could n't ... could n't you help them now ? ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Could" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "..." " "</t>
+        <t>" " "could" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "help" " "</t>
+        <t>" " "them" " "</t>
+        <t>" " "now" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (VP (VB Could) (RB n't)) (: ...)) (VP (MD could) (RB n't) (NP (PRP you)) (VP (VB help) (NP (PRP them)) (ADVP (RB now)))) (. ?) ('' '')))</parse>
+      <deps>csubj(help-8, Could-2)
+neg(Could-2, n't-3)
+aux(help-8, could-5)
+neg(help-8, n't-6)
+dobj(help-8, you-7)
+root(ROOT-0, help-8)
+dobj(help-8, them-9)
+advmod(help-8, now-10)</deps>
+      <events>
+        <event id="e110" eiid="ei110" offset="2" string="Could" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e111" eiid="ei111" offset="8" string="help" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t9" text="now" offset="10" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="81" file="9783732586875_023.txt">
+      <sentence>`` How ? ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "How" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (INTJ (`` ``) (UH How) (. ?) ('' '')))</parse>
+      <deps />
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="82" file="9783732586875_023.txt">
+      <sentence>She smiled tentatively .</sentence>
+      <tokens>
+        <t>" " "She" " "</t>
+        <t>" " "smiled" " "</t>
+        <t>" " "tentatively" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP She)) (VP (VBD smiled) (ADVP (RB tentatively))) (. .)))</parse>
+      <deps>nsubj(smiled-2, She-1)
+root(ROOT-0, smiled-2)
+advmod(smiled-2, tentatively-3)</deps>
+      <events>
+        <event id="e112" eiid="ei112" offset="2" string="smiled" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="83" file="9783732586875_023.txt">
+      <sentence>`` By trying to do damage control , for example .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "By" " "</t>
+        <t>" " "trying" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "do" " "</t>
+        <t>" " "damage" " "</t>
+        <t>" " "control" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "example" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (PP (IN By) (S (VP (VBG trying) (S (VP (TO to) (VP (VB do) (NP (NN damage)))))))) (VP (VBP control) (, ,) (PP (IN for) (NP (NN example)))) (. .)))</parse>
+      <deps>prepc_by(control-7, trying-3)
+aux(do-5, to-4)
+xcomp(trying-3, do-5)
+dobj(do-5, damage-6)
+root(ROOT-0, control-7)
+prep_for(control-7, example-10)</deps>
+      <events>
+        <event id="e113" eiid="ei113" offset="3" string="trying" tense="PRESPART" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e114" eiid="ei114" offset="5" string="do" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e115" eiid="ei115" offset="7" string="control" tense="NONE" aspect="NONE" class="STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="84" file="9783732586875_023.txt">
+      <sentence>You could counsel them , could n't you ? ''</sentence>
+      <tokens>
+        <t>" " "You" " "</t>
+        <t>" " "could" " "</t>
+        <t>" " "counsel" " "</t>
+        <t>" " "them" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "could" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "you" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (SINV (S (NP (PRP You)) (VP (MD could) (VP (VB counsel) (NP (PRP them))))) (, ,) (VP (MD could) (RB n't)) (NP (PRP you)) (. ?) ('' '')))</parse>
+      <deps>nsubj(counsel-3, You-1)
+aux(counsel-3, could-2)
+ccomp(could-6, counsel-3)
+dobj(counsel-3, them-4)
+root(ROOT-0, could-6)
+neg(could-6, n't-7)
+nsubj(could-6, you-8)</deps>
+      <events>
+        <event id="e116" eiid="ei116" offset="3" string="counsel" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="85" file="9783732586875_023.txt">
+      <sentence>Paul hesitated .</sentence>
+      <tokens>
+        <t>" " "Paul" " "</t>
+        <t>" " "hesitated" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Paul)) (VP (VBD hesitated)) (. .)))</parse>
+      <deps>nsubj(hesitated-2, Paul-1)
+root(ROOT-0, hesitated-2)</deps>
+      <events>
+        <event id="e117" eiid="ei117" offset="2" string="hesitated" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="86" file="9783732586875_023.txt">
+      <sentence>He had other plans than to deal with his former friend 's shattered finances .</sentence>
+      <tokens>
+        <t>" " "He" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "other" " "</t>
+        <t>" " "plans" " "</t>
+        <t>" " "than" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "deal" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "former" " "</t>
+        <t>" " "friend" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "shattered" " "</t>
+        <t>" " "finances" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP He)) (VP (VBD had) (NP (JJ other) (NNS plans)) (SBAR (IN than) (S (VP (TO to) (VP (VB deal) (PP (IN with) (NP (NP (PRP$ his) (JJ former) (NN friend) (POS 's)) (VBN shattered) (NNS finances)))))))) (. .)))</parse>
+      <deps>nsubj(had-2, He-1)
+xsubj(deal-7, He-1)
+root(ROOT-0, had-2)
+amod(plans-4, other-3)
+dobj(had-2, plans-4)
+mark(deal-7, than-5)
+aux(deal-7, to-6)
+advcl(had-2, deal-7)
+xcomp(had-2, deal-7)
+poss(friend-11, his-9)
+amod(friend-11, former-10)
+poss(finances-14, friend-11)
+amod(finances-14, shattered-13)
+prep_with(deal-7, finances-14)</deps>
+      <events>
+        <event id="e118" eiid="ei118" offset="7" string="deal" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="87" file="9783732586875_023.txt">
+      <sentence>But if it made Leonie happy ... He raised his head .</sentence>
+      <tokens>
+        <t>" " "But" " "</t>
+        <t>" " "if" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "made" " "</t>
+        <t>" " "Leonie" " "</t>
+        <t>" " "happy" " "</t>
+        <t>" " "..." " "</t>
+        <t>" " "He" " "</t>
+        <t>" " "raised" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "head" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (CC But) (SBAR (IN if) (S (NP (PRP it)) (VP (VBD made) (S (NP (NNP Leonie)) (ADJP (JJ happy)))))) (: ...) (NP (PRP He)) (VP (VBD raised) (NP (PRP$ his) (NN head))) (. .)))</parse>
+      <deps>cc(raised-9, But-1)
+mark(made-4, if-2)
+nsubj(made-4, it-3)
+advcl(raised-9, made-4)
+nsubj(happy-6, Leonie-5)
+xcomp(made-4, happy-6)
+nsubj(raised-9, He-8)
+root(ROOT-0, raised-9)
+poss(head-11, his-10)
+dobj(raised-9, head-11)</deps>
+      <events>
+        <event id="e119" eiid="ei119" offset="4" string="made" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e120" eiid="ei120" offset="9" string="raised" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="88" file="9783732586875_023.txt">
+      <sentence>`` All right , dear , I could advise him .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "All" " "</t>
+        <t>" " "right" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "dear" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "could" " "</t>
+        <t>" " "advise" " "</t>
+        <t>" " "him" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (NP (DT All) (NN right)) (, ,) (ADJP (RB dear)) (, ,) (NP (PRP I)) (VP (MD could) (VP (VB advise) (NP (PRP him)))) (. .)))</parse>
+      <deps>det(right-3, All-2)
+nsubj(advise-9, right-3)
+dep(advise-9, dear-5)
+nsubj(advise-9, I-7)
+aux(advise-9, could-8)
+root(ROOT-0, advise-9)
+dobj(advise-9, him-10)</deps>
+      <events>
+        <event id="e121" eiid="ei121" offset="9" string="advise" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="89" file="9783732586875_023.txt">
+      <sentence>But I tell you , I 'm doing it against my better judgment - because Julien only benefits from one thing : a rude awakening , so he realizes that even a Prince of Sablemer should learn arithmetic if he wants to do successful business . ''</sentence>
+      <tokens>
+        <t>" " "But" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "tell" " "</t>
+        <t>" " "you" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "I" ""</t>
+        <t>"" "'m" " "</t>
+        <t>" " "doing" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "against" " "</t>
+        <t>" " "my" " "</t>
+        <t>" " "better" " "</t>
+        <t>" " "judgment" " "</t>
+        <t>" " "-" " "</t>
+        <t>" " "because" " "</t>
+        <t>" " "Julien" " "</t>
+        <t>" " "only" " "</t>
+        <t>" " "benefits" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "one" " "</t>
+        <t>" " "thing" ""</t>
+        <t>"" ":" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "rude" " "</t>
+        <t>" " "awakening" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "so" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "realizes" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "even" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "Prince" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Sablemer" " "</t>
+        <t>" " "should" " "</t>
+        <t>" " "learn" " "</t>
+        <t>" " "arithmetic" " "</t>
+        <t>" " "if" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "wants" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "do" " "</t>
+        <t>" " "successful" " "</t>
+        <t>" " "business" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (CC But) (NP (PRP I)) (VP (VBP tell) (NP (PRP you)))) (PRN (, ,) (S (NP (PRP I)) (VP (VBP 'm) (VP (VBG doing) (NP (PRP it)) (PP (IN against) (NP (PRP$ my) (JJR better) (NN judgment))) (: -) (PP (IN because) (NP (NNP Julien))) (NP (NP (JJ only) (NNS benefits)) (PP (IN from) (NP (CD one) (NN thing))) (: :) (NP (DT a) (JJ rude) (NN awakening)))))) (, ,)) (IN so) (S (NP (PRP he)) (VP (VBZ realizes) (SBAR (IN that) (S (NP (NP (RB even) (DT a) (NNP Prince)) (PP (IN of) (NP (NNP Sablemer)))) (VP (MD should) (VP (VB learn) (NP (NN arithmetic)) (SBAR (IN if) (S (NP (PRP he)) (VP (VBZ wants) (S (VP (TO to) (VP (VB do) (NP (JJ successful) (NN business)))))))))))))) (. .) ('' '')))</parse>
+      <deps>cc(tell-3, But-1)
+nsubj(tell-3, I-2)
+root(ROOT-0, tell-3)
+dobj(tell-3, you-4)
+nsubj(doing-8, I-6)
+aux(doing-8, 'm-7)
+dep(tell-3, doing-8)
+dobj(doing-8, it-9)
+poss(judgment-13, my-11)
+amod(judgment-13, better-12)
+prep_against(doing-8, judgment-13)
+prep_because(doing-8, Julien-16)
+amod(benefits-18, only-17)
+dobj(doing-8, benefits-18)
+num(thing-21, one-20)
+prep_from(benefits-18, thing-21)
+det(awakening-25, a-23)
+amod(awakening-25, rude-24)
+dep(benefits-18, awakening-25)
+dep(tell-3, so-27)
+nsubj(realizes-29, he-28)
+ccomp(tell-3, realizes-29)
+parataxis(tell-3, realizes-29)
+mark(learn-37, that-30)
+advmod(Prince-33, even-31)
+det(Prince-33, a-32)
+nsubj(learn-37, Prince-33)
+prep_of(Prince-33, Sablemer-35)
+aux(learn-37, should-36)
+ccomp(realizes-29, learn-37)
+dobj(learn-37, arithmetic-38)
+mark(wants-41, if-39)
+nsubj(wants-41, he-40)
+xsubj(do-43, he-40)
+advcl(learn-37, wants-41)
+aux(do-43, to-42)
+xcomp(wants-41, do-43)
+amod(business-45, successful-44)
+dobj(do-43, business-45)</deps>
+      <events>
+        <event id="e122" eiid="ei122" offset="3" string="tell" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e123" eiid="ei123" offset="8" string="doing" tense="PRESENT" aspect="PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e124" eiid="ei124" offset="29" string="realizes" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e125" eiid="ei125" offset="37" string="learn" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e126" eiid="ei126" offset="41" string="wants" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e127" eiid="ei127" offset="43" string="do" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="90" file="9783732586875_023.txt">
+      <sentence>Leonie reached for his hand .</sentence>
+      <tokens>
+        <t>" " "Leonie" " "</t>
+        <t>" " "reached" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "hand" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Leonie)) (VP (VBD reached) (PP (IN for) (NP (PRP$ his) (NN hand)))) (. .)))</parse>
+      <deps>nsubj(reached-2, Leonie-1)
+root(ROOT-0, reached-2)
+poss(hand-5, his-4)
+prep_for(reached-2, hand-5)</deps>
+      <events>
+        <event id="e128" eiid="ei128" offset="2" string="reached" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="91" file="9783732586875_023.txt">
+      <sentence>`` Thank you . ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Thank" " "</t>
+        <t>" " "you" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (VP (VB Thank) (NP (PRP you))) (. .) ('' '')))</parse>
+      <deps>root(ROOT-0, Thank-2)
+dobj(Thank-2, you-3)</deps>
+      <events>
+        <event id="e129" eiid="ei129" offset="2" string="Thank" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="92" file="9783732586875_023.txt">
+      <sentence>`` Wait , I 'm not being entirely altruistic about this .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Wait" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "I" ""</t>
+        <t>"" "'m" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "being" " "</t>
+        <t>" " "entirely" " "</t>
+        <t>" " "altruistic" " "</t>
+        <t>" " "about" " "</t>
+        <t>" " "this" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (INTJ (UH Wait)) (, ,) (NP (PRP I)) (VP (VBP 'm) (RB not) (VP (VBG being) (ADJP (RB entirely) (JJ altruistic)) (PP (IN about) (NP (DT this))))) (. .)))</parse>
+      <deps>discourse(altruistic-9, Wait-2)
+nsubj(altruistic-9, I-4)
+aux(altruistic-9, 'm-5)
+neg(altruistic-9, not-6)
+cop(altruistic-9, being-7)
+advmod(altruistic-9, entirely-8)
+root(ROOT-0, altruistic-9)
+prep_about(altruistic-9, this-11)</deps>
+      <events>
+        <event id="e130" eiid="ei130" offset="9" string="altruistic" tense="NONE" aspect="NONE" class="STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="93" file="9783732586875_023.txt">
+      <sentence>If I do you this favor , I have a price for it : I want you to stay away from them in the future when they have problems .</sentence>
+      <tokens>
+        <t>" " "If" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "do" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "this" " "</t>
+        <t>" " "favor" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "price" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "it" ""</t>
+        <t>"" ":" " "</t>
+        <t>" " "I" " "</t>
+        <t>" " "want" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "stay" " "</t>
+        <t>" " "away" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "them" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "future" " "</t>
+        <t>" " "when" " "</t>
+        <t>" " "they" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "problems" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (SBAR (IN If) (S (NP (PRP I)) (VP (VBP do) (S (NP (PRP you)) (NP (DT this) (NN favor)))))) (, ,) (NP (PRP I)) (VP (VBP have) (NP (NP (DT a) (NN price)) (PP (IN for) (NP (PRP it)))))) (: :) (S (NP (PRP I)) (VP (VBP want) (S (NP (PRP you)) (VP (TO to) (VP (VB stay) (PRT (RP away)) (PP (IN from) (NP (NP (PRP them)) (PP (IN in) (NP (DT the) (NN future))))) (SBAR (WHADVP (WRB when)) (S (NP (PRP they)) (VP (VBP have) (NP (NNS problems)))))))))) (. .)))</parse>
+      <deps>mark(do-3, If-1)
+nsubj(do-3, I-2)
+advcl(have-9, do-3)
+nsubj(favor-6, you-4)
+det(favor-6, this-5)
+xcomp(do-3, favor-6)
+nsubj(have-9, I-8)
+root(ROOT-0, have-9)
+det(price-11, a-10)
+dobj(have-9, price-11)
+prep_for(price-11, it-13)
+nsubj(want-16, I-15)
+parataxis(have-9, want-16)
+nsubj(stay-19, you-17)
+aux(stay-19, to-18)
+xcomp(want-16, stay-19)
+prep_away_from(stay-19, them-22)
+det(future-25, the-24)
+prep_in(them-22, future-25)
+advmod(have-28, when-26)
+nsubj(have-28, they-27)
+advcl(stay-19, have-28)
+dobj(have-28, problems-29)</deps>
+      <events>
+        <event id="e131" eiid="ei131" offset="3" string="do" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e132" eiid="ei132" offset="16" string="want" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e133" eiid="ei133" offset="19" string="stay" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t10" text="the future" offset="24" length="2" type="DATE" value="FUTURE_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="94" file="9783732586875_023.txt">
+      <sentence>Do you understand ? ''</sentence>
+      <tokens>
+        <t>" " "Do" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "understand" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (VP (VB Do) (S (NP (PRP you)) (VP (VB understand)))) (. ?) ('' '')))</parse>
+      <deps>root(ROOT-0, Do-1)
+nsubj(understand-3, you-2)
+ccomp(Do-1, understand-3)</deps>
+      <events>
+        <event id="e134" eiid="ei134" offset="3" string="understand" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="95" file="9783732586875_023.txt">
+      <sentence>`` Will you help Julien ? ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Will" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "help" " "</t>
+        <t>" " "Julien" ""</t>
+        <t>"" "?" ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (FRAG (`` ``) (NP (NP (NNP Will)) (SBAR (S (NP (PRP you)) (VP (VBP help) (NP (NNP Julien)))))) (. ?) ('' '')))</parse>
+      <deps>root(ROOT-0, Will-2)
+nsubj(help-4, you-3)
+rcmod(Will-2, help-4)
+dobj(help-4, Julien-5)</deps>
+      <events>
+        <event id="e135" eiid="ei135" offset="4" string="help" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="96" file="9783732586875_023.txt">
+      <sentence>she made sure .</sentence>
+      <tokens>
+        <t>" " "she" " "</t>
+        <t>" " "made" " "</t>
+        <t>" " "sure" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP she)) (VP (VBD made) (ADJP (JJ sure))) (. .)))</parse>
+      <deps>nsubj(made-2, she-1)
+root(ROOT-0, made-2)
+acomp(made-2, sure-3)</deps>
+      <events>
+        <event id="e136" eiid="ei136" offset="2" string="made" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="97" file="9783732586875_023.txt">
+      <sentence>`` Yes . ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Yes" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (INTJ (`` ``) (UH Yes) (. .) ('' '')))</parse>
+      <deps />
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="98" file="9783732586875_023.txt">
+      <sentence>`` Then I 'll be happy to promise . ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Then" " "</t>
+        <t>" " "I" ""</t>
+        <t>"" "'ll" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "happy" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "promise" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (ADVP (RB Then)) (NP (PRP I)) (VP (MD 'll) (VP (VB be) (ADJP (JJ happy) (S (VP (TO to) (VP (VB promise))))))) (. .) ('' '')))</parse>
+      <deps>advmod(happy-6, Then-2)
+nsubj(happy-6, I-3)
+xsubj(promise-8, I-3)
+aux(happy-6, 'll-4)
+cop(happy-6, be-5)
+root(ROOT-0, happy-6)
+aux(promise-8, to-7)
+xcomp(happy-6, promise-8)</deps>
+      <events>
+        <event id="e137" eiid="ei137" offset="6" string="happy" tense="NONE" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e138" eiid="ei138" offset="8" string="promise" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="99" file="9783732586875_023.txt">
+      <sentence>Leonie beamed at her husband .</sentence>
+      <tokens>
+        <t>" " "Leonie" " "</t>
+        <t>" " "beamed" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "husband" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Leonie)) (VP (VBN beamed) (PP (IN at) (NP (PRP$ her) (NN husband)))) (. .)))</parse>
+      <deps>nsubj(beamed-2, Leonie-1)
+root(ROOT-0, beamed-2)
+poss(husband-5, her-4)
+prep_at(beamed-2, husband-5)</deps>
+      <events>
+        <event id="e139" eiid="ei139" offset="2" string="beamed" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="100" file="9783732586875_023.txt">
+      <sentence>At that moment , she could have fallen in love with him .</sentence>
+      <tokens>
+        <t>" " "At" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "moment" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "could" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "fallen" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "love" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "him" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (PP (IN At) (NP (DT that) (NN moment))) (, ,) (NP (PRP she)) (VP (MD could) (VP (VB have) (VP (VBN fallen) (PP (IN in) (NP (NN love))) (PP (IN with) (NP (PRP him)))))) (. .)))</parse>
+      <deps>det(moment-3, that-2)
+prep_at(fallen-8, moment-3)
+nsubj(fallen-8, she-5)
+aux(fallen-8, could-6)
+aux(fallen-8, have-7)
+root(ROOT-0, fallen-8)
+prep_in(fallen-8, love-10)
+prep_with(fallen-8, him-12)</deps>
+      <events>
+        <event id="e140" eiid="ei140" offset="8" string="fallen" tense="NONE" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="101" file="9783732586875_023.txt">
+      <sentence>Although sometimes she felt that she had been in love with him for a long time .</sentence>
+      <tokens>
+        <t>" " "Although" " "</t>
+        <t>" " "sometimes" " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "felt" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "love" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "him" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "long" " "</t>
+        <t>" " "time" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (IN Although) (S (ADVP (RB sometimes)) (NP (PRP she)) (VP (VBD felt) (SBAR (IN that) (S (NP (PRP she)) (VP (VBD had) (VP (VBN been) (PP (IN in))))))))) (VP (VBP love) (PP (IN with) (NP (PRP him))) (PP (IN for) (NP (DT a) (JJ long) (NN time)))) (. .)))</parse>
+      <deps>mark(felt-4, Although-1)
+advmod(felt-4, sometimes-2)
+nsubj(felt-4, she-3)
+csubj(love-10, felt-4)
+mark(been-8, that-5)
+nsubj(been-8, she-6)
+aux(been-8, had-7)
+ccomp(felt-4, been-8)
+prep(been-8, in-9)
+root(ROOT-0, love-10)
+prep_with(love-10, him-12)
+det(time-16, a-14)
+amod(time-16, long-15)
+prep_for(love-10, time-16)</deps>
+      <events>
+        <event id="e141" eiid="ei141" offset="4" string="felt" tense="PAST" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="102" file="9783732586875_023.txt">
+      <sentence>Living with Paul was pleasant and beautiful .</sentence>
+      <tokens>
+        <t>" " "Living" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "Paul" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "pleasant" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "beautiful" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (VP (VBG Living) (PP (IN with) (NP (NNP Paul))))) (VP (VBD was) (ADJP (JJ pleasant) (CC and) (JJ beautiful))) (. .)))</parse>
+      <deps>csubj(pleasant-5, Living-1)
+csubj(beautiful-7, Living-1)
+prep_with(Living-1, Paul-3)
+cop(pleasant-5, was-4)
+root(ROOT-0, pleasant-5)
+conj_and(pleasant-5, beautiful-7)</deps>
+      <events>
+        <event id="e142" eiid="ei142" offset="1" string="Living" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="103" file="9783732586875_023.txt">
+      <sentence>And if he now also granted her this great wish of her heart ... `` Thank you , '' she said again .</sentence>
+      <tokens>
+        <t>" " "And" " "</t>
+        <t>" " "if" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "now" " "</t>
+        <t>" " "also" " "</t>
+        <t>" " "granted" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "this" " "</t>
+        <t>" " "great" " "</t>
+        <t>" " "wish" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "heart" " "</t>
+        <t>" " "..." " "</t>
+        <t>" " """ ""</t>
+        <t>"" "Thank" " "</t>
+        <t>" " "you" ""</t>
+        <t>"" "," ""</t>
+        <t>"" """ " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "again" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (CC And) (SBAR (IN if) (S (NP (PRP he)) (ADVP (RB now)) (ADVP (RB also)) (VP (VBN granted) (S (NP (PRP her)) (NP (NP (DT this) (JJ great) (NN wish)) (PP (IN of) (NP (PRP$ her) (NN heart)))))))) (: ...) (`` ``) (S (VP (VB Thank) (NP (PRP you)))) (, ,) ('' '') (NP (PRP she)) (VP (VBD said) (ADVP (RB again))) (. .)))</parse>
+      <deps>cc(said-21, And-1)
+mark(granted-6, if-2)
+nsubj(granted-6, he-3)
+advmod(granted-6, now-4)
+advmod(granted-6, also-5)
+advcl(said-21, granted-6)
+nsubj(wish-10, her-7)
+det(wish-10, this-8)
+amod(wish-10, great-9)
+xcomp(granted-6, wish-10)
+poss(heart-13, her-12)
+prep_of(wish-10, heart-13)
+ccomp(said-21, Thank-16)
+dobj(Thank-16, you-17)
+nsubj(said-21, she-20)
+root(ROOT-0, said-21)
+advmod(said-21, again-22)</deps>
+      <events>
+        <event id="e143" eiid="ei143" offset="6" string="granted" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e144" eiid="ei144" offset="16" string="Thank" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e145" eiid="ei145" offset="21" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t11" text="now" offset="4" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="104" file="9783732586875_023.txt">
+      <sentence>He smiled and unfolded his napkin .</sentence>
+      <tokens>
+        <t>" " "He" " "</t>
+        <t>" " "smiled" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "unfolded" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "napkin" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP He)) (VP (VP (VBD smiled)) (CC and) (VP (VBD unfolded) (NP (PRP$ his) (NN napkin)))) (. .)))</parse>
+      <deps>nsubj(smiled-2, He-1)
+nsubj(unfolded-4, He-1)
+root(ROOT-0, smiled-2)
+conj_and(smiled-2, unfolded-4)
+poss(napkin-6, his-5)
+dobj(unfolded-4, napkin-6)</deps>
+      <events>
+        <event id="e146" eiid="ei146" offset="2" string="smiled" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e147" eiid="ei147" offset="4" string="unfolded" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="105" file="9783732586875_023.txt">
+      <sentence>`` Then all is well again , dear .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "Then" " "</t>
+        <t>" " "all" " "</t>
+        <t>" " "is" " "</t>
+        <t>" " "well" " "</t>
+        <t>" " "again" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "dear" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (ADVP (RB Then)) (NP (DT all)) (VP (VBZ is) (ADVP (RB well)) (ADVP (RB again)) (, ,) (ADJP (RB dear))) (. .)))</parse>
+      <deps>advmod(dear-8, Then-2)
+nsubj(dear-8, all-3)
+cop(dear-8, is-4)
+advmod(dear-8, well-5)
+advmod(dear-8, again-6)
+root(ROOT-0, dear-8)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="106" file="9783732586875_023.txt">
+      <sentence>Now , let Martha come in .</sentence>
+      <tokens>
+        <t>" " "Now" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "let" " "</t>
+        <t>" " "Martha" " "</t>
+        <t>" " "come" " "</t>
+        <t>" " "in" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (INTJ (RB Now)) (, ,) (VP (VB let) (S (NP (NNP Martha)) (VP (VB come) (PRT (RP in))))) (. .)))</parse>
+      <deps>discourse(let-3, Now-1)
+root(ROOT-0, let-3)
+nsubj(come-5, Martha-4)
+ccomp(let-3, come-5)
+prt(come-5, in-6)</deps>
+      <events>
+        <event id="e148" eiid="ei148" offset="5" string="come" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t12" text="Now" offset="1" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="107" file="9783732586875_023.txt">
+      <sentence>I think the good soul has been standing outside the door for five minutes with the tureens and does n't dare come in . ''</sentence>
+      <tokens>
+        <t>" " "I" " "</t>
+        <t>" " "think" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "good" " "</t>
+        <t>" " "soul" " "</t>
+        <t>" " "has" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "standing" " "</t>
+        <t>" " "outside" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "door" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "five" " "</t>
+        <t>" " "minutes" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "tureens" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "does" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "dare" " "</t>
+        <t>" " "come" " "</t>
+        <t>" " "in" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ ""</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP I)) (VP (VBP think) (SBAR (S (NP (DT the) (JJ good) (NN soul)) (VP (VP (VBZ has) (VP (VBN been) (VP (VBG standing) (PP (IN outside) (NP (NP (DT the) (NN door)) (PP (IN for) (NP (NP (CD five) (NNS minutes)) (PP (IN with) (NP (DT the) (NNS tureens)))))))))) (CC and) (VP (VBZ does) (RB n't) (VP (VB dare) (VP (VBN come) (PP (IN in))))))))) (. .) ('' '')))</parse>
+      <deps>nsubj(think-2, I-1)
+root(ROOT-0, think-2)
+det(soul-5, the-3)
+amod(soul-5, good-4)
+nsubj(standing-8, soul-5)
+nsubj(dare-21, soul-5)
+aux(standing-8, has-6)
+aux(standing-8, been-7)
+ccomp(think-2, standing-8)
+det(door-11, the-10)
+prep_outside(standing-8, door-11)
+num(minutes-14, five-13)
+prep_for(door-11, minutes-14)
+det(tureens-17, the-16)
+prep_with(minutes-14, tureens-17)
+aux(dare-21, does-19)
+neg(dare-21, n't-20)
+ccomp(think-2, dare-21)
+conj_and(standing-8, dare-21)
+dep(dare-21, come-22)
+prep(come-22, in-23)</deps>
+      <events>
+        <event id="e149" eiid="ei149" offset="2" string="think" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e150" eiid="ei150" offset="8" string="standing" tense="PRESENT" aspect="PERFECTIVE_PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e151" eiid="ei151" offset="21" string="dare" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t13" text="five minutes" offset="13" length="2" type="DURATION" value="PT5M" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <tlink event1="ei25" event2="t1" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei27" event2="t3" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei27" event2="t4" relation="VAGUE" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei72" event2="t5" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei79" event2="t7" relation="VAGUE" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei111" event2="t9" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei143" event2="t11" relation="VAGUE" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei145" event2="ei143" relation="AFTER" closed="false" origin="RepEventGovEvent" type="ee" />
+    <tlink event1="ei3" event2="ei4" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei4" event2="ei6" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei33" event2="ei35" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei33" event2="ei36" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei37" event2="ei40" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei38" event2="ei40" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei40" event2="ei41" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei47" event2="ei49" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei47" event2="ei50" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei49" event2="ei52" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei50" event2="ei52" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei81" event2="ei83" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei83" event2="ei84" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei83" event2="ei85" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei88" event2="ei89" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei94" event2="ei95" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei104" event2="ei105" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei110" event2="ei111" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei116" event2="ei117" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei119" event2="ei121" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei120" event2="ei121" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei121" event2="ei122" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei121" event2="ei124" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei121" event2="ei126" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei122" event2="ei125" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei124" event2="ei125" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei125" event2="ei126" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei125" event2="ei128" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei139" event2="ei140" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei140" event2="ei141" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei1" event2="ei2" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei6" event2="ei7" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei7" event2="ei8" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei9" event2="ei10" relation="IS_INCLUDED" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei17" event2="ei18" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei17" event2="ei19" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei18" event2="ei19" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei20" event2="ei21" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei26" event2="ei25" relation="AFTER" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei29" event2="ei30" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei38" event2="ei39" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei41" event2="ei42" relation="SIMULTANEOUS" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei48" event2="ei49" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei55" event2="ei56" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei70" event2="ei71" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei73" event2="ei74" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei76" event2="ei75" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei81" event2="ei82" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei102" event2="ei103" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei113" event2="ei114" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei122" event2="ei124" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei126" event2="ei127" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei132" event2="ei133" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei137" event2="ei138" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei145" event2="ei144" relation="IS_INCLUDED" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei146" event2="ei147" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei149" event2="ei150" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei150" event2="ei151" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei4" event2="ei7" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei40" event2="ei42" relation="AFTER" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei6" event2="ei8" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei4" event2="ei8" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei13" event2="ei14" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei39" event2="ei40" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei41" event2="ei43" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei51" event2="ei53" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei54" event2="ei56" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei80" event2="ei85" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei81" event2="ei85" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei123" event2="ei127" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei26" event2="t1" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei25" event2="t2" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei26" event2="t2" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei73" event2="t5" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei74" event2="t5" relation="AFTER" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei77" event2="t6" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei110" event2="t9" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei131" event2="t10" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei132" event2="t10" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei133" event2="t10" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei144" event2="t11" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei145" event2="t11" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei148" event2="t12" relation="INCLUDES" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei149" event2="t13" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei150" event2="t13" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei151" event2="t13" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei72" event2="ei74" relation="BEFORE" closed="true" origin="MLEventTimeSameSent" type="ee" />
+    <tlink event1="ei11" event2="ei12" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei15" event2="ei16" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei22" event2="ei23" relation="INCLUDES" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei34" event2="ei35" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei46" event2="ei47" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei55" event2="ei57" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei56" event2="ei57" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei60" event2="ei61" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei64" event2="ei65" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei68" event2="ei69" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei85" event2="ei86" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei96" event2="ei97" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei96" event2="ei98" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei101" event2="ei102" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei101" event2="ei103" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei124" event2="ei126" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei124" event2="ei127" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei125" event2="ei127" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei149" event2="ei151" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei22" event2="ei24" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei23" event2="ei24" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei34" event2="ei36" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei35" event2="ei36" relation="INCLUDES" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei38" event2="ei41" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei38" event2="ei42" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei39" event2="ei41" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei39" event2="ei42" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei45" event2="ei46" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei45" event2="ei47" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei48" event2="ei50" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei49" event2="ei50" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei51" event2="ei52" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei55" event2="ei58" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei56" event2="ei58" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei57" event2="ei58" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei60" event2="ei62" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei61" event2="ei62" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei64" event2="ei66" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei64" event2="ei67" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei65" event2="ei66" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei65" event2="ei67" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei66" event2="ei67" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei72" event2="ei73" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei80" event2="ei81" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei80" event2="ei82" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei80" event2="ei83" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei80" event2="ei84" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei80" event2="ei86" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei81" event2="ei84" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei81" event2="ei86" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei82" event2="ei83" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei82" event2="ei84" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei82" event2="ei85" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei82" event2="ei86" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei83" event2="ei86" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei84" event2="ei85" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei84" event2="ei86" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei97" event2="ei98" relation="INCLUDES" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei108" event2="ei109" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei113" event2="ei115" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei114" event2="ei115" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei119" event2="ei120" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei122" event2="ei123" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei122" event2="ei126" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei122" event2="ei127" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei123" event2="ei124" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei123" event2="ei125" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei123" event2="ei126" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei131" event2="ei132" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei131" event2="ei133" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei143" event2="ei144" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei18" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei18" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei19" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei19" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei20" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei20" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei20" event2="ei24" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei21" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei21" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei21" event2="ei24" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei22" event2="ei25" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei22" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei22" event2="t1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei22" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei23" event2="ei25" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei23" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei23" event2="t1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei23" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei24" event2="ei25" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei24" event2="ei26" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei24" event2="t1" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei24" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei25" event2="ei27" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei25" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei25" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei26" event2="ei27" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei26" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei26" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t1" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t1" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t1" event2="ei27" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t2" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t2" event2="ei27" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei27" event2="ei28" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t3" event2="t4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t3" event2="ei28" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t4" event2="ei28" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei31" event2="ei32" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei32" event2="ei33" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei33" event2="ei34" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei34" event2="ei37" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei35" event2="ei37" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei36" event2="ei37" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei37" event2="ei38" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei37" event2="ei39" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei37" event2="ei41" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei37" event2="ei42" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei38" event2="ei43" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei39" event2="ei43" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei40" event2="ei43" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei42" event2="ei43" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei43" event2="ei44" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei45" event2="ei48" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei45" event2="ei49" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei45" event2="ei50" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei46" event2="ei48" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei46" event2="ei49" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei46" event2="ei50" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei47" event2="ei48" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei48" event2="ei51" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei48" event2="ei52" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei49" event2="ei51" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei50" event2="ei51" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei52" event2="ei53" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei54" event2="ei55" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei54" event2="ei57" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei54" event2="ei58" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei59" event2="ei60" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei59" event2="ei61" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei59" event2="ei62" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei60" event2="ei63" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei61" event2="ei63" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei62" event2="ei63" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei63" event2="ei64" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei63" event2="ei65" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei63" event2="ei66" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei63" event2="ei67" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei64" event2="ei68" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei64" event2="ei69" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei65" event2="ei68" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei65" event2="ei69" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei66" event2="ei68" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei66" event2="ei69" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei67" event2="ei68" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei67" event2="ei69" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei68" event2="ei70" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei68" event2="ei71" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei69" event2="ei70" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei69" event2="ei71" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei70" event2="ei72" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei70" event2="ei73" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei70" event2="ei74" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei70" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei71" event2="ei72" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei71" event2="ei73" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei71" event2="ei74" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei71" event2="t5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei72" event2="ei75" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei72" event2="ei76" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei73" event2="ei75" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei73" event2="ei76" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei74" event2="ei75" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei74" event2="ei76" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t5" event2="ei75" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t5" event2="ei76" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei75" event2="ei77" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei75" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei76" event2="ei77" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei76" event2="t6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei77" event2="ei78" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t6" event2="ei78" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei80" event2="ei87" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei81" event2="ei87" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei82" event2="ei87" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei83" event2="ei87" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei84" event2="ei87" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei85" event2="ei87" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei86" event2="ei87" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei87" event2="ei88" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei87" event2="ei89" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei88" event2="ei90" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei89" event2="ei90" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei90" event2="t8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t8" event2="ei91" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei91" event2="ei92" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei92" event2="ei93" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei93" event2="ei94" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei93" event2="ei95" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei96" event2="ei99" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei97" event2="ei99" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei98" event2="ei99" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei99" event2="ei100" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei100" event2="ei101" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei100" event2="ei102" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei100" event2="ei103" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei101" event2="ei104" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei102" event2="ei104" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei103" event2="ei104" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei106" event2="ei107" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei107" event2="ei108" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei107" event2="ei109" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei108" event2="ei110" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei108" event2="ei111" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei108" event2="t9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei109" event2="ei110" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei109" event2="ei111" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei109" event2="t9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei112" event2="ei113" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei112" event2="ei114" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei112" event2="ei115" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei113" event2="ei116" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei114" event2="ei116" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei115" event2="ei116" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei117" event2="ei118" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei118" event2="ei119" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei118" event2="ei120" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei121" event2="ei123" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei121" event2="ei125" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei121" event2="ei127" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei122" event2="ei128" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei123" event2="ei128" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei124" event2="ei128" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei126" event2="ei128" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei127" event2="ei128" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei128" event2="ei129" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei129" event2="ei130" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei130" event2="ei131" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei130" event2="ei132" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei130" event2="ei133" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei130" event2="t10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei131" event2="ei134" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei132" event2="ei134" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei133" event2="ei134" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t10" event2="ei134" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei134" event2="ei135" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei135" event2="ei136" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei137" event2="ei139" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei138" event2="ei139" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei141" event2="ei142" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei142" event2="ei143" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei142" event2="ei144" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei142" event2="ei145" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei142" event2="t11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei143" event2="ei146" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei143" event2="ei147" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei144" event2="ei146" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei144" event2="ei147" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei145" event2="ei146" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei145" event2="ei147" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t11" event2="ei146" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t11" event2="ei147" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei148" event2="ei149" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei148" event2="ei150" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei148" event2="ei151" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei148" event2="t13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t12" event2="t13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t12" event2="ei149" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t12" event2="ei150" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t12" event2="ei151" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+

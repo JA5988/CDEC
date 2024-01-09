@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732517695_033.txt">
+    <entry sid="0" file="9783732517695_033.txt">
+      <sentence>The next day he left earlier than he had intended .</sentence>
+      <tokens>
+        <t>"" "The" " "</t>
+        <t>" " "next" " "</t>
+        <t>" " "day" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "left" " "</t>
+        <t>" " "earlier" " "</t>
+        <t>" " "than" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "intended" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (JJ next) (NN day)) (NP (PRP he)) (VP (VBD left) (ADVP (RBR earlier)) (SBAR (IN than) (S (NP (PRP he)) (VP (VBD had) (VP (VBN intended)))))) (. .)))</parse>
+      <deps>det(day-3, The-1)
+amod(day-3, next-2)
+tmod(left-5, day-3)
+nsubj(left-5, he-4)
+root(ROOT-0, left-5)
+advmod(left-5, earlier-6)
+mark(intended-10, than-7)
+nsubj(intended-10, he-8)
+aux(intended-10, had-9)
+advcl(left-5, intended-10)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="5" string="left" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e2" eiid="ei2" offset="10" string="intended" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="day" offset="3" length="1" type="DURATION" value="P1D" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="9783732517695_033.txt">
+      <sentence>He had been with his mother for the last few hours .</sentence>
+      <tokens>
+        <t>" " "He" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "mother" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "last" " "</t>
+        <t>" " "few" " "</t>
+        <t>" " "hours" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP He)) (VP (VBD had) (VP (VBN been) (PP (IN with) (NP (PRP$ his) (NN mother))) (PP (IN for) (NP (DT the) (JJ last) (JJ few) (NNS hours))))) (. .)))</parse>
+      <deps>nsubj(been-3, He-1)
+aux(been-3, had-2)
+root(ROOT-0, been-3)
+poss(mother-6, his-5)
+prep_with(been-3, mother-6)
+det(hours-11, the-8)
+amod(hours-11, last-9)
+amod(hours-11, few-10)
+prep_for(been-3, hours-11)</deps>
+      <events />
+      <timexes>
+        <timex tid="t2" text="the last few hours" offset="8" length="4" type="DURATION" value="PTXH" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="2" file="9783732517695_033.txt">
+      <sentence>He would not have been able to tell her about his father 's infidelity .</sentence>
+      <tokens>
+        <t>" " "He" " "</t>
+        <t>" " "would" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "able" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "tell" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "about" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "father" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "infidelity" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP He)) (VP (MD would) (RB not) (VP (VB have) (VP (VBN been) (ADJP (JJ able) (S (VP (TO to) (VP (VB tell) (NP (PRP her)) (PP (IN about) (NP (NP (PRP$ his) (NN father) (POS 's)) (NN infidelity)))))))))) (. .)))</parse>
+      <deps>nsubj(able-6, He-1)
+xsubj(tell-8, He-1)
+aux(able-6, would-2)
+neg(able-6, not-3)
+aux(able-6, have-4)
+cop(able-6, been-5)
+root(ROOT-0, able-6)
+aux(tell-8, to-7)
+xcomp(able-6, tell-8)
+dobj(tell-8, her-9)
+poss(father-12, his-11)
+poss(infidelity-14, father-12)
+prep_about(tell-8, infidelity-14)</deps>
+      <events>
+        <event id="e3" eiid="ei3" offset="8" string="tell" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei1" event2="t1" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei2" event2="t1" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+
