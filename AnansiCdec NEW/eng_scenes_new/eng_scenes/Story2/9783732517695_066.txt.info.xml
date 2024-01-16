@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732517695_066.txt">
+    <entry sid="0" file="9783732517695_066.txt">
+      <sentence>Late in the afternoon , Duke Patrick Young of Windhome accepted the position of shepherd .</sentence>
+      <tokens>
+        <t>"" "Late" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "afternoon" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Duke" " "</t>
+        <t>" " "Patrick" " "</t>
+        <t>" " "Young" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "Windhome" " "</t>
+        <t>" " "accepted" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "position" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "shepherd" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (ADVP (RB Late) (PP (IN in) (NP (DT the) (NN afternoon)))) (, ,) (NP (NP (NNP Duke) (NNP Patrick) (NNP Young)) (PP (IN of) (NP (NNP Windhome)))) (VP (VBD accepted) (NP (NP (DT the) (NN position)) (PP (IN of) (NP (NN shepherd))))) (. .)))</parse>
+      <deps>advmod(accepted-11, Late-1)
+det(afternoon-4, the-3)
+prep_in(Late-1, afternoon-4)
+nn(Young-8, Duke-6)
+nn(Young-8, Patrick-7)
+nsubj(accepted-11, Young-8)
+prep_of(Young-8, Windhome-10)
+root(ROOT-0, accepted-11)
+det(position-13, the-12)
+dobj(accepted-11, position-13)
+prep_of(position-13, shepherd-15)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="11" string="accepted" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="afternoon" offset="4" length="1" type="TIME" value="TAF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="9783732517695_066.txt">
+      <sentence>He called himself only Patrick Young here , although his papers also noted his title .</sentence>
+      <tokens>
+        <t>" " "He" " "</t>
+        <t>" " "called" " "</t>
+        <t>" " "himself" " "</t>
+        <t>" " "only" " "</t>
+        <t>" " "Patrick" " "</t>
+        <t>" " "Young" " "</t>
+        <t>" " "here" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "although" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "papers" " "</t>
+        <t>" " "also" " "</t>
+        <t>" " "noted" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "title" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP He)) (VP (VBD called) (NP (PRP himself)) (PP (RB only) (NP (NNP Patrick) (NNP Young))) (ADVP (RB here)) (, ,) (SBAR (IN although) (S (NP (PRP$ his) (NNS papers)) (ADVP (RB also)) (VP (VBD noted) (NP (PRP$ his) (NN title)))))) (. .)))</parse>
+      <deps>nsubj(called-2, He-1)
+root(ROOT-0, called-2)
+dobj(called-2, himself-3)
+prep(called-2, only-4)
+nn(Young-6, Patrick-5)
+pobj(only-4, Young-6)
+advmod(called-2, here-7)
+mark(noted-13, although-9)
+poss(papers-11, his-10)
+nsubj(noted-13, papers-11)
+advmod(noted-13, also-12)
+advcl(called-2, noted-13)
+poss(title-15, his-14)
+dobj(noted-13, title-15)</deps>
+      <events>
+        <event id="e2" eiid="ei2" offset="2" string="called" tense="PAST" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e3" eiid="ei3" offset="13" string="noted" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="2" file="9783732517695_066.txt">
+      <sentence>But in this land of emigrants , that did not attract attention .</sentence>
+      <tokens>
+        <t>" " "But" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "this" " "</t>
+        <t>" " "land" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "emigrants" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "did" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "attract" " "</t>
+        <t>" " "attention" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (CC But) (PP (IN in) (NP (NP (DT this) (NN land)) (PP (IN of) (NP (NNS emigrants))))) (, ,) (NP (DT that)) (VP (VBD did) (RB not) (VP (VB attract) (NP (NN attention)))) (. .)))</parse>
+      <deps>cc(attract-11, But-1)
+det(land-4, this-3)
+prep_in(attract-11, land-4)
+prep_of(land-4, emigrants-6)
+nsubj(attract-11, that-8)
+aux(attract-11, did-9)
+neg(attract-11, not-10)
+root(ROOT-0, attract-11)
+dobj(attract-11, attention-12)</deps>
+      <events>
+        <event id="e4" eiid="ei4" offset="11" string="attract" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="3" file="9783732517695_066.txt">
+      <sentence>Once again Patrick postponed the return trip to Ireland , once again he took a run at building a new life for himself , but homesickness tormented him more and more .</sentence>
+      <tokens>
+        <t>" " "Once" " "</t>
+        <t>" " "again" " "</t>
+        <t>" " "Patrick" " "</t>
+        <t>" " "postponed" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "return" " "</t>
+        <t>" " "trip" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Ireland" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "once" " "</t>
+        <t>" " "again" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "took" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "run" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "building" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "life" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "himself" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "but" " "</t>
+        <t>" " "homesickness" " "</t>
+        <t>" " "tormented" " "</t>
+        <t>" " "him" " "</t>
+        <t>" " "more" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "more" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (SBAR (IN Once) (S (ADVP (RB again)) (NP (NNP Patrick)) (VP (VBD postponed) (NP (DT the) (NN return) (NN trip)) (PP (TO to) (NP (NNP Ireland)))))) (, ,) (ADVP (RB once) (RB again)) (NP (PRP he)) (VP (VBD took) (NP (DT a) (NN run)) (PP (IN at) (S (VP (VBG building) (NP (DT a) (JJ new) (NN life)) (PP (IN for) (NP (PRP himself)))))))) (, ,) (CC but) (S (NP (NNS homesickness)) (VP (VBD tormented) (S (NP (PRP him)) (ADJP (JJR more) (CC and) (JJR more))))) (. .)))</parse>
+      <deps>mark(postponed-4, Once-1)
+advmod(postponed-4, again-2)
+nsubj(postponed-4, Patrick-3)
+advcl(took-14, postponed-4)
+det(trip-7, the-5)
+nn(trip-7, return-6)
+dobj(postponed-4, trip-7)
+prep_to(postponed-4, Ireland-9)
+advmod(again-12, once-11)
+advmod(took-14, again-12)
+nsubj(took-14, he-13)
+root(ROOT-0, took-14)
+det(run-16, a-15)
+dobj(took-14, run-16)
+prepc_at(took-14, building-18)
+det(life-21, a-19)
+amod(life-21, new-20)
+dobj(building-18, life-21)
+prep_for(building-18, himself-23)
+nsubj(tormented-27, homesickness-26)
+conj_but(took-14, tormented-27)
+nsubj(more-29, him-28)
+nsubj(more-31, him-28)
+xcomp(tormented-27, more-29)
+xcomp(tormented-27, more-31)
+conj_and(more-29, more-31)</deps>
+      <events>
+        <event id="e5" eiid="ei5" offset="4" string="postponed" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e6" eiid="ei6" offset="6" string="return" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e7" eiid="ei7" offset="14" string="took" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e8" eiid="ei8" offset="18" string="building" tense="PRESPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e9" eiid="ei9" offset="27" string="tormented" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t2" text="Once" offset="1" length="1" type="DATE" value="PAST_REF" temporalFunction="false" />
+        <timex tid="t3" text="once" offset="11" length="1" type="DATE" value="PAST_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="4" file="9783732517695_066.txt">
+      <sentence>When he traveled with his large flock of sheep , he took the travel money out of his pocket and held it against the wind .</sentence>
+      <tokens>
+        <t>" " "When" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "traveled" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "large" " "</t>
+        <t>" " "flock" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "sheep" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "took" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "travel" " "</t>
+        <t>" " "money" " "</t>
+        <t>" " "out" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "pocket" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "held" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "against" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "wind" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (WHADVP (WRB When)) (S (NP (PRP he)) (VP (VBD traveled) (PP (IN with) (NP (NP (PRP$ his) (JJ large) (NN flock)) (PP (IN of) (NP (NN sheep)))))))) (, ,) (NP (PRP he)) (VP (VP (VBD took) (NP (DT the) (NN travel) (NN money)) (PRT (RP out)) (PP (IN of) (NP (PRP$ his) (NN pocket)))) (CC and) (VP (VBD held) (NP (PRP it)) (PP (IN against) (NP (DT the) (NN wind))))) (. .)))</parse>
+      <deps>advmod(traveled-3, When-1)
+nsubj(traveled-3, he-2)
+advcl(took-12, traveled-3)
+poss(flock-7, his-5)
+amod(flock-7, large-6)
+prep_with(traveled-3, flock-7)
+prep_of(flock-7, sheep-9)
+nsubj(took-12, he-11)
+nsubj(held-21, he-11)
+root(ROOT-0, took-12)
+det(money-15, the-13)
+nn(money-15, travel-14)
+dobj(took-12, money-15)
+poss(pocket-19, his-18)
+prep_out_of(took-12, pocket-19)
+conj_and(took-12, held-21)
+dobj(held-21, it-22)
+det(wind-25, the-24)
+prep_against(held-21, wind-25)</deps>
+      <events>
+        <event id="e10" eiid="ei10" offset="3" string="traveled" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e11" eiid="ei11" offset="12" string="took" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e12" eiid="ei12" offset="21" string="held" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="5" file="9783732517695_066.txt">
+      <sentence>When he received a letter from Kathleen on his twenty-fifth birthday , he tied up his bundle and started the return journey .</sentence>
+      <tokens>
+        <t>" " "When" " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "received" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "letter" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Kathleen" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "twenty-fifth" " "</t>
+        <t>" " "birthday" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "he" " "</t>
+        <t>" " "tied" " "</t>
+        <t>" " "up" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "bundle" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "started" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "return" " "</t>
+        <t>" " "journey" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (WHADVP (WRB When)) (S (NP (PRP he)) (VP (VBD received) (NP (DT a) (NN letter)) (PP (IN from) (NP (NNP Kathleen))) (PP (IN on) (NP (PRP$ his) (JJ twenty-fifth) (NN birthday)))))) (, ,) (NP (PRP he)) (VP (VP (VBD tied) (PRT (RP up)) (NP (PRP$ his) (NN bundle))) (CC and) (VP (VBD started) (NP (DT the) (NN return) (NN journey)))) (. .)))</parse>
+      <deps>advmod(received-3, When-1)
+nsubj(received-3, he-2)
+advcl(tied-14, received-3)
+det(letter-5, a-4)
+dobj(received-3, letter-5)
+prep_from(received-3, Kathleen-7)
+poss(birthday-11, his-9)
+amod(birthday-11, twenty-fifth-10)
+prep_on(received-3, birthday-11)
+nsubj(tied-14, he-13)
+nsubj(started-19, he-13)
+root(ROOT-0, tied-14)
+prt(tied-14, up-15)
+poss(bundle-17, his-16)
+dobj(tied-14, bundle-17)
+conj_and(tied-14, started-19)
+det(journey-22, the-20)
+nn(journey-22, return-21)
+dobj(started-19, journey-22)</deps>
+      <events>
+        <event id="e13" eiid="ei13" offset="3" string="received" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e14" eiid="ei14" offset="14" string="tied" tense="PAST" aspect="NONE" class="I_ACTION" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e15" eiid="ei15" offset="19" string="started" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e16" eiid="ei16" offset="21" string="return" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei5" event2="t2" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei7" event2="ei5" relation="AFTER" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei7" event2="ei9" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei11" event2="ei10" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei11" event2="ei12" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei14" event2="ei13" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei14" event2="ei15" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei5" event2="ei9" relation="BEFORE" closed="true" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei7" event2="ei11" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei7" event2="ei12" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei1" event2="t1" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei6" event2="t2" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei7" event2="t2" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei8" event2="t2" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei9" event2="t2" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei5" event2="t3" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei6" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei7" event2="t3" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei8" event2="t3" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei9" event2="t3" relation="BEFORE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei2" event2="ei3" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei5" event2="ei6" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei7" event2="ei8" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei15" event2="ei16" relation="BEFORE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei7" event2="ei6" relation="AFTER" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei5" event2="ei8" relation="BEFORE" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei9" event2="ei6" relation="AFTER" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei6" event2="ei8" relation="BEFORE" closed="true" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei8" event2="ei9" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei10" event2="ei12" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei13" event2="ei15" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei13" event2="ei16" relation="BEFORE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei14" event2="ei16" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei7" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei8" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei9" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei4" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei5" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei6" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei7" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei8" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t2" event2="t3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t2" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei11" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t3" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei10" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei15" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei10" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei15" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei13" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei15" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+  </file>
+</root>
+

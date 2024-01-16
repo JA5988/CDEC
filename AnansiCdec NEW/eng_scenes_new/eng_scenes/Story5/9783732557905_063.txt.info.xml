@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732557905_063.txt">
+    <entry sid="0" file="9783732557905_063.txt">
+      <sentence>Then the day of the transplantation arrived .</sentence>
+      <tokens>
+        <t>"" "Then" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "day" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "transplantation" " "</t>
+        <t>" " "arrived" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (ADVP (RB Then)) (NP (NP (DT the) (NN day)) (PP (IN of) (NP (DT the) (NN transplantation)))) (VP (VBD arrived)) (. .)))</parse>
+      <deps>advmod(arrived-7, Then-1)
+det(day-3, the-2)
+nsubj(arrived-7, day-3)
+det(transplantation-6, the-5)
+prep_of(day-3, transplantation-6)
+root(ROOT-0, arrived-7)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="7" string="arrived" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="day" offset="3" length="1" type="DURATION" value="P1D" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="9783732557905_063.txt">
+      <sentence>Andrea Bergen , who had been visiting Lilly regularly since her admission , checked on her once more .</sentence>
+      <tokens>
+        <t>" " "Andrea" " "</t>
+        <t>" " "Bergen" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "who" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "visiting" " "</t>
+        <t>" " "Lilly" " "</t>
+        <t>" " "regularly" " "</t>
+        <t>" " "since" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "admission" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "checked" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "once" " "</t>
+        <t>" " "more" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (NNP Andrea) (NNP Bergen)) (, ,) (SBAR (WHNP (WP who)) (S (VP (VBD had) (VP (VBN been) (VP (VBG visiting) (NP (NNP Lilly)) (ADVP (RB regularly)) (PP (IN since) (NP (PRP$ her) (NN admission)))))))) (, ,)) (VP (VBD checked) (PP (IN on) (NP (PRP her))) (ADVP (RB once) (RBR more))) (. .)))</parse>
+      <deps>nn(Bergen-2, Andrea-1)
+nsubj(visiting-7, Bergen-2)
+nsubj(checked-14, Bergen-2)
+aux(visiting-7, had-5)
+aux(visiting-7, been-6)
+rcmod(Bergen-2, visiting-7)
+dobj(visiting-7, Lilly-8)
+advmod(visiting-7, regularly-9)
+poss(admission-12, her-11)
+prep_since(visiting-7, admission-12)
+root(ROOT-0, checked-14)
+prep_on(checked-14, her-16)
+advmod(more-18, once-17)
+advmod(checked-14, more-18)</deps>
+      <events>
+        <event id="e2" eiid="ei2" offset="7" string="visiting" tense="PAST" aspect="PERFECTIVE_PROGRESSIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e3" eiid="ei3" offset="14" string="checked" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t2" text="once" offset="17" length="1" type="DATE" value="PAST_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="2" file="9783732557905_063.txt">
+      <sentence>`` You do n't have to be afraid , Lilly , '' she said comfortingly .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "You" " "</t>
+        <t>" " "do" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "have" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "be" " "</t>
+        <t>" " "afraid" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Lilly" ""</t>
+        <t>"" "," ""</t>
+        <t>"" """ " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "said" " "</t>
+        <t>" " "comfortingly" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (NP (PRP You)) (VP (VBP do) (RB n't) (VP (VB have) (S (VP (TO to) (VP (VB be) (ADJP (JJ afraid)) (, ,) (ADVP (RB Lilly)))))))) (, ,) ('' '') (NP (PRP she)) (VP (VBD said) (ADVP (RB comfortingly))) (. .)))</parse>
+      <deps>nsubj(have-5, You-2)
+xsubj(afraid-8, You-2)
+aux(have-5, do-3)
+neg(have-5, n't-4)
+ccomp(said-14, have-5)
+aux(afraid-8, to-6)
+cop(afraid-8, be-7)
+xcomp(have-5, afraid-8)
+advmod(afraid-8, Lilly-10)
+nsubj(said-14, she-13)
+root(ROOT-0, said-14)
+advmod(said-14, comfortingly-15)</deps>
+      <events>
+        <event id="e4" eiid="ei4" offset="8" string="afraid" tense="PRESENT" aspect="NONE" class="STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e5" eiid="ei5" offset="14" string="said" tense="PAST" aspect="NONE" class="REPORTING" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="3" file="9783732557905_063.txt">
+      <sentence>`` It wo n't hurt at all , either .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "It" " "</t>
+        <t>" " "wo" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "hurt" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "all" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "either" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (NP (PRP It)) (VP (MD wo) (RB n't) (VP (VB hurt) (ADVP (IN at) (DT all)) (, ,) (ADVP (RB either)))) (. .)))</parse>
+      <deps>nsubj(hurt-5, It-2)
+aux(hurt-5, wo-3)
+neg(hurt-5, n't-4)
+root(ROOT-0, hurt-5)
+advmod(hurt-5, at-6)
+pobj(at-6, all-7)
+advmod(hurt-5, either-9)</deps>
+      <events>
+        <event id="e6" eiid="ei6" offset="5" string="hurt" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="4" file="9783732557905_063.txt">
+      <sentence>At most , the prick with the needle . ''</sentence>
+      <tokens>
+        <t>" " "At" " "</t>
+        <t>" " "most" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "prick" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "needle" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (ADVP (IN At) (RBS most)) (, ,) (NP (DT the)) (VP (VBP prick) (PP (IN with) (NP (DT the) (NN needle)))) (. .) ('' '')))</parse>
+      <deps>advmod(prick-5, At-1)
+advmod(At-1, most-2)
+nsubj(prick-5, the-4)
+root(ROOT-0, prick-5)
+det(needle-8, the-7)
+prep_with(prick-5, needle-8)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="5" file="9783732557905_063.txt">
+      <sentence>`` I 'm not scared at all , either , '' Lilly explained with a weighty expression .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "I" ""</t>
+        <t>"" "'m" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "scared" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "all" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "either" ""</t>
+        <t>"" "," ""</t>
+        <t>"" """ " "</t>
+        <t>" " "Lilly" " "</t>
+        <t>" " "explained" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "weighty" " "</t>
+        <t>" " "expression" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (S (NP (PRP I)) (VP (VBP 'm) (RB not) (VP (VBN scared) (PP (IN at) (NP (DT all))) (, ,) (ADVP (RB either))))) (, ,) ('' '') (NP (NNP Lilly)) (VP (VBD explained) (PP (IN with) (NP (DT a) (JJ weighty) (NN expression)))) (. .)))</parse>
+      <deps>nsubjpass(scared-5, I-2)
+auxpass(scared-5, 'm-3)
+neg(scared-5, not-4)
+ccomp(explained-13, scared-5)
+prep_at(scared-5, all-7)
+advmod(scared-5, either-9)
+nsubj(explained-13, Lilly-12)
+root(ROOT-0, explained-13)
+det(expression-17, a-15)
+amod(expression-17, weighty-16)
+prep_with(explained-13, expression-17)</deps>
+      <events>
+        <event id="e7" eiid="ei7" offset="5" string="scared" tense="PRESENT" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e8" eiid="ei8" offset="13" string="explained" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="6" file="9783732557905_063.txt">
+      <sentence>`` I 'm a very brave girl . ''</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "I" ""</t>
+        <t>"" "'m" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "very" " "</t>
+        <t>" " "brave" " "</t>
+        <t>" " "girl" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (NP (PRP I)) (VP (VBP 'm) (NP (DT a) (ADJP (RB very) (JJ brave)) (NN girl))) (. .) ('' '')))</parse>
+      <deps>nsubj(girl-7, I-2)
+cop(girl-7, 'm-3)
+det(girl-7, a-4)
+advmod(brave-6, very-5)
+amod(girl-7, brave-6)
+root(ROOT-0, girl-7)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="7" file="9783732557905_063.txt">
+      <sentence>Andrea laughed .</sentence>
+      <tokens>
+        <t>" " "Andrea" " "</t>
+        <t>" " "laughed" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNP Andrea)) (VP (VBD laughed)) (. .)))</parse>
+      <deps>nsubj(laughed-2, Andrea-1)
+root(ROOT-0, laughed-2)</deps>
+      <events>
+        <event id="e9" eiid="ei9" offset="2" string="laughed" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="8" file="9783732557905_063.txt">
+      <sentence>`` I know that already , you brave little adventuress .</sentence>
+      <tokens>
+        <t>" " """ ""</t>
+        <t>"" "I" " "</t>
+        <t>" " "know" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "already" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "brave" " "</t>
+        <t>" " "little" " "</t>
+        <t>" " "adventuress" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (`` ``) (NP (PRP I)) (VP (VBP know) (SBAR (IN that) (S (ADVP (RB already)) (, ,) (NP (PRP you)) (VP (VBZ brave) (NP (JJ little) (NNS adventuress)))))) (. .)))</parse>
+      <deps>nsubj(know-3, I-2)
+root(ROOT-0, know-3)
+mark(brave-8, that-4)
+advmod(brave-8, already-5)
+nsubj(brave-8, you-7)
+ccomp(know-3, brave-8)
+amod(adventuress-10, little-9)
+dobj(brave-8, adventuress-10)</deps>
+      <events>
+        <event id="e10" eiid="ei10" offset="3" string="know" tense="PRESENT" aspect="NONE" class="I_STATE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="9" file="9783732557905_063.txt">
+      <sentence>Quite a brave one you are . ''</sentence>
+      <tokens>
+        <t>" " "Quite" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "brave" " "</t>
+        <t>" " "one" " "</t>
+        <t>" " "you" " "</t>
+        <t>" " "are" ""</t>
+        <t>"" "." ""</t>
+        <t>"" """ " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (RB Quite) (DT a) (ADJP (JJ brave) (NP (CD one))) (NN you)) (VP (VBP are)) (. .) ('' '')))</parse>
+      <deps>advmod(you-5, Quite-1)
+det(you-5, a-2)
+amod(you-5, brave-3)
+dep(brave-3, one-4)
+nsubj(are-6, you-5)
+root(ROOT-0, are-6)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="10" file="9783732557905_063.txt">
+      <sentence>The stem cell transplant did n't take long and was completely unspectacular .</sentence>
+      <tokens>
+        <t>" " "The" " "</t>
+        <t>" " "stem" " "</t>
+        <t>" " "cell" " "</t>
+        <t>" " "transplant" " "</t>
+        <t>" " "did" ""</t>
+        <t>"" "n't" " "</t>
+        <t>" " "take" " "</t>
+        <t>" " "long" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "completely" " "</t>
+        <t>" " "unspectacular" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (NN stem) (NN cell) (NN transplant)) (VP (VP (VBD did) (RB n't) (VP (VB take) (ADVP (RB long)))) (CC and) (VP (VBD was) (ADJP (RB completely) (JJ unspectacular)))) (. .)))</parse>
+      <deps>det(transplant-4, The-1)
+nn(transplant-4, stem-2)
+nn(transplant-4, cell-3)
+nsubj(take-7, transplant-4)
+nsubj(unspectacular-12, transplant-4)
+aux(take-7, did-5)
+neg(take-7, n't-6)
+root(ROOT-0, take-7)
+advmod(take-7, long-8)
+cop(unspectacular-12, was-10)
+advmod(unspectacular-12, completely-11)
+conj_and(take-7, unspectacular-12)</deps>
+      <events>
+        <event id="e11" eiid="ei11" offset="7" string="take" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="11" file="9783732557905_063.txt">
+      <sentence>Under general anesthesia , a special needle was used to remove a certain amount of bone marrow-blood mixture from the donor 's iliac crest , from which the stem cells were later filtered out and purified .</sentence>
+      <tokens>
+        <t>" " "Under" " "</t>
+        <t>" " "general" " "</t>
+        <t>" " "anesthesia" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "special" " "</t>
+        <t>" " "needle" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "used" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "remove" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "certain" " "</t>
+        <t>" " "amount" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "bone" " "</t>
+        <t>" " "marrow-blood" " "</t>
+        <t>" " "mixture" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "donor" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "iliac" " "</t>
+        <t>" " "crest" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "which" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "stem" " "</t>
+        <t>" " "cells" " "</t>
+        <t>" " "were" " "</t>
+        <t>" " "later" " "</t>
+        <t>" " "filtered" " "</t>
+        <t>" " "out" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "purified" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (PP (IN Under) (NP (JJ general) (NN anesthesia))) (, ,) (NP (DT a) (JJ special) (NN needle)) (VP (VBD was) (VP (VBN used) (S (VP (TO to) (VP (VB remove) (NP (NP (DT a) (JJ certain) (NN amount)) (PP (IN of) (NP (NN bone) (JJ marrow-blood) (NN mixture)))) (PP (IN from) (NP (NP (NP (DT the) (NN donor) (POS 's)) (JJ iliac) (NN crest)) (, ,) (SBAR (WHPP (IN from) (WHNP (WDT which))) (S (NP (DT the) (NN stem) (NNS cells)) (VP (VBD were) (ADVP (RB later)) (VP (VP (VBN filtered) (PRT (RP out))) (CC and) (VP (VBN purified))))))))))))) (. .)))</parse>
+      <deps>amod(anesthesia-3, general-2)
+prep_under(used-9, anesthesia-3)
+det(needle-7, a-5)
+amod(needle-7, special-6)
+nsubjpass(used-9, needle-7)
+xsubj(remove-11, needle-7)
+auxpass(used-9, was-8)
+root(ROOT-0, used-9)
+aux(remove-11, to-10)
+xcomp(used-9, remove-11)
+det(amount-14, a-12)
+amod(amount-14, certain-13)
+dobj(remove-11, amount-14)
+nn(mixture-18, bone-16)
+amod(mixture-18, marrow-blood-17)
+prep_of(amount-14, mixture-18)
+det(donor-21, the-20)
+poss(crest-24, donor-21)
+amod(crest-24, iliac-23)
+prep_from(remove-11, crest-24)
+prep_from(filtered-33, crest-24)
+rel(filtered-33, from-26)
+det(cells-30, the-28)
+nn(cells-30, stem-29)
+nsubjpass(filtered-33, cells-30)
+nsubjpass(purified-36, cells-30)
+auxpass(filtered-33, were-31)
+advmod(filtered-33, later-32)
+rcmod(crest-24, filtered-33)
+prt(filtered-33, out-34)
+rcmod(crest-24, purified-36)
+conj_and(filtered-33, purified-36)</deps>
+      <events>
+        <event id="e12" eiid="ei12" offset="9" string="used" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e13" eiid="ei13" offset="11" string="remove" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e14" eiid="ei14" offset="33" string="filtered" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e15" eiid="ei15" offset="36" string="purified" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="12" file="9783732557905_063.txt">
+      <sentence>After this procedure was completed , Lilly was given the stem cells intravenously , which also did not take long .</sentence>
+      <tokens>
+        <t>" " "After" " "</t>
+        <t>" " "this" " "</t>
+        <t>" " "procedure" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "completed" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Lilly" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "given" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "stem" " "</t>
+        <t>" " "cells" " "</t>
+        <t>" " "intravenously" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "which" " "</t>
+        <t>" " "also" " "</t>
+        <t>" " "did" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "take" " "</t>
+        <t>" " "long" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (IN After) (S (NP (DT this) (NN procedure)) (VP (VBD was) (VP (VBN completed))))) (, ,) (NP (NNP Lilly)) (VP (VBD was) (VP (VBN given) (NP (DT the) (NN stem) (NNS cells)) (NP (NP (NN intravenously)) (, ,) (SBAR (WHNP (WDT which)) (S (ADVP (RB also)) (VP (VBD did) (RB not) (VP (VB take) (ADVP (RB long))))))))) (. .)))</parse>
+      <deps>mark(completed-5, After-1)
+det(procedure-3, this-2)
+nsubjpass(completed-5, procedure-3)
+auxpass(completed-5, was-4)
+advcl(given-9, completed-5)
+nsubjpass(given-9, Lilly-7)
+auxpass(given-9, was-8)
+root(ROOT-0, given-9)
+det(cells-12, the-10)
+nn(cells-12, stem-11)
+iobj(given-9, cells-12)
+dobj(given-9, intravenously-13)
+nsubj(take-19, intravenously-13)
+advmod(take-19, also-16)
+aux(take-19, did-17)
+neg(take-19, not-18)
+rcmod(intravenously-13, take-19)
+advmod(take-19, long-20)</deps>
+      <events>
+        <event id="e16" eiid="ei16" offset="5" string="completed" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e17" eiid="ei17" offset="9" string="given" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e18" eiid="ei18" offset="19" string="take" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="13" file="9783732557905_063.txt">
+      <sentence>After the transplantation , Lilly had to lie in the isolation tent again for a while .</sentence>
+      <tokens>
+        <t>" " "After" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "transplantation" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Lilly" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "lie" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "isolation" " "</t>
+        <t>" " "tent" " "</t>
+        <t>" " "again" " "</t>
+        <t>" " "for" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "while" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (PP (IN After) (NP (DT the) (NN transplantation))) (, ,) (NP (NNP Lilly)) (VP (VBD had) (S (VP (TO to) (VP (VB lie) (PP (IN in) (NP (DT the) (NN isolation) (NN tent))) (PP (ADVP (RB again)) (IN for) (NP (DT a) (NN while))))))) (. .)))</parse>
+      <deps>det(transplantation-3, the-2)
+prep_after(had-6, transplantation-3)
+nsubj(had-6, Lilly-5)
+xsubj(lie-8, Lilly-5)
+root(ROOT-0, had-6)
+aux(lie-8, to-7)
+xcomp(had-6, lie-8)
+det(tent-12, the-10)
+nn(tent-12, isolation-11)
+prep_in(lie-8, tent-12)
+advmod(lie-8, again-13)
+det(while-16, a-15)
+prep_for(lie-8, while-16)</deps>
+      <events>
+        <event id="e19" eiid="ei19" offset="6" string="had" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e20" eiid="ei20" offset="8" string="lie" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="14" file="9783732557905_063.txt">
+      <sentence>But brave as she was , she accepted her fate without grumbling and waved happily when her parents or grandparents appeared at the glass window .</sentence>
+      <tokens>
+        <t>" " "But" " "</t>
+        <t>" " "brave" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "was" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "accepted" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "fate" " "</t>
+        <t>" " "without" " "</t>
+        <t>" " "grumbling" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "waved" " "</t>
+        <t>" " "happily" " "</t>
+        <t>" " "when" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "parents" " "</t>
+        <t>" " "or" " "</t>
+        <t>" " "grandparents" " "</t>
+        <t>" " "appeared" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "glass" " "</t>
+        <t>" " "window" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (CC But) (SBAR (ADJP (JJ brave)) (IN as) (S (NP (PRP she)) (VP (VBD was)))) (, ,) (NP (PRP she)) (VP (VP (VBD accepted) (NP (PRP$ her) (NN fate)) (PP (IN without) (NP (NN grumbling)))) (CC and) (VP (VBD waved) (ADVP (RB happily)) (SBAR (WHADVP (WRB when)) (S (NP (PRP$ her) (NNS parents) (CC or) (NNS grandparents)) (VP (VBD appeared) (PP (IN at) (NP (DT the) (NN glass) (NN window)))))))) (. .)))</parse>
+      <deps>dep(was-5, brave-2)
+mark(was-5, as-3)
+nsubj(was-5, she-4)
+advcl(accepted-8, was-5)
+nsubj(accepted-8, she-7)
+nsubj(waved-14, she-7)
+root(ROOT-0, accepted-8)
+poss(fate-10, her-9)
+dobj(accepted-8, fate-10)
+prep_without(accepted-8, grumbling-12)
+conj_and(accepted-8, waved-14)
+advmod(waved-14, happily-15)
+advmod(appeared-21, when-16)
+poss(parents-18, her-17)
+nsubj(appeared-21, parents-18)
+conj_or(parents-18, grandparents-20)
+nsubj(appeared-21, grandparents-20)
+advcl(waved-14, appeared-21)
+det(window-25, the-23)
+nn(window-25, glass-24)
+prep_at(appeared-21, window-25)</deps>
+      <events>
+        <event id="e21" eiid="ei21" offset="8" string="accepted" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e22" eiid="ei22" offset="14" string="waved" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e23" eiid="ei23" offset="21" string="appeared" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei1" event2="t1" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei3" event2="t2" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei2" event2="ei3" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei2" event2="ei5" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei8" event2="ei7" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei12" event2="ei13" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei14" event2="ei15" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei17" event2="ei16" relation="AFTER" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei19" event2="ei20" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei21" event2="ei22" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei22" event2="ei23" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei11" event2="ei13" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei13" event2="ei18" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei17" event2="ei19" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei18" event2="ei19" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei19" event2="ei21" relation="VAGUE" closed="false" origin="WordNet209" type="ee" />
+    <tlink event1="ei2" event2="t2" relation="VAGUE" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei12" event2="ei14" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei12" event2="ei15" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei13" event2="ei14" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei13" event2="ei15" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei17" event2="ei18" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="INCLUDES" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei16" event2="ei18" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei21" event2="ei23" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei4" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei5" event2="ei6" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei9" event2="ei10" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei12" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei14" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei11" event2="ei15" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei12" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei13" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei14" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei16" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei17" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei15" event2="ei18" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei19" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei16" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei17" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei18" event2="ei20" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei19" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei19" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei20" event2="ei21" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei20" event2="ei22" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei20" event2="ei23" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+  </file>
+</root>
+

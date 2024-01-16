@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732517695_073.txt">
+    <entry sid="0" file="9783732517695_073.txt">
+      <sentence>Hours passed .</sentence>
+      <tokens>
+        <t>"" "Hours" " "</t>
+        <t>" " "passed" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NNS Hours)) (VP (VBD passed)) (. .)))</parse>
+      <deps>nsubj(passed-2, Hours-1)
+root(ROOT-0, passed-2)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="2" string="passed" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="Hours" offset="1" length="1" type="DURATION" value="PTXH" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="9783732517695_073.txt">
+      <sentence>While the dead man was brought to the castle , the constables interrogated Patrick , Duchess Alice , Robert and the people from the estate .</sentence>
+      <tokens>
+        <t>" " "While" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "dead" " "</t>
+        <t>" " "man" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "brought" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "castle" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "constables" " "</t>
+        <t>" " "interrogated" " "</t>
+        <t>" " "Patrick" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Duchess" " "</t>
+        <t>" " "Alice" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Robert" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "people" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "estate" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (SBAR (IN While) (S (NP (DT the) (JJ dead) (NN man)) (VP (VBD was) (VP (VBN brought) (PP (TO to) (NP (DT the) (NN castle))))))) (, ,) (NP (DT the) (NNS constables)) (VP (VBD interrogated) (NP (NP (NNP Patrick)) (, ,) (NP (NNP Duchess) (NNP Alice)) (, ,) (NP (NNP Robert)) (CC and) (NP (DT the) (NNS people))) (PP (IN from) (NP (DT the) (NN estate)))) (. .)))</parse>
+      <deps>mark(brought-6, While-1)
+det(man-4, the-2)
+amod(man-4, dead-3)
+nsubjpass(brought-6, man-4)
+auxpass(brought-6, was-5)
+advcl(interrogated-13, brought-6)
+det(castle-9, the-8)
+prep_to(brought-6, castle-9)
+det(constables-12, the-11)
+nsubj(interrogated-13, constables-12)
+root(ROOT-0, interrogated-13)
+dobj(interrogated-13, Patrick-14)
+nn(Alice-17, Duchess-16)
+dobj(interrogated-13, Alice-17)
+conj_and(Patrick-14, Alice-17)
+dobj(interrogated-13, Robert-19)
+conj_and(Patrick-14, Robert-19)
+det(people-22, the-21)
+dobj(interrogated-13, people-22)
+conj_and(Patrick-14, people-22)
+det(estate-25, the-24)
+prep_from(interrogated-13, estate-25)</deps>
+      <events>
+        <event id="e2" eiid="ei2" offset="6" string="brought" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e3" eiid="ei3" offset="13" string="interrogated" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="2" file="9783732517695_073.txt">
+      <sentence>Two accomplished detectives from Cork arrived .</sentence>
+      <tokens>
+        <t>" " "Two" " "</t>
+        <t>" " "accomplished" " "</t>
+        <t>" " "detectives" " "</t>
+        <t>" " "from" " "</t>
+        <t>" " "Cork" " "</t>
+        <t>" " "arrived" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (NP (CD Two) (JJ accomplished) (NNS detectives)) (PP (IN from) (NP (NNP Cork)))) (VP (VBD arrived)) (. .)))</parse>
+      <deps>num(detectives-3, Two-1)
+amod(detectives-3, accomplished-2)
+nsubj(arrived-6, detectives-3)
+prep_from(detectives-3, Cork-5)
+root(ROOT-0, arrived-6)</deps>
+      <events>
+        <event id="e4" eiid="ei4" offset="6" string="arrived" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="3" file="9783732517695_073.txt">
+      <sentence>They inspected the scene of the crime .</sentence>
+      <tokens>
+        <t>" " "They" " "</t>
+        <t>" " "inspected" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "scene" " "</t>
+        <t>" " "of" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "crime" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP They)) (VP (VBD inspected) (NP (NP (DT the) (NN scene)) (PP (IN of) (NP (DT the) (NN crime))))) (. .)))</parse>
+      <deps>nsubj(inspected-2, They-1)
+root(ROOT-0, inspected-2)
+det(scene-4, the-3)
+dobj(inspected-2, scene-4)
+det(crime-7, the-6)
+prep_of(scene-4, crime-7)</deps>
+      <events>
+        <event id="e5" eiid="ei5" offset="2" string="inspected" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="4" file="9783732517695_073.txt">
+      <sentence>There was no doubt that the large pit had been freshly dug .</sentence>
+      <tokens>
+        <t>" " "There" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "no" " "</t>
+        <t>" " "doubt" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "large" " "</t>
+        <t>" " "pit" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "freshly" " "</t>
+        <t>" " "dug" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (NP (EX There)) (VP (VBD was) (ADVP (DT no) (NN doubt) (SBAR (IN that) (S (NP (DT the) (JJ large) (NN pit)) (VP (VBD had) (VP (VBN been) (NP (RB freshly) (JJ dug)))))))) (. .)))</parse>
+      <deps>expl(was-2, There-1)
+root(ROOT-0, was-2)
+det(doubt-4, no-3)
+advmod(was-2, doubt-4)
+mark(dug-12, that-5)
+det(pit-8, the-6)
+amod(pit-8, large-7)
+nsubj(dug-12, pit-8)
+aux(dug-12, had-9)
+cop(dug-12, been-10)
+advmod(dug-12, freshly-11)
+ccomp(doubt-4, dug-12)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <tlink event1="ei1" event2="t1" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei2" event2="ei3" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="ei2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+  </file>
+</root>
+

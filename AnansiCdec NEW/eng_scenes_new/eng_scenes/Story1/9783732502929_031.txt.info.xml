@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732502929_031.txt">
+    <entry sid="0" file="9783732502929_031.txt">
+      <sentence>The next morning she made herself available to the new mistress - not exactly with a light heart .</sentence>
+      <tokens>
+        <t>"" "The" " "</t>
+        <t>" " "next" " "</t>
+        <t>" " "morning" " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "made" " "</t>
+        <t>" " "herself" " "</t>
+        <t>" " "available" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "mistress" " "</t>
+        <t>" " "-" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "exactly" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "light" " "</t>
+        <t>" " "heart" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (DT The) (JJ next) (NN morning)) (NP (PRP she)) (VP (VBD made) (S (NP (PRP herself)) (ADJP (JJ available) (PP (TO to) (NP (NP (DT the) (JJ new) (NN mistress)) (PRN (: -) (RB not) (PP (ADVP (RB exactly)) (IN with) (NP (DT a) (JJ light) (NN heart))))))))) (. .)))</parse>
+      <deps>det(morning-3, The-1)
+amod(morning-3, next-2)
+tmod(made-5, morning-3)
+nsubj(made-5, she-4)
+root(ROOT-0, made-5)
+nsubj(available-7, herself-6)
+xcomp(made-5, available-7)
+det(mistress-11, the-9)
+amod(mistress-11, new-10)
+prep_to(available-7, mistress-11)
+dep(with-15, not-13)
+advmod(with-15, exactly-14)
+dep(mistress-11, with-15)
+det(heart-18, a-16)
+amod(heart-18, light-17)
+pobj(with-15, heart-18)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="5" string="made" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="morning" offset="3" length="1" type="TIME" value="TMO" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="9783732502929_031.txt">
+      <sentence>And the following day she left with the countess .</sentence>
+      <tokens>
+        <t>" " "And" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "following" " "</t>
+        <t>" " "day" " "</t>
+        <t>" " "she" " "</t>
+        <t>" " "left" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "countess" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (CC And) (NP (DT the) (JJ following) (NN day)) (NP (PRP she)) (VP (VBD left) (PP (IN with) (NP (DT the) (NNS countess)))) (. .)))</parse>
+      <deps>cc(left-6, And-1)
+det(day-4, the-2)
+amod(day-4, following-3)
+tmod(left-6, day-4)
+nsubj(left-6, she-5)
+root(ROOT-0, left-6)
+det(countess-9, the-8)
+prep_with(left-6, countess-9)</deps>
+      <events>
+        <event id="e2" eiid="ei2" offset="6" string="left" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t2" text="day" offset="4" length="1" type="DURATION" value="P1D" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <tlink event1="ei1" event2="t1" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei2" event2="t2" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+

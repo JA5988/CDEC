@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732502929_017.txt">
+    <entry sid="0" file="9783732502929_017.txt">
+      <sentence>Two days later , mother and daughter left Cairo .</sentence>
+      <tokens>
+        <t>"" "Two" " "</t>
+        <t>" " "days" " "</t>
+        <t>" " "later" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "mother" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "daughter" " "</t>
+        <t>" " "left" " "</t>
+        <t>" " "Cairo" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (CD Two) (NNS days) (RB later)) (, ,) (NP (NN mother) (CC and) (NN daughter)) (VP (VBD left) (NP (NNP Cairo))) (. .)))</parse>
+      <deps>num(days-2, Two-1)
+tmod(left-8, days-2)
+advmod(days-2, later-3)
+nsubj(left-8, mother-5)
+conj_and(mother-5, daughter-7)
+nsubj(left-8, daughter-7)
+root(ROOT-0, left-8)
+dobj(left-8, Cairo-9)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="8" string="left" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="Two days" offset="1" length="2" type="DURATION" value="P2D" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="9783732502929_017.txt">
+      <sentence>Mrs. von Salten did not feel well at all yet , but it did not hold her any longer .</sentence>
+      <tokens>
+        <t>" " "Mrs." " "</t>
+        <t>" " "von" " "</t>
+        <t>" " "Salten" " "</t>
+        <t>" " "did" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "feel" " "</t>
+        <t>" " "well" " "</t>
+        <t>" " "at" " "</t>
+        <t>" " "all" " "</t>
+        <t>" " "yet" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "but" " "</t>
+        <t>" " "it" " "</t>
+        <t>" " "did" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "hold" " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "any" " "</t>
+        <t>" " "longer" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (NNP Mrs.) (NNP von) (NNP Salten)) (VP (VBD did) (RB not) (VP (VB feel) (ADVP (RB well) (IN at) (DT all)) (ADVP (RB yet))))) (, ,) (CC but) (S (NP (PRP it)) (VP (VBD did) (RB not) (VP (VB hold) (NP (PRP her)) (ADVP (DT any) (RBR longer))))) (. .)))</parse>
+      <deps>nn(Salten-3, Mrs.-1)
+nn(Salten-3, von-2)
+nsubj(feel-6, Salten-3)
+aux(feel-6, did-4)
+neg(feel-6, not-5)
+root(ROOT-0, feel-6)
+advmod(at-8, well-7)
+advmod(feel-6, at-8)
+pobj(at-8, all-9)
+advmod(feel-6, yet-10)
+nsubj(hold-16, it-13)
+aux(hold-16, did-14)
+neg(hold-16, not-15)
+conj_but(feel-6, hold-16)
+dobj(hold-16, her-17)
+dep(longer-19, any-18)
+advmod(hold-16, longer-19)</deps>
+      <events>
+        <event id="e2" eiid="ei2" offset="6" string="feel" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e3" eiid="ei3" offset="16" string="hold" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <entry sid="2" file="9783732502929_017.txt">
+      <sentence>She was as if in a fever until they were on the steamer .</sentence>
+      <tokens>
+        <t>" " "She" " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "as" " "</t>
+        <t>" " "if" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "a" " "</t>
+        <t>" " "fever" " "</t>
+        <t>" " "until" " "</t>
+        <t>" " "they" " "</t>
+        <t>" " "were" " "</t>
+        <t>" " "on" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "steamer" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (PRP She)) (VP (VBD was) (PP (CONJP (RB as) (IN if)) (IN in) (NP (NP (DT a) (NN fever)) (SBAR (IN until) (S (NP (PRP they)) (VP (VBD were) (PP (IN on) (NP (DT the) (NN steamer))))))))) (. .)))</parse>
+      <deps>nsubj(was-2, She-1)
+root(ROOT-0, was-2)
+cc(was-2, as-3)
+det(fever-7, a-6)
+prep_in(was-2, fever-7)
+mark(were-10, until-8)
+nsubj(were-10, they-9)
+dep(fever-7, were-10)
+det(steamer-13, the-12)
+prep_on(were-10, steamer-13)</deps>
+      <events />
+      <timexes />
+    </entry>
+    <entry sid="3" file="9783732502929_017.txt">
+      <sentence>During the sea voyage , however , her condition again worsened alarmingly .</sentence>
+      <tokens>
+        <t>" " "During" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "sea" " "</t>
+        <t>" " "voyage" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "however" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "her" " "</t>
+        <t>" " "condition" " "</t>
+        <t>" " "again" " "</t>
+        <t>" " "worsened" " "</t>
+        <t>" " "alarmingly" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (PP (IN During) (NP (DT the) (NN sea) (NN voyage))) (, ,) (ADVP (RB however)) (, ,) (NP (PRP$ her) (NN condition)) (ADVP (RB again)) (VP (VBD worsened) (ADVP (RB alarmingly))) (. .)))</parse>
+      <deps>det(voyage-4, the-2)
+nn(voyage-4, sea-3)
+prep_during(worsened-11, voyage-4)
+advmod(worsened-11, however-6)
+poss(condition-9, her-8)
+nsubj(worsened-11, condition-9)
+advmod(worsened-11, again-10)
+root(ROOT-0, worsened-11)
+advmod(worsened-11, alarmingly-12)</deps>
+      <events>
+        <event id="e4" eiid="ei4" offset="11" string="worsened" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei2" event2="ei3" relation="BEFORE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei1" event2="t1" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+

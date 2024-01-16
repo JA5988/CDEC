@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732502929_074.txt">
+    <entry sid="0" file="9783732502929_074.txt">
+      <sentence>Just two months later , Rosemarie Magnus became Rittner 's wife .</sentence>
+      <tokens>
+        <t>"" "Just" " "</t>
+        <t>" " "two" " "</t>
+        <t>" " "months" " "</t>
+        <t>" " "later" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "Rosemarie" " "</t>
+        <t>" " "Magnus" " "</t>
+        <t>" " "became" " "</t>
+        <t>" " "Rittner" ""</t>
+        <t>"" "'s" " "</t>
+        <t>" " "wife" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (ADVP (NP (RB Just) (CD two) (NNS months)) (RB later)) (, ,) (NP (NNP Rosemarie) (NNP Magnus)) (VP (VBD became) (NP (NP (NNP Rittner) (POS 's)) (NN wife))) (. .)))</parse>
+      <deps>advmod(months-3, Just-1)
+num(months-3, two-2)
+npadvmod(later-4, months-3)
+advmod(wife-11, later-4)
+nn(Magnus-7, Rosemarie-6)
+nsubj(wife-11, Magnus-7)
+cop(wife-11, became-8)
+poss(wife-11, Rittner-9)
+root(ROOT-0, wife-11)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="8" string="became" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="two months" offset="2" length="2" type="DURATION" value="P2M" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="9783732502929_074.txt">
+      <sentence>Among the wedding guests , in addition to Mr. and Mrs. von Schwarzburg , was also Mr. von Schlieben , who could not do enough to show his joy to the `` splendid little man '' .</sentence>
+      <tokens>
+        <t>" " "Among" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "wedding" " "</t>
+        <t>" " "guests" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "addition" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "Mr." " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "Mrs." " "</t>
+        <t>" " "von" " "</t>
+        <t>" " "Schwarzburg" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "was" " "</t>
+        <t>" " "also" " "</t>
+        <t>" " "Mr." " "</t>
+        <t>" " "von" " "</t>
+        <t>" " "Schlieben" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "who" " "</t>
+        <t>" " "could" " "</t>
+        <t>" " "not" " "</t>
+        <t>" " "do" " "</t>
+        <t>" " "enough" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "show" " "</t>
+        <t>" " "his" " "</t>
+        <t>" " "joy" " "</t>
+        <t>" " "to" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " """ ""</t>
+        <t>"" "splendid" " "</t>
+        <t>" " "little" " "</t>
+        <t>" " "man" ""</t>
+        <t>"" """ ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (PP (IN Among) (NP (DT the) (NN wedding) (NNS guests))) (, ,) (PP (IN in) (NP (NP (NN addition)) (PP (TO to) (NP (NP (NNP Mr.)) (CC and) (NP (NNP Mrs.) (NNP von) (NNP Schwarzburg)))))) (, ,) (VP (VBD was) (ADVP (RB also)) (NP (NP (NNP Mr.) (NNP von) (NNP Schlieben)) (, ,) (SBAR (WHNP (WP who)) (S (VP (MD could) (RB not) (VP (VB do) (ADJP (JJ enough) (S (VP (TO to) (VP (VB show) (NP (PRP$ his) (NN joy)) (PP (TO to) (NP (DT the) (`` ``) (JJ splendid) (JJ little) (NN man) ('' ''))))))))))))) (. .)))</parse>
+      <deps>det(guests-4, the-2)
+nn(guests-4, wedding-3)
+prep_among(Schlieben-19, guests-4)
+prep_in_addition_to(Schlieben-19, Mr.-9)
+nn(Schwarzburg-13, Mrs.-11)
+nn(Schwarzburg-13, von-12)
+conj_and(Mr.-9, Schwarzburg-13)
+prep_in_addition_to(Schlieben-19, Schwarzburg-13)
+cop(Schlieben-19, was-15)
+advmod(Schlieben-19, also-16)
+nn(Schlieben-19, Mr.-17)
+nn(Schlieben-19, von-18)
+root(ROOT-0, Schlieben-19)
+nsubj(enough-25, Schlieben-19)
+xsubj(show-27, Schlieben-19)
+aux(enough-25, could-22)
+neg(enough-25, not-23)
+dep(enough-25, do-24)
+rcmod(Schlieben-19, enough-25)
+aux(show-27, to-26)
+xcomp(enough-25, show-27)
+poss(joy-29, his-28)
+dobj(show-27, joy-29)
+det(man-35, the-31)
+amod(man-35, splendid-33)
+amod(man-35, little-34)
+prep_to(show-27, man-35)</deps>
+      <events>
+        <event id="e2" eiid="ei2" offset="24" string="do" tense="NONE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e3" eiid="ei3" offset="27" string="show" tense="INFINITIVE" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei1" event2="t1" relation="IS_INCLUDED" closed="false" origin="MLEventTimeSameSent" type="et" />
+    <tlink event1="ei2" event2="ei3" relation="VAGUE" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+

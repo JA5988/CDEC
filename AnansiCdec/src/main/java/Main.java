@@ -18,7 +18,7 @@ public class Main {
         List<EventNode> eventNodes = new ArrayList<>();;
 		
         try{
-			eventNodes = FullFileCoreNLP.initializer(); 
+			eventNodes = FullFileCoreNLP.oneSentenceInitializer(); 
 		}catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -85,7 +85,7 @@ public class Main {
         
         //Finished processing 012_013 SEP 27
     	//FileWriter myWriter = new FileWriter("012_013_Output.txt", true);
-    	FileWriter myWriter = new FileWriter("ProperCompute1Output.txt", true);
+    	FileWriter myWriter = new FileWriter("SO_Output.txt", true);
         //System.out.println("Inside the writeResults function"); //TESTING
         
         //Sept 2: Changed from Lingui.... to EventPair and evNodePairs

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="http://chambers.com/corpusinfo">
+  <file name="9783732522033_048.txt">
+    <entry sid="0" file="9783732522033_048.txt">
+      <sentence>Very quiet days now came again .</sentence>
+      <tokens>
+        <t>"" "Very" " "</t>
+        <t>" " "quiet" " "</t>
+        <t>" " "days" " "</t>
+        <t>" " "now" " "</t>
+        <t>" " "came" " "</t>
+        <t>" " "again" ""</t>
+        <t>"" "." " "</t>
+      </tokens>
+      <parse>(ROOT (S (NP (ADJP (RB Very) (JJ quiet)) (NNS days)) (ADVP (RB now)) (VP (VBD came) (ADVP (RB again))) (. .)))</parse>
+      <deps>advmod(quiet-2, Very-1)
+amod(days-3, quiet-2)
+nsubj(came-5, days-3)
+advmod(came-5, now-4)
+root(ROOT-0, came-5)
+advmod(came-5, again-6)</deps>
+      <events>
+        <event id="e1" eiid="ei1" offset="5" string="came" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes>
+        <timex tid="t1" text="days" offset="3" length="1" type="DURATION" value="PXD" temporalFunction="false" />
+        <timex tid="t2" text="now" offset="4" length="1" type="DATE" value="PRESENT_REF" temporalFunction="false" />
+      </timexes>
+    </entry>
+    <entry sid="1" file="9783732522033_048.txt">
+      <sentence>The steps in the tower had been repaired and the tower rooms cleaned and delighted Griseldis in their new splendor quite honestly and without any secondary thoughts , despite the fact that everything connected with the tower particularly interested her .</sentence>
+      <tokens>
+        <t>" " "The" " "</t>
+        <t>" " "steps" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "tower" " "</t>
+        <t>" " "had" " "</t>
+        <t>" " "been" " "</t>
+        <t>" " "repaired" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "tower" " "</t>
+        <t>" " "rooms" " "</t>
+        <t>" " "cleaned" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "delighted" " "</t>
+        <t>" " "Griseldis" " "</t>
+        <t>" " "in" " "</t>
+        <t>" " "their" " "</t>
+        <t>" " "new" " "</t>
+        <t>" " "splendor" " "</t>
+        <t>" " "quite" " "</t>
+        <t>" " "honestly" " "</t>
+        <t>" " "and" " "</t>
+        <t>" " "without" " "</t>
+        <t>" " "any" " "</t>
+        <t>" " "secondary" " "</t>
+        <t>" " "thoughts" ""</t>
+        <t>"" "," " "</t>
+        <t>" " "despite" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "fact" " "</t>
+        <t>" " "that" " "</t>
+        <t>" " "everything" " "</t>
+        <t>" " "connected" " "</t>
+        <t>" " "with" " "</t>
+        <t>" " "the" " "</t>
+        <t>" " "tower" " "</t>
+        <t>" " "particularly" " "</t>
+        <t>" " "interested" " "</t>
+        <t>" " "her" ""</t>
+        <t>"" "." ""</t>
+      </tokens>
+      <parse>(ROOT (S (S (NP (NP (DT The) (NNS steps)) (PP (IN in) (NP (DT the) (NN tower)))) (VP (VBD had) (VP (VBN been) (VP (VBN repaired))))) (CC and) (S (NP (DT the) (NN tower) (NNS rooms)) (VP (VP (VBD cleaned)) (CC and) (VP (VBD delighted) (NP (NP (NNP Griseldis)) (PP (IN in) (NP (PRP$ their) (JJ new) (NN splendor)))) (PP (PP (RB quite) (ADVP (RB honestly))) (CC and) (PP (IN without) (NP (DT any) (JJ secondary) (NNS thoughts)))) (, ,) (PP (IN despite) (NP (DT the) (NN fact))) (SBAR (IN that) (S (NP (NN everything)) (VP (VBN connected) (PP (IN with) (NP (NP (DT the) (NN tower)) (ADJP (RB particularly) (VBN interested)))))))) (NP (PRP her)))) (. .)))</parse>
+      <deps>det(steps-2, The-1)
+nsubjpass(repaired-8, steps-2)
+det(tower-5, the-4)
+prep_in(steps-2, tower-5)
+aux(repaired-8, had-6)
+auxpass(repaired-8, been-7)
+root(ROOT-0, repaired-8)
+det(rooms-12, the-10)
+nn(rooms-12, tower-11)
+nsubj(cleaned-13, rooms-12)
+nsubj(delighted-15, rooms-12)
+conj_and(repaired-8, cleaned-13)
+conj_and(repaired-8, delighted-15)
+conj_and(cleaned-13, delighted-15)
+dobj(delighted-15, Griseldis-16)
+poss(splendor-20, their-18)
+amod(splendor-20, new-19)
+prep_in(Griseldis-16, splendor-20)
+prep(delighted-15, quite-21)
+dep(quite-21, honestly-22)
+prep(delighted-15, without-24)
+conj_and(quite-21, without-24)
+det(thoughts-27, any-25)
+amod(thoughts-27, secondary-26)
+pobj(without-24, thoughts-27)
+det(fact-31, the-30)
+prep_despite(delighted-15, fact-31)
+mark(connected-34, that-32)
+nsubj(connected-34, everything-33)
+ccomp(delighted-15, connected-34)
+det(tower-37, the-36)
+prep_with(connected-34, tower-37)
+advmod(interested-39, particularly-38)
+amod(tower-37, interested-39)
+dobj(cleaned-13, her-40)</deps>
+      <events>
+        <event id="e2" eiid="ei2" offset="8" string="repaired" tense="PAST" aspect="PERFECTIVE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e3" eiid="ei3" offset="13" string="cleaned" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e4" eiid="ei4" offset="15" string="delighted" tense="PAST" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+        <event id="e5" eiid="ei5" offset="34" string="connected" tense="PASTPART" aspect="NONE" class="OCCURRENCE" polarity="POS" modality="" happen="" lowerBoundDuration="" upperBoundDuration="" />
+      </events>
+      <timexes />
+    </entry>
+    <tlink event1="ei1" event2="t1" relation="IS_INCLUDED" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei1" event2="t2" relation="VAGUE" closed="false" origin="AdjacentVerbTimex" type="et" />
+    <tlink event1="ei1" event2="ei2" relation="AFTER" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei2" event2="ei3" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei2" event2="ei4" relation="BEFORE" closed="false" origin="ReichenbachDG13" type="ee" />
+    <tlink event1="ei3" event2="ei4" relation="VAGUE" closed="false" origin="XCompDepSieve" type="ee" />
+    <tlink event1="ei4" event2="ei5" relation="AFTER" closed="false" origin="MLEventEventDominates" type="ee" />
+    <tlink event1="ei2" event2="ei5" relation="AFTER" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei3" event2="ei5" relation="VAGUE" closed="false" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei1" event2="ei5" relation="AFTER" closed="true" origin="MLEventEventSameSent" type="ee" />
+    <tlink event1="ei1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="ei1" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="ee" />
+    <tlink event1="t1" event2="t2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="tt" />
+    <tlink event1="t1" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t1" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei2" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei3" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei4" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+    <tlink event1="t2" event2="ei5" relation="VAGUE" closed="false" origin="AllVagueSieve" type="et" />
+  </file>
+</root>
+
