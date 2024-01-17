@@ -320,13 +320,16 @@ public class FullFileCoreNLP {
 		//String firstText = "When she was alone in her room, she took out the notebook and thought about whom she should return the money to, besides Magnus Rittner. She picked out Herr von Schlieben and a Consul Dreyhaupt. Fortunately, she knew the addresses of these two gentlemen. Schlieben got two thousand marks, Dreyhaupt three thousand. A deep, liberating breath lifted her chest. Gottlob gottlob - Magnus Rittner got his money back, and towards him she could feel freer again. All these years the thought had weighed heavily on her that she would probably never be able to free herself from this debt. Now, suddenly, a kind fortune threw this sum into her lap. A hot prayer of thanks flew up to heaven.";
 		//String secondText = "And without thinking about it for long, she took leave the next day, drove over to Gotha with Herr and Frau von Schwarzburg, and went to the bank. She deposited the check and gave instructions that five thousand marks be transferred to Magnus Rittner, three thousand to Consul Dreyhaupt, and two thousand to Herr von Schlieben, in the name of her mother, to compensate for a loan received. To Consul Dreyhaupt and to Herr von Schlieben she wanted to write a few more lines of explanation. Magnus Rittner, however, was not to hear from her. She could not write to him. It was enough for him to hear that her mother's debt had been repaid. But now she could think of nothing else but how Magnus Rittner would take this money. Always she saw him before her, as clearly as if she had seen him only yesterday. It was strange - Fred Rittner's image had completely blurred in her memory. But his brother's striking personality had etched itself firmly in her memory. Nor did she think how Fred Rittner would take it that the five thousand marks had been repaid. Only how Magnus Rittner thought about it occupied her incessantly. Would he now think a little more mildly of her mother - and of herself? How would he feel? Had he been at the front, had he fought and suffered? And suddenly a thought made her heart cramp. Was he even still alive? Hadn't the war claimed him as a victim? She trembled, and a strange cold shiver ran over her body.";
 		
-		//OCT: Original CoreNLP
+		String firstText = "If Adam Leoni. . .worry about who had murdered him.";
+		String secondText = "No one would hear the shot that was about to be fired.";
+		
+		//Original CoreNLP
 		//textProcessor(firstText);
 		//textProcessor(secondText);
 		
-		String firstText = "Pacific First Financial Corp. <EVENT eid=\"e1\" class=\"REPORTING\">said</EVENT> shareholders <EVENT eid=\"e2\" class=\"OCCURRENCE\">approved</EVENT> its <EVENT eid=\"e8\" class=\"OCCURRENCE\">acquisition</EVENT> by Royal Trustco Ltd. Toronto for $27 a share, or $212 million.";
-		String secondText = " The thrift holding company <EVENT eid=\"e4\" class=\"REPORTING\">said</EVENT> it <EVENT eid=\"e5\" class=\"I_STATE\">expects</EVENT>  to <EVENT eid=\"e6\" class=\"OCCURRENCE\">obtain</EVENT> regulatory <EVENT eid=\"e19\" class=\"OCCURRENCE\">approval</EVENT> and <EVENT eid=\"e7\" class=\"ASPECTUAL\">complete</EVENT> the <EVENT eid=\"e20\" class=\"OCCURRENCE\">transaction</EVENT> by year-end.";
-		
+		//Jan: Possibly corrected single text processor
+		newTextProcessor(firstText);
+		newTextProcessor(secondText);
 		
 		//OCT: CAEVO CoreNLP
 		//caevoTextProcessor(firstText);
@@ -336,12 +339,54 @@ public class FullFileCoreNLP {
 		//newCaevoTextProcessor(firstText);
 		//newCaevoTextProcessor(secondText);
 		
-		System.out.println("We are finished :) Sort of");
+		System.out.println("We are finished with oneSentenceInitializer from FullFileCoreNLP");
 		return eventNodesFinal;
 		//System.out.println(projectDir);
 		
 	}
 	
+	public static void newTextProcessor(String sentenceText) {
+		StanfordCoreNLP pipeline;
+		Properties props = new Properties();
+		props.setProperty("annotators", "tokenize,ssplit,pos,lemma,ner,parse");
+		pipeline = new StanfordCoreNLP(props);
+		
+		List<String> eventList = new ArrayList<>();
+		Map<String, List<String>> verbChildren = new HashMap<>();
+		
+		CoreDocument doc = new CoreDocument(sentenceText);
+        pipeline.annotate(doc);
+        
+        for(CoreSentence sentence: doc.sentences()) {
+			SemanticGraph dependencyParse = sentence.dependencyParse();
+			for(IndexedWord word: dependencyParse.vertexSet()) {
+				if(word.tag().startsWith("VB")) {
+					if(!auxiliaryVerbsSet.contains(word.word().toLowerCase())) {
+						eventList.add(word.word());
+						List<String> children = new ArrayList<>();
+						Set<IndexedWord> allChildren = dependencyParse.getChildren(word);
+						Set<IndexedWord> descendants = new HashSet<>();
+						
+						for(IndexedWord child: new ArrayList<>(allChildren)) {
+							descendants = getDescendants(child, dependencyParse, descendants);
+							for(IndexedWord descendant: descendants) {
+								children.add(descendant.word());
+							}
+						}
+						List<IndexedWord> list = new ArrayList<>(descendants);
+						verbChildren.put(word.word(), children);
+						EventNode eventNode = new EventNode(list, sentence, word.word());
+						eventNodesFinal.add(eventNode);
+					}
+				}
+				//tried this placement for the coresentence, got a lot of repeats
+			}
+			coreSentenceList.add(sentence); 
+			
+			
+        }
+        
+	}
 	//Method related to oneSentenceInitializer
 	public static void textProcessor(String sentenceText) {
         StanfordCoreNLP pipeline;

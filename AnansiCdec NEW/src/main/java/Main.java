@@ -18,29 +18,29 @@ public class Main {
         List<EventNode> eventNodes = new ArrayList<>();;
 		
         try{
-			eventNodes = FullFileCoreNLP.initializer(); 
+			eventNodes = FullFileCoreNLP.oneSentenceInitializer(); //CHANGES
 		}catch (IOException e) {
 			e.printStackTrace();
 		}
         
-        System.out.println(eventNodes.size()); //TESTING
+        System.out.println("Printing out the size of the eventNodes to test: " + eventNodes.size()); //TESTING
         
 		List<EventPair> evNodePairs = new ArrayList<>();
         List<CoreSentence> docCorpus = new ArrayList<>();
         
         docCorpus = FullFileCoreNLP.getCoreSentenceList();
         
-        System.out.println(docCorpus); //TESTING 
+        System.out.println("Printing out the docCorpus to test: " + docCorpus); //TESTING 
         
         //evNodePairs gets initialized when the program calls testPairs function from Utils. Grabs the eventNodes initialized earlier which come from coreNLP_FullFile
         List<List<EventNode>> testPairs = Utils.testPairs(eventNodes);
         
-        //System.out.println(testPairs); //TESTING
+        System.out.println("Printing out the testPairs to test: " + testPairs); //TESTING
         
         //List<LinguisticEventPair> linguisticEventPairs = new LinkedList<LinguisticEventPair>();
         
         for(List<EventNode> pairs : testPairs){
-        	System.out.println(pairs); //TESTING
+        	System.out.println("Printing out the eventNode pairs to test: " + pairs); //TESTING
         	
             evNodePairs.add(new EventPair(pairs.get(0), pairs.get(1)));
         }
@@ -85,7 +85,7 @@ public class Main {
         
         //Finished processing 012_013 SEP 27
     	//FileWriter myWriter = new FileWriter("012_013_Output.txt", true);
-    	FileWriter myWriter = new FileWriter("ProperCompute1Output.txt", true);
+    	FileWriter myWriter = new FileWriter("singleSentence.txt", true);
         //System.out.println("Inside the writeResults function"); //TESTING
         
         //Sept 2: Changed from Lingui.... to EventPair and evNodePairs
