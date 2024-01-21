@@ -27,12 +27,8 @@ public class FullFileCoreNLP {
 	static File projectDir = new File(projectPath);
 	static ArrayList<EventNode> eventNodesFinal = new ArrayList<>();
 	static ArrayList<CoreSentence> coreSentenceList = new ArrayList<>();
-	
-	//static String[] auxiliaryVerbs = {"am", "is", "are", "was", "were", "being", "been", "have", "has", "had", "can", "could", "may", "might", "must", "shall", "should", "will", "would", "do", "does", "did"};
+
 	static HashSet<String> auxiliaryVerbsSet = new HashSet<String>(Arrays.asList("am", "is", "are", "was", "were", "being", "been", "have", "has", "had", "can", "could", "may", "might", "must", "shall", "should", "will", "would", "do", "does", "did"));
-	
-	//Oct Modification:
-	//Q: Could I just make this an indexedWord? What's the difference if I make it an arraylist of indexedWords?
 	static ArrayList<String> eventPreAnnotated = new ArrayList<>();
 	
 	public static Set<IndexedWord> getDescendants(IndexedWord word, SemanticGraph depParse, Set<IndexedWord> descendants){
@@ -140,7 +136,7 @@ public class FullFileCoreNLP {
             		}
             	}
         	}		
-        } //End of while loop for reading files
+        } 
 
         
     }
@@ -202,13 +198,9 @@ public class FullFileCoreNLP {
 				String eventText = matcher.group(1);
 				
 				//TEST PRINT STATEMENT, DELETE LATER:
-				System.out.println("Event text: " + eventText);
+				//System.out.println("Event text: " + eventText);
 				
 				caevoEvent.add(eventText); 
-				/*
-				 * Resolved Q: Maybe I wouldn't add to the static eventPreAnnotated? Maybe I could instead
-				 * create a new one that gets passed into the caevoCoreNLP function to THEN add?
-				 */
 			}
 			
 		}
@@ -231,7 +223,7 @@ public class FullFileCoreNLP {
 		String filePathNew = filePath.replace(".txt.info.xml", ".txt");
 		
 		//TEST PRINT STATEMENT, DELETE LATER:
-		System.out.println("filePathNew is called: " + filePathNew);
+		//System.out.println("filePathNew is called: " + filePathNew);
 		
 		File rawTextFile = new File(filePathNew);
 		
@@ -242,7 +234,7 @@ public class FullFileCoreNLP {
 				String data = reader.nextLine();
 				
 				//TEST PRINT STATEMENT, DELETE LATER:
-				System.out.println("Data/Sentence is: " + data);
+				//System.out.println("Data/Sentence is: " + data);
 				
 				CoreDocument doc = new CoreDocument(data);
 				pipeline.annotate(doc);
@@ -307,7 +299,9 @@ public class FullFileCoreNLP {
 	
 	/*
 	 * ************************** SINGLE TEXT METHODS *******************
+	 * WORK IN PROGRESS. CURRENT ISSUES: Empty final output despite the processing initializing variables properly. Possible missing file or improper build.
 	 */
+	
 	//other method that can get called by CDEC
 	public static ArrayList<EventNode> oneSentenceInitializer() throws IOException  { 
 		//String firstText = "A man who was seen over the weekend dangling from a ride at a Utah amusement park before falling nearly 50 feet to the ground has died, authorities said Monday. The 32-year-old man had been airlifted in critical condition to the University of Utah Hospital in Salt Lake City after falling from the Sky Ride at Lagoon Amusement Park in Farmington on Saturday, FOX13 Salt Lake City reported. Farmington police told local news outlets that they were notified Monday morning of the man’s death. Police have yet to release the man’s name. A witness recorded cellphone video of the man dangling from the chair of the park's Sky Ride. Witness cellphone video of the incident shared with FOX13 shows the man hanging onto the Sky Ride’s safety bar by his hands as he dangled outside the chair. He appeared to be alone on the ride and looked calm as the ride travels high above the park. Police said the incident remains under investigation, releasing few details other than that the fall was not intentional. \"We don't know why he did that or what was going on,\" Farmington Police Chief Wayne Hansen told KSL.com. \"We just don't know.\" Lagoon Amusement Park told FOX13 that the ride did not appear to have malfunctioned at the time of the incident. Police also said the ride appeared to be working correctly, according to KSL. The slow-moving Sky Ride is mainly used as a means of transport by park-goers to get from one end of the park to the other, similar to a chairlift, according to the station.";
@@ -455,9 +449,6 @@ public class FullFileCoreNLP {
     }
 
 	
-	/*
-	 * Q: Could I process it even if it has the event tags in it? Would it change anything?
-	 */
 	public static void caevoTextProcessor(String sentenceText) {
 		
 		StanfordCoreNLP pipeline;
@@ -473,15 +464,13 @@ public class FullFileCoreNLP {
 		for(CoreSentence sentence : doc.sentences()) {
 			SemanticGraph dependencyParse = sentence.dependencyParse();
 			for(IndexedWord word: dependencyParse.vertexSet()) {
-				//Q: Could I pass the sentence or would the pipeline remove any additional information needed to extract the events?
 				extractEventWords(sentenceText); 
 				for(String event : eventPreAnnotated) {
-					//Q: Double check that this is properly taking into consideration the aux verbs we want to ignore
 					if(!auxiliaryVerbsSet.contains(event.toLowerCase())) {
 						events.add(event);
 						
 						List<String> children = new ArrayList<>();
-						//word or event? Shouldn't cause an issue with word if we're already within the for loop for eventPreAnnotated
+						//Q: word or event? Shouldn't cause an issue with word if we're already within the for loop for eventPreAnnotated
 						Set<IndexedWord> allChildren = dependencyParse.getChildren(word);
 						Set<IndexedWord> descendants = new HashSet<>();
 						
@@ -500,8 +489,7 @@ public class FullFileCoreNLP {
 					}
 				}
 			}
-			//OCT: REMOVE PRINT AFTER TESTING
-			System.out.println("TEST (Sentence being added to coreSentenceList): " + sentence);
+			//System.out.println("TEST (Sentence being added to coreSentenceList): " + sentence); //TESTING
 			
 			coreSentenceList.add(sentence);
 		}
